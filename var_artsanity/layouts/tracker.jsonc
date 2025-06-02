@@ -1,0 +1,2489 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Party",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "Characters"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Items/Reconstruction",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Collectopaedia",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "Collectopaedia"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hunting Licenses",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "Hunting Licenses"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Colony 9",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9Full"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9LM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "C9UM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9Q"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9NPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9H2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Tephra Cave",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "TCFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "TCLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "TCUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "TCQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "TCH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Bionis' Leg",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "BLUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Colony 6",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6Full"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6LM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "C6UM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6Q"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6NPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6H2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Ether Mine",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "EMFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "EMLM"
+                    ]
+                  }
+                },
+                {
+                  "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "EMUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "EMH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Satorl Marsh",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "SMUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Bionis' Interior",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                  {
+                    "title": "Full",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "BI1Full"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Makna Forest",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "MaFoUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Frontier Village",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "FVUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Eryth Sea",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "ESUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Alcamoth",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "ALUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "High Entia Tomb",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "HTFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "HTLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "HTUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "HTQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "HTNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "HTH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Prison Island",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PILM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "PIUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PINPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Valak Mountain",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "VMUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Sword Valley",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SVFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SVLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "SVUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SVQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SVNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SVH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Galahad Fortress",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "GFFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "GFLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "GFUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "GFQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "GFNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "GFH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Fallen Arm",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FAFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FALM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "FAUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FAQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FANPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FAH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Mechonis Field",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MeFiFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MeFiLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "MeFiUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MeFiQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MeFiNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MeFiH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Central Factory",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "CFFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "CFLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "CFUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "CFQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "CFNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "CFH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Agniratha",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "AGFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "AGLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "AGUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "AGQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "AGNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "AGH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Bionis' Interior (End Game)",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BIFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BILM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "BIUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BIQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BINPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BIH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Prison Island (End Game)",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIFull2"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PILM2"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "PIUM2"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIQ2"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PINPC2"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIH2H2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Party/Items/Reconstruction/Hunting Licenses",
+              "dock": "left",
+              "margin": "15,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "CharactersHorizontal"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Collectopaedia",
+              "dock": "right",
+              "content": {
+                "type": "layout",
+                "v_alignment": "center",
+                "key": "CollectopaediaHorizontal"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Colony 9",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9Full"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9LM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "C9UM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9Q"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9NPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C9H2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Tephra Cave",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "TCFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "TCLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "TCUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "TCQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "TCH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Bionis' Leg",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "BLUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BLH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Colony 6",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6Full"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6LM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "C6UM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6Q"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6NPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "C6H2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Ether Mine",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "EMFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "EMLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "EMUM"
+                   ]
+                  }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "EMH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Satorl Marsh",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "SMUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SMH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Bionis' Interior",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                  {
+                    "title": "Full",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "BI1Full"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Makna Forest",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "MaFoUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MaFoH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Frontier Village",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVLM"
+                    ]
+                  }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FVH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Eryth Sea",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "ESUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ESH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Alcamoth",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALLM"
+                    ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALNPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "ALH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "High Entia Tomb",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "HTFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "HTLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "HTUM"
+                   ]
+                  }
+                },
+                {
+                 "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "HTH2H"
+                   ]
+                  }
+                 }
+                ]
+              }
+            },
+            {
+              "title": "Prison Island",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIFull"
+                    ]
+                  }
+                }
+                ]
+              }
+            },
+            {
+              "title": "Valak Mountain",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "VMUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMQ"
+                    ]
+                 }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "VMH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Sword Valley",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SVFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SVLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "SVUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "SVQ"
+                    ]
+                 }
+                }
+                ]
+              }
+            },
+            {
+              "title": "Galahad Fortress",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "GFFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "GFLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "GFUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "GFQ"
+                    ]
+                 }
+                }
+                ]
+              }
+            },
+            {
+              "title": "Fallen Arm",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FAFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FALM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "FAUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FAQ"
+                    ]
+                 }
+                },
+                {
+                  "title": "NPC's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FANPC"
+                     ]
+                    }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "FAH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Mechonis Field",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MeFiFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MeFiLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "MeFiUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MeFiQ"
+                    ]
+                 }
+                }
+                ]
+              }
+            },
+            {
+              "title": "Central Factory",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "CFFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "CFLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "CFUM"
+                   ]
+                  }
+                }
+                ]
+              }
+            },
+            {
+              "title": "Agniratha",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "AGFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "AGLM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "AGUM"
+                   ]
+                  }
+                },
+                {
+                  "title": "Quests",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "AGQ"
+                    ]
+                 }
+                }
+                ]
+              }
+            },
+            {
+              "title": "Bionis' Interior (End Game)",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BIFull"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BILM"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "BIUM"
+                   ]
+                  }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "BIH2H"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Prison Island (End Game)",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIFull2"
+                    ]
+                  }
+                },
+                {
+                  "title": "Landmarks",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PILM2"
+                    ]
+                  }
+                },
+                {
+                 "title": "Unique Monsters & Bosses",
+                  "content": {
+                   "type": "map",
+                   "maps": [
+                     "PIUM2"
+                   ]
+                  }
+                },
+                  {
+                  "title": "Heart-to-Heart's",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "PIH2H2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Memory Space",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Full",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MSFull"
+                    ]
+                  }
+                }
+                ]
+              }
+            },
+            {
+              "title": "Misc.",
+              "content": {
+               "type": "tabbed",
+               "tabs": [
+                {
+                 "title": "Area Affinities & Victory",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "MISC"
+                    ]
+                  }
+                }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

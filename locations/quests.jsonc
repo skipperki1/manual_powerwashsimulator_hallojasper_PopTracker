@@ -1,0 +1,2784 @@
+[
+  {
+    "name": "Colony 9 Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "children": [
+      {
+        "name": "Gem Man's Stall",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "The Gem Man's Invention",
+            "access_rules": ["AreaKeys:5"]
+          },
+          {
+            "name": "Search Quest 3",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 480,
+            "y": 300,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Central Plaza",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Search Quest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 598,
+            "y": 305,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Cylinder Hangar",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "The Lost Pendant"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 75,
+            "y": 102,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Ether Light 1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "A Curry Conundrum"
+          },
+          {
+            "name": "Biscuits for a Grandson"
+          },
+          {
+            "name": "Challenge 2",
+            "access_rules": ["C9Hunt"]
+          },
+          {
+            "name": "Challenge 4",
+            "access_rules": ["C9Hunt"]
+          },
+          {
+            "name": "Collection Quest 1",
+            "access_rules": []
+          },
+          {
+            "name": "Collection Quest 2",
+            "access_rules": []
+          },
+          {
+            "name": "Desiree's Future",
+            "access_rules": ["AreaKeys:5"]
+          },
+          {
+            "name": "Getting to Know Dorothy",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Liliana's Sincere Request",
+            "access_rules": []
+          },
+          {
+            "name": "Material Quest 2",
+            "access_rules": []
+          },
+          {
+            "name": "Material Quest 3",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 452,
+            "y": 358,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Ether Light 2",
+        "access_rules": [],
+        "sections": [
+          
+          {
+            "name": "Mementos of a Lost Son",
+            "access_rules": ["AreaKeys:5"]
+          },
+          {
+            "name": "Monster Quest 3 - Part 1",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 3 - Part 2",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 3 - Part 3",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 3 - Part 4",
+            "access_rules": []
+          },
+          {
+            "name": "Overworked and Underpaid",
+            "access_rules": []
+          },
+          {
+            "name": "Rocco's Heartful Request",
+            "access_rules": []
+          },
+          {
+            "name": "The Broken Watch",
+            "access_rules": []
+          },
+          {
+            "name": "The Plan - Preparation",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "The Plan - The Night Before",
+            "access_rules": []
+          },
+          {
+            "name": "The Plan - Execution",
+            "access_rules": ["C9Hunt"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 476,
+            "y": 358,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Fortress Entrance",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "A Young Captain's Request",
+            "access_rules": []
+          },
+          {
+            "name": "A Young Captain's Suffering",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "A Young Captain's Rise",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "A Young Captain's Challenge",
+            "access_rules": ["AreaKeys:7"]
+          },
+          {
+            "name": "Birthday Shoes",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Challenge 1",
+            "access_rules": ["C9Hunt"]
+          },
+          {
+            "name": "Challenge 3",
+            "access_rules": ["C9Hunt"]
+          },
+          {
+            "name": "Dean's Shady Request",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Material Quest 1",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 1 - Part 1",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 1 - Part 2",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 1 - Part 3",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 2 - Part 1",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 2 - Part 2",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 2 - Part 3",
+            "access_rules": []
+          },
+          {
+            "name": "The Elite Captain's Anguish",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "The Old Soldier's Test",
+            "access_rules": ["AreaKeys:8"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 591,
+            "y": 229,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Dunban's House",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Delivering Food",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 405,
+            "y": 335,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Tephra Cave Entrance",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Monster Quest 4 - Part 1",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Monster Quest 4 - Part 2",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Monster Quest 4 - Part 3",
+            "access_rules": ["AreaKeys:1"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 74,
+            "y": 301,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Tranquil Square",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "A Mysterious Light",
+            "access_rules": ["AreaKeys:2"]
+          },
+          {
+            "name": "Out Like a Light?",
+            "access_rules": ["AreaKeys:2"]
+          },
+          {
+            "name": "Collection Quest 3",
+            "access_rules": []
+          },
+          {
+            "name": "Collection Quest 4",
+            "access_rules": []
+          },
+          {
+            "name": "Education-Minded Suzanna",
+            "access_rules": []
+          },
+          {
+            "name": "Education-Crazy Suzanna",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Flattened Flowers",
+            "access_rules": []
+          },
+          {
+            "name": "Friendship Tokens",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Getting to Know Minnie",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Jackson's Awakening",
+            "access_rules": []
+          },
+          {
+            "name": "Lonely Niranira",
+            "access_rules": []
+          },
+          {
+            "name": "Material Quest 4",
+            "access_rules": []
+          },
+          {
+            "name": "Paola and Narine",
+            "access_rules": ["AreaKeys:8,ShulkAffinity4,ReynAffinity4,SharlaAffinty4,MeliaAffinity4","AreaKeys:8,ShulkAffinity4,ReynAffinity4,SharlaAffinty4,SevenAffinity4","AreaKeys:8,ShulkAffinity4,ReynAffinity4,SevenAffinty4,MeliaAffinity4"]
+          },
+          {
+            "name": "Pride and Courage",
+            "access_rules": []
+          },
+          {
+            "name": "Search Quest 2",
+            "access_rules": []
+          },
+          {
+            "name": "Search Quest 4",
+            "access_rules": []
+          },
+          {
+            "name": "The Key to a Long Life",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 540,
+            "y": 441,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Weapon Dev. Lab",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "A Token of Friendship",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9Q",
+            "x": 523,
+            "y": 198,
+            "size": 8
+          },
+          {
+            "map": "C9Full",
+            "x": 523,
+            "y": 198,
+            "size": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tephra Cave Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "children": [
+      {
+        "name": "Mag Mell Ruins",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Missing in Action",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Arachno Silk Fundraising",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "A Thank You",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Clearing Obstructions",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Collection Quest 1",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Collection Quest 2",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Material Quest 1",
+            "access_rules": ["AreaKeys:1"]
+          },
+          {
+            "name": "Material Quest 2",
+            "access_rules": ["AreaKeys:1"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "TCQ",
+            "x": 325,
+            "y": 312,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Bafalgar Tomb",
+        "access_rules": ["AreaKeys:20"],
+        "sections": [
+          {
+            "name": "The Book of Bafalgar",
+            "access_rules": []
+          },
+          {
+            "name": "The Blood of Bafalgar",
+            "access_rules": ["TCHunt"]
+          },
+          {
+            "name": "The Path of Bafalgar",
+            "access_rules": ["TCHunt"]
+          },
+          {
+            "name": "The Coffin of Bafalgar",
+            "access_rules": ["TCHunt"]
+          },
+          {
+            "name": "The Gratitude of Bafalgar",
+            "access_rules": ["TCHunt"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "TCQ",
+            "x": 1007,
+            "y": 426,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bionis' Leg Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "children": [
+      {
+        "name": "Refugee Camp",
+        "access_rules": ["AreaKeys:2"],
+        "sections": [
+          {
+            "name": "Emergency Treatment (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "A Thoughtful Idea (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "A Dash of Colour (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Thieving Monsters (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "The Greedy Monster (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Earnest's Fibs",
+            "access_rules": []
+          },
+          {
+            "name": "Earnest's Mischief",
+            "access_rules": []
+          },
+          {
+            "name": "Earnest's Solitude",
+            "access_rules": []
+          },
+          {
+            "name": "Being a Good Grandfather (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Supplies for Satorl",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "A Flower for a Rose",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Battling Brutes",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BLQ",
+            "x": 401,
+            "y": 835,
+            "size": 16
+          },
+          {
+            "map": "BLFull",
+            "x": 401,
+            "y": 865,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Refugee Camp (Generic)",
+        "access_rules": ["AreaKeys:2"],
+        "sections": [
+          {
+            "name": "Monster Quest 2 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 3 - Part 1 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 3 - Part 2 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Challenge 1 - Part 1 (MISSABLE)",
+            "access_rules": ["BLHunt"]
+          },
+          {
+            "name": "Challenge 1 - Part 2 (MISSABLE)",
+            "access_rules": ["BLHunt"]
+          },
+          {
+            "name": "Challenge 2 - Part 1 (MISSABLE)",
+            "access_rules": ["BLHunt"]
+          },
+          {
+            "name": "Challenge 2 - Part 2 (MISSABLE)",
+            "access_rules": ["BLHunt"]
+          },
+          {
+            "name": "Material Quest 1 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Material Quest 2 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Material Quest 3 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Material Quest 4 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Collection Quest 1 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Collection Quest 2 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Search Quest 1 (MISSABLE)",
+            "access_rules": []
+          },
+          {
+            "name": "Search Quest 2 (MISSABLE)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BLQ",
+            "x": 431,
+            "y": 835,
+            "size": 16
+          },
+          {
+            "map": "BLFull",
+            "x": 431,
+            "y": 865,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Surprise!",
+        "access_rules": ["AreaKeys:2"],
+        "sections": [
+          {
+            "name": "Save the Girl! (MISSABLE)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BLQ",
+            "x": 305,
+            "y": 773,
+            "size": 16
+          },
+          {
+            "map": "BLFull",
+            "x": 305,
+            "y": 773,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Ragrinar Canyon Path",
+        "access_rules": ["AreaKeys:2"],
+        "sections": [
+          {
+            "name": "Monster Quest 1 - Part 1",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 1 - Part 2",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 1 - Part 3",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 1 - Part 4",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BLQ",
+            "x": 75,
+            "y": 697,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Traveller's Rest",
+        "access_rules": ["AreaKeys:2"],
+        "sections": [
+          {
+            "name": "The Lost Nopon",
+            "access_rules": []
+          },
+          {
+            "name": "With Much Gratitude",
+            "access_rules": []
+          },
+          {
+            "name": "With Even More Gratitude",
+            "access_rules": []
+          },
+          {
+            "name": "Legend of Mythical Empress",
+            "access_rules": ["AreaKeys:7"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BLQ",
+            "x": 278,
+            "y": 268,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Colony 6 Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "children": [
+      {
+        "name": "Quests A-FI",
+        "access_rules": ["AreaKeys:3"],
+        "sections": [
+          {
+            "name": "Chemist's Reopening",
+            "access_rules": ["AreaKeys:4"]
+          },
+          {
+            "name": "Cook-Off Counter Attack!",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Cook-Off Comeback?",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Cook-Off Final Blow?!",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Cook-Off Showdown!",
+            "access_rules": ["AreaKeys:13"]
+          },
+          {
+            "name": "A Dauntless Trader",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Defend Colony 6 - Mechon (15% Reconstruction)",
+            "access_rules": ["AreaKeys:7"]
+          },
+          {
+            "name": "Defend Colony 6 - Reptile (35% Reconstruction)",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Defend Colony 6 - Elite (55% Reconstruction)",
+            "access_rules": ["AreaKeys:16"]
+          },
+          {
+            "name": "Defend Colony 6 - Ancient (75% Reconstruction)",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Defend Colony 6 - Demon (95% Reconstruction)",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "A Delectable Delicacy",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Delivering the Undeliverable",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "A Final Sweet Favour",
+            "access_rules": ["AreaKeys:13"]
+          },
+          {
+            "name": "Finding the Unfindable",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C6Q",
+            "x": 541,
+            "y": 461,
+            "size": 16
+          },
+          {
+            "map": "C6Full",
+            "x": 541,
+            "y": 461,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Quests FO-PO",
+        "access_rules": ["AreaKeys:3"],
+        "sections": [
+          {
+            "name": "For the Restoration (MISSABLE)",
+            "access_rules": ["AreaKeys:4"]
+          },
+          {
+            "name": "A Gutsy Trader",
+            "access_rules": ["AreaKeys:7"]
+          },
+          {
+            "name": "In Pursuit of Love",
+            "access_rules": ["AreaKeys:16"]
+          },
+          {
+            "name": "Lifespan of a Machina",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Looking for Freedom",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Making a New Path (MISSABLE)",
+            "access_rules": ["AreaKeys:4"]
+          },
+          {
+            "name": "Matryona's Answer",
+            "access_rules": ["AreaKeys:5"]
+          },
+          {
+            "name": "Melancholy Tyrea",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Missing Lodger",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Nic's Training",
+            "access_rules": ["AreaKeys:18"]
+          },
+          {
+            "name": "Nic's Final Test",
+            "access_rules": ["AreaKeys:18"]
+          },
+          {
+            "name": "Obstinate Berryjammy",
+            "access_rules": ["AreaKeys:13"]
+          },
+          {
+            "name": "Odd Smoke - Investigation",
+            "access_rules": ["AreaKeys:16"]
+          },
+          {
+            "name": "Odd Smoke - Resolution",
+            "access_rules": ["AreaKeys:16"]
+          },
+          {
+            "name": "A Poet's Concerns",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C6Q",
+            "x": 541,
+            "y": 583,
+            "size": 16
+          },
+          {
+            "map": "C6Full",
+            "x": 541,
+            "y": 583,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Quests PR-U",
+        "access_rules": ["AreaKeys:3"],
+        "sections": [
+          {
+            "name": "Proof of Status",
+            "access_rules": []
+          },
+          {
+            "name": "Replica Monado 1",
+            "access_rules": ["AreaKeys:21"]
+          },
+          {
+            "name": "Replica Monado 2",
+            "access_rules": ["AreaKeys:21"]
+          },
+          {
+            "name": "Replica Monado 3",
+            "access_rules": ["AreaKeys:21"]
+          },
+          {
+            "name": "Replica Monado 4",
+            "access_rules": ["AreaKeys:21"]
+          },
+          {
+            "name": "Replica Monado 5",
+            "access_rules": ["AreaKeys:21"]
+          },
+          {
+            "name": "Rest in Peace",
+            "access_rules": ["AreaKeys:7"]
+          },
+          {
+            "name": "Safety First",
+            "access_rules": []
+          },
+          {
+            "name": "Satata's Younger Brother",
+            "access_rules": ["AreaKeys:4"]
+          },
+          {
+            "name": "A Secret Mission",
+            "access_rules": []
+          },
+          {
+            "name": "Securing Provisions",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "A Selfish Girl's Mistake",
+            "access_rules": ["AreaKeys:4"]
+          },
+          {
+            "name": "A Tantalising Treat",
+            "access_rules": ["AreaKeys:13"]
+          },
+          {
+            "name": "The Most Transparent Thing",
+            "access_rules": ["AreaKeys:13"]
+          },
+          {
+            "name": "Unstoppable Berryjammy",
+            "access_rules": ["AreaKeys:13"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C6Q",
+            "x": 541,
+            "y": 699,
+            "size": 16
+          },
+          {
+            "map": "C6Full",
+            "x": 541,
+            "y": 699,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Satorl Marsh Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "children": [
+      {
+        "name": "Nopon Merchant Camp",
+        "access_rules": ["AreaKeys:5"],
+        "sections": [
+          {
+            "name": "Kacha's Kidnapping",
+            "access_rules": []
+          },
+          {
+            "name": "The Giants' Key",
+            "access_rules": []
+          },
+          {
+            "name": "The Giants' Treasure",
+            "access_rules": []
+          },
+          {
+            "name": "Making Camp",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 1",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 2",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 3",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 4",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SMQ",
+            "x": 115,
+            "y": 525,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Kelsher Wetland",
+        "access_rules": ["AreaKeys:5"],
+        "sections": [
+          {
+            "name": "The Ancient Ceremony",
+            "access_rules": []
+          },
+          {
+            "name": "Ancient Ceremony Offerings",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SMQ",
+            "x": 22,
+            "y": 159,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Nopon Refuge",
+        "access_rules": ["AreaKeys:5"],
+        "sections": [
+          {
+            "name": "Preventing Starvation",
+            "access_rules": []
+          },
+          {
+            "name": "Zazadan in Danger",
+            "access_rules": ["SMHunt"]
+          },
+          {
+            "name": "It's All in the Mind",
+            "access_rules": []
+          },
+          {
+            "name": "A Mysterious Delicacy",
+            "access_rules": []
+          },
+          {
+            "name": "A Gift?",
+            "access_rules": []
+          },
+          {
+            "name": "Gather Information",
+            "access_rules": ["AreaKeys:10"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SMQ",
+            "x": 709,
+            "y": 836,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Sororal Statues",
+        "access_rules": ["AreaKeys:20"],
+        "sections": [
+          {
+            "name": "Challenge",
+            "access_rules": ["SMHunt"]
+          },
+          {
+            "name": "For a Friend",
+            "access_rules": []
+          },
+          {
+            "name": "A Merciful End",
+            "access_rules": []
+          },
+          {
+            "name": "A Release from Duty",
+            "access_rules": []
+          },
+          {
+            "name": "The Imperial Ceremony",
+            "access_rules": []
+          },
+          {
+            "name": "Imperial Ceremony Offerings",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SMQ",
+            "x": 845,
+            "y": 661,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Makna Forest Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "children": [
+      {
+        "name": "Divine Sanctuary",
+        "access_rules": ["AreaKeys:7"],
+        "sections": [
+          {
+            "name": "Legend of the Sage",
+            "access_rules": ["AreaKeys:9"]
+          },
+          {
+            "name": "Challenge of the Sage",
+            "access_rules": ["AreaKeys:9"]
+          },
+          {
+            "name": "Final Challenge of the Sage",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MaFoQ",
+            "x": 293,
+            "y": 627,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Agni Tablet",
+        "access_rules": ["AreaKeys:7"],
+        "sections": [
+          {
+            "name": "Monster Quest 1",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 2",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 3",
+            "access_rules": []
+          },
+          {
+            "name": "Monster Quest 4",
+            "access_rules": []
+          },
+          {
+            "name": "Challenge",
+            "access_rules": ["AreaKeys:8,MaFoHunt"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MaFoQ",
+            "x": 257,
+            "y": 489,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Pod Landing Site",
+        "access_rules": ["AreaKeys:13"],
+        "sections": [
+          {
+            "name": "Bridge Repair",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MaFoQ",
+            "x": 322,
+            "y": 309,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Makna Path",
+        "access_rules": ["AreaKeys:7"],
+        "sections": [
+          {
+            "name": "Mystery Girl Rescue",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MaFoQ",
+            "x": 204,
+            "y": 425,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Frontier Village Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:8"],
+    "children": [
+      {
+        "name": "Quests A-CH",
+        "sections": [
+          {
+            "name": "Adviser Hunt (MISSABLE)",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "An Errand for the Heropon (Story)"
+          },
+          {
+            "name": "Avenge a Mamapon's Death",
+            "access_rules": ["AreaKeys:9"]
+          },
+          {
+            "name": "Bana the Betrayer",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Beat Kilaki to it!"
+          },
+          {
+            "name": "Bored Pelupelu",
+            "access_rules": ["AreaKeys:16"]
+          },
+          {
+            "name": "Broken Ether Furnace",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Broken Ether Furnace 2",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Challenge 1",
+            "access_rules": ["MaFoHunt"]
+          },
+          {
+            "name": "Challenge 2",
+            "access_rules": ["MaFoHunt"]
+          },
+          {
+            "name": "Challenge 3",
+            "access_rules": ["MaFoHunt"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVFull",
+            "x": 800,
+            "y": 795,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Quests CO-EV",
+        "sections": [
+          {
+            "name": "Collection Quest 1"
+          },
+          {
+            "name": "Collection Quest 2"
+          },
+          {
+            "name": "Collection Quest 3"
+          },
+          {
+            "name": "Collection Quest 4"
+          },
+          {
+            "name": "Dadapon in Trouble"
+          },
+          {
+            "name": "Dangerous Ambition (MISSABLE)",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Decoration Makeover"
+          },
+          {
+            "name": "Destroying the City Trade (MISSABLE)",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Disinsectization"
+          },
+          {
+            "name": "Even In the Chief's Absence",
+            "access_rules": ["AreaKeys:16"]
+          },
+          {
+            "name": "Evidence Collection (MISSABLE)",
+            "access_rules": ["AreaKeys:10"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVFull",
+            "x": 958,
+            "y": 795,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Quests FI-IN",
+        "sections": [
+          {
+            "name": "Find the Kingpin (MISSABLE)",
+            "access_rules": ["AreaKeys:10"]
+          },
+          {
+            "name": "Fixing Time Mushrooms"
+          },
+          {
+            "name": "Getting Bigger!",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Giant Attack!",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "A Gift For Miko",
+            "access_rules": ["AreaKeys:16"]
+          },
+          {
+            "name": "Healing the Healer",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Heropon's Spirit"
+          },
+          {
+            "name": "Honouring the Nopon Sage",
+            "access_rules": ["AreaKeys:9"]
+          },
+          {
+            "name": "Hunt for a Patron"
+          },
+          {
+            "name": "Hunt for Bug-Loving Friend"
+          },
+          {
+            "name": "Ingredients For A Brew"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVFull",
+            "x": 800,
+            "y": 846,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Quests IT-MA",
+        "sections": [
+          {
+            "name": "It Definitely Exist!"
+          },
+          {
+            "name": "Kind Lupa's Grampypon"
+          },
+          {
+            "name": "Legendary Nopon Charm",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Leku's Food Crisis"
+          },
+          {
+            "name": "Lousy Lizards"
+          },
+          {
+            "name": "Making a Mixer"
+          },
+          {
+            "name": "Material Quest 1"
+          },
+          {
+            "name": "Material Quest 2"
+          },
+          {
+            "name": "Material Quest 3"
+          },
+          {
+            "name": "Material Quest 4"
+          },
+          {
+            "name": "Materials for a Mixer"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVFull",
+            "x": 958,
+            "y": 846,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Quests ME-MU",
+        "sections": [
+          {
+            "name": "Meeting the Nopon Sage",
+            "access_rules": ["AreaKeys:9"]
+          },
+          {
+            "name": "A Memento of Daddy",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Mislabelling Problem",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Monster Quest 1 - Part 1"
+          },
+          {
+            "name": "Monster Quest 1 - Part 2"
+          },
+          {
+            "name": "Monster Quest 1 - Part 3"
+          },
+          {
+            "name": "Monster Quest 2 - Part 1"
+          },
+          {
+            "name": "Monster Quest 2 - Part 2"
+          },
+          {
+            "name": "Monster Quest 2 - Part 3"
+          },
+          {
+            "name": "Mushy Mushrooms"
+          },
+          {
+            "name": "Musical Genius"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVFull",
+            "x": 800,
+            "y": 897,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Quests MY-SEA",
+        "sections": [
+          {
+            "name": "Mystery of Makna Ruins 1",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Mystery of Makna Ruins 2",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Mystery of Makna Ruins 3",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Mystery of Makna Ruins 4",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Pollen Orb Ingredients"
+          },
+          {
+            "name": "Popularity Premonition"
+          },
+          {
+            "name": "Presents for Priceless Pupils",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Restoring the Capital",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Restoring the Capital 2",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Search Quest 1"
+          },
+          {
+            "name": "Search Quest 2"
+          },
+          {
+            "name": "Search Quest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVFull",
+            "x": 958,
+            "y": 897,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Quests SEC-WO",
+        "sections": [
+          {
+            "name": "Secret Elixir Ingredients"
+          },
+          {
+            "name": "Secret Ingredient Hunt"
+          },
+          {
+            "name": "Secret Innovation"
+          },
+          {
+            "name": "Strange Noises from Below"
+          },
+          {
+            "name": "Sweet Seduction"
+          },
+          {
+            "name": "The Master's Successor"
+          },
+          {
+            "name": "Things that Hum"
+          },
+          {
+            "name": "Things that Rumble"
+          },
+          {
+            "name": "A Tormented Bug-Lover",
+            "access_rules": ["AreaKeys:9"]
+          },
+          {
+            "name": "Who is Bigger?",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "A Worried Bug-Lover"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVFull",
+            "x": 883,
+            "y": 948,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Eryth Sea Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "children": [
+      {
+        "name": "Ether Plant",
+        "access_rules": ["AreaKeys:9"],
+        "sections": [
+          {
+            "name": "Trouble at the Plant"
+          },
+          {
+            "name": "Punish the Hodes"
+          },
+          {
+            "name": "Mend the Plant"
+          },
+          {
+            "name": "Hode Attack"
+          },
+          {
+            "name": "Ancient High Entia Mystery",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "The Missing Boy",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Secret Research",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ESQ",
+            "x": 311,
+            "y": 285,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Syrath Lighthouse",
+        "access_rules": ["AreaKeys:9"],
+        "sections": [
+          {
+            "name": "Trouble at the Lighthouse"
+          },
+          {
+            "name": "Monster Quest 1"
+          },
+          {
+            "name": "Monster Quest 2"
+          },
+          {
+            "name": "Collect Quest 1"
+          },
+          {
+            "name": "Collect Quest 2"
+          },
+          {
+            "name": "Challenge",
+            "access_rules": ["ESHunt"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ESQ",
+            "x": 591,
+            "y": 447,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Latael Shore",
+        "access_rules": ["AreaKeys:9"],
+        "sections": [
+          {
+            "name": "Save the Worker"
+          },
+          {
+            "name": "Path to Prison Island",
+            "access_rules": ["AreaKeys:12"]
+          },
+          {
+            "name": "Sister Seals",
+            "access_rules": ["AreaKeys:12"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ESQ",
+            "x": 503,
+            "y": 147,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alcamoth Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:10"],
+    "children": [
+      {
+        "name": "The Deciphering Machine",
+        "sections": [
+          {
+            "name": "The Deciphering Machine (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 837,
+            "y": 648,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "A Necessary Upgrade",
+        "sections": [
+          {
+            "name": "A Necessary Upgrade (MISSABLE)",
+            "access_rules": ["AreaKeys:11"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 766,
+            "y": 415,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Bring Back My Son!",
+        "sections": [
+          {
+            "name": "Bring Back My Son! (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 844,
+            "y": 196,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Mir'leiz",
+        "sections": [
+          {
+            "name": "Teaching Materials (MISSABLE)"
+          },
+          {
+            "name": "Brave Actions (MISSABLE)"
+          },
+          {
+            "name": "Protect the Capital! (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 752,
+            "y": 616,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Scarlen",
+        "sections": [
+          {
+            "name": "How Do They Feel? (MISSABLE)"
+          },
+          {
+            "name": "How Do I Feel? (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 184,
+            "y": 487,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Great Hall Guards",
+        "sections": [
+          {
+            "name": "A Friend in Need (MISSABLE)"
+          },
+          {
+            "name": "Back Pain (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 997,
+            "y": 486,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Kurralth & Zain",
+        "sections": [
+          {
+            "name": "Preparing for Adventure (MISSABLE)"
+          },
+          {
+            "name": "Preparing for Adventure 2 (MISSABLE)"
+          },
+          {
+            "name": "Preparing for Adventure 3 (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 318,
+            "y": 222,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Building Bridges",
+        "sections": [
+          {
+            "name": "Building Bridges (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 186,
+            "y": 306,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Believing Again",
+        "sections": [
+          {
+            "name": "Believing Again (MISSABLE)",
+            "access_rules": ["AreaKeys:12"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 715,
+            "y": 806,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Elior",
+        "sections": [
+          {
+            "name": "Starlight Seeker (MISSABLE)"
+          },
+          {
+            "name": "Starlight Gazer (MISSABLE)",
+            "access_rules": ["AreaKeys:11"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 430,
+            "y": 210,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Looking for Gold Bugs",
+        "sections": [
+          {
+            "name": "Looking for Gold Bugs (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 697,
+            "y": 522,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Losing the Taste for Alcohol",
+        "sections": [
+          {
+            "name": "Losing the Taste for Alcohol (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 319,
+            "y": 752,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Vol'aren",
+        "sections": [
+          {
+            "name": "Looking for a Lost Son (MISSABLE)"
+          },
+          {
+            "name": "Looking for a Lost Daughter (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 405,
+            "y": 674,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Going Out to Play",
+        "sections": [
+          {
+            "name": "Going Out to Play (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 113,
+            "y": 454,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Main Entrance (Surprise)",
+        "sections": [
+          {
+            "name": "Getting a Member's Card (MISSABLE)"
+          },
+          {
+            "name": "Vidian Rescue Operation (MISSABLE)",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 43,
+            "y": 490,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Generic Quests 1 (ALL MISSABLE)",
+        "sections": [
+          {
+            "name": "Monster Quest 1 - Part 1"
+          },
+          {
+            "name": "Monster Quest 1 - Part 2"
+          },
+          {
+            "name": "Monster Quest 1 - Part 3"
+          },
+          {
+            "name": "Monster Quest 2 - Part 1"
+          },
+          {
+            "name": "Monster Quest 2 - Part 2"
+          },
+          {
+            "name": "Monster Quest 2 - Part 3"
+          },
+          {
+            "name": "Monster Quest 3 - Part 1"
+          },
+          {
+            "name": "Monster Quest 3 - Part 2"
+          },
+          {
+            "name": "Monster Quest 3 - Part 3"
+          },
+          {
+            "name": "Monster Quest 4 - Part 1"
+          },
+          {
+            "name": "Monster Quest 4 - Part 2"
+          },
+          {
+            "name": "Monster Quest 4 - Part 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 1221,
+            "y": 319,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 1221,
+            "y": 319,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Generic Quests 2 (ALL MISSABLE)",
+        "sections": [
+          {
+            "name": "Challenge 1",
+            "access_rules": ["ESHunt"]
+          },
+          {
+            "name": "Challenge 2",
+            "access_rules": ["ESHunt"]
+          },
+          {
+            "name": "Challenge 3",
+            "access_rules": ["ESHunt"]
+          },
+          {
+            "name": "Challenge 4",
+            "access_rules": ["ESHunt"]
+          },
+          {
+            "name": "Material Quest 1"
+          },
+          {
+            "name": "Material Quest 2"
+          },
+          {
+            "name": "Material Quest 3"
+          },
+          {
+            "name": "Material Quest 4"
+          },
+          {
+            "name": "Collection Quest 1"
+          },
+          {
+            "name": "Collection Quest 2"
+          },
+          {
+            "name": "Collection Quest 3"
+          },
+          {
+            "name": "Collection Quest 4"
+          },
+          {
+            "name": "Search Quest 1"
+          },
+          {
+            "name": "Search Quest 2"
+          },
+          {
+            "name": "Search Quest 3"
+          },
+          {
+            "name": "Search Quest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALQ",
+            "x": 1337,
+            "y": 319,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 1337,
+            "y": 319,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Valak Mountain Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:13"],
+    "children": [
+      {
+        "name": "Zokhed Pass",
+        "sections": [
+          {
+            "name": "Monster Quest 1"
+          },
+          {
+            "name": "Monster Quest 2"
+          },
+          {
+            "name": "Monster Quest 3"
+          },
+          {
+            "name": "Monster Quest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "VMQ",
+            "x": 442,
+            "y": 516,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Nopon Camp",
+        "sections": [
+          {
+            "name": "Chilkins and Antols"
+          },
+          {
+            "name": "Valak Mountain Research"
+          },
+          {
+            "name": "Chilkin Changes"
+          },
+          {
+            "name": "The Balance of Power"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "VMQ",
+            "x": 776,
+            "y": 666,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "The Freezing Nopon",
+        "sections": [
+          {
+            "name": "The Freezing Nopon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "VMQ",
+            "x": 148,
+            "y": 279,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Harict Chapel",
+        "sections": [
+          {
+            "name": "The Magma Rock (Story)"
+          },
+          {
+            "name": "The Final Giants' Ruins",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "The Giants' Treasures",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "VMQ",
+            "x": 524,
+            "y": 676,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Bad Timing",
+        "sections": [
+          {
+            "name": "Bad Timing"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "VMQ",
+            "x": 255,
+            "y": 698,
+            "size": 16
+          },
+          {
+            "map": "VMFull",
+            "x": 255,
+            "y": 698,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sword Valley Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:14"],
+    "children": [
+      {
+        "name": "Secure Dolgan Outpost (MISSABLE)",
+        "sections": [
+          {
+            "name": "Secure Dolgan Outpost (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SVQ",
+            "x": 630,
+            "y": 392,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Secure Enalda Control Base (MISSABLE)",
+        "sections": [
+          {
+            "name": "Secure Enalda Control Base (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SVQ",
+            "x": 473,
+            "y": 464,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "3rd Gate Front Line (MISSABLE)",
+        "sections": [
+          {
+            "name": "3rd Gate Front Line (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SVQ",
+            "x": 455,
+            "y": 279,
+            "size": 16
+          },
+          {
+            "map": "SVFull",
+            "x": 455,
+            "y": 279,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Secure the Radio Tower (MISSABLE)",
+        "sections": [
+          {
+            "name": "Secure the Radio Tower (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SVQ",
+            "x": 122,
+            "y": 675,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Galahad Fortress Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:15"],
+    "children": [
+      {
+        "name": "Lift Battle (MISSABLE)",
+        "sections": [
+          {
+            "name": "Lift Battle (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "GFQ",
+            "x": 352,
+            "y": 250,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Supply Station Battle (MISSABLE)",
+        "sections": [
+          {
+            "name": "Supply Station Battle (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "GFQ",
+            "x": 502,
+            "y": 247,
+            "size": 16
+          },
+          {
+            "map": "GFFull",
+            "x": 502,
+            "y": 247,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Turbine Battle (MISSABLE)",
+        "sections": [
+          {
+            "name": "Turbine Battle (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "GFQ",
+            "x": 581,
+            "y": 247,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Fiora's Conviction (MISSABLE)",
+        "sections": [
+          {
+            "name": "Fiora's Conviction (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "GFQ",
+            "x": 360,
+            "y": 912,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fallen Arm Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:16"],
+    "children": [
+      {
+        "name": "Hidden Village Quests 1",
+        "sections": [
+          {
+            "name": "Fixing a Broken Door!"
+          },
+          {
+            "name": "Food Delivery"
+          },
+          {
+            "name": "I Want to be a Homs!"
+          },
+          {
+            "name": "Mysterious Noises"
+          },
+          {
+            "name": "Save the Machina!"
+          },
+          {
+            "name": "Protect the Village"
+          },
+          {
+            "name": "Eliminate the Threat"
+          },
+          {
+            "name": "Powerless"
+          },
+          {
+            "name": "Stop the Mechon Rampage!"
+          },
+          {
+            "name": "The Wilted Flower"
+          },
+          {
+            "name": "A Tough Battle"
+          },
+          {
+            "name": "Power Up!"
+          },
+          {
+            "name": "Therapy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FAQ",
+            "x": 428,
+            "y": 376,
+            "size": 16
+          },
+          {
+            "map": "FAFull",
+            "x": 428,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Hidden Village Quests 2",
+        "sections": [
+          {
+            "name": "Scheduled Inspection"
+          },
+          {
+            "name": "The History of Mechonis (MISSABLE)",
+            "access_rules": ["AreaKeys:17"]
+          },
+          {
+            "name": "Mending Memories",
+            "access_rules": ["AreaKeys:17"]
+          },
+          {
+            "name": "Resolution - Father",
+            "access_rules": ["AreaKeys:17"]
+          },
+          {
+            "name": "Resolution - Mother",
+            "access_rules": ["AreaKeys:17"]
+          },
+          {
+            "name": "The Oath Sword",
+            "access_rules": ["AreaKeys:17"]
+          },
+          {
+            "name": "A Weapon Just For Me (MISSABLE)",
+            "access_rules": ["AreaKeys:17"]
+          },
+          {
+            "name": "The History of the Capital (MISSABLE)",
+            "access_rules": ["AreaKeys:19"]
+          },
+          {
+            "name": "Stunted Growth",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "The Exhaust Pump",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "The Mini Reactor",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Transmission Bypass",
+            "access_rules": ["AreaKeys:20"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FAQ",
+            "x": 492,
+            "y": 376,
+            "size": 16
+          },
+          {
+            "map": "FAFull",
+            "x": 492,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Zarkort",
+        "sections": [
+          {
+            "name": "For My Loved One... (MISSABLE)"
+          },
+          {
+            "name": "To My Loved One... (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FAQ",
+            "x": 238,
+            "y": 540,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Wreckage Beach",
+        "sections": [
+          {
+            "name": "Reunion with Fiora"
+          },
+          {
+            "name": "We Made It"
+          },
+          {
+            "name": "Fiora's Treatment"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FAQ",
+            "x": 716,
+            "y": 273,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mechonis Field Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:17"],
+    "children": [
+      {
+        "name": "Machina Refuge",
+        "sections": [
+          {
+            "name": "Best Boots (MISSABLE)"
+          },
+          {
+            "name": "Monster Quest (MISSABLE)"
+          },
+          {
+            "name": "Challenge Quest 1 (MISSABLE)"
+          },
+          {
+            "name": "Challenge Quest 2 (MISSABLE)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MeFiQ",
+            "x": 381,
+            "y": 869,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Story Quests",
+        "sections": [
+          {
+            "name": "Aiming for the Top"
+          },
+          {
+            "name": "Get the 3rd Lift Moving"
+          },
+          {
+            "name": "Opening the Bulkhead"
+          },
+          {
+            "name": "The High-Velocity Lift"
+          },
+          {
+            "name": "Need Power!"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MeFiQ",
+            "x": 529,
+            "y": 508,
+            "size": 16
+          },
+          {
+            "map": "MeFiFull",
+            "x": 529,
+            "y": 508,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Central Factory Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:18"],
+    "children": [
+      {
+        "name": "Quests",
+        "sections": [
+          {
+            "name": "To the Central Tower"
+          },
+          {
+            "name": "Maintenance Wing Escape"
+          },
+          {
+            "name": "Find a Path to the Top"
+          },
+          {
+            "name": "Materials for a Bomb"
+          },
+          {
+            "name": "The Central Tower Barrier"
+          },
+          {
+            "name": "Eliminate the Backup! (MISSABLE)"
+          },
+          {
+            "name": "Roof Battle (MISSABLE)"
+          },
+          {
+            "name": "Daring Assault (MISSABLE)"
+          },
+          {
+            "name": "New Weapon for Fiora"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "CFFull",
+            "x": 1120,
+            "y": 1058,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Agniratha Quests",
+    "chest_unopened_img": "images/mapicons/QuestMarker.png",
+    "chest_opened_img": "images/mapicons/QuestMarkerGray.png",
+    "access_rules": ["AreaKeys:19"],
+    "children": [
+      {
+        "name": "Terminal Quests",
+        "sections": [
+          {
+            "name": "Shrine Transport"
+          },
+          {
+            "name": "Pillar Verification Devices"
+          },
+          {
+            "name": "Agniratha Beautification 1"
+          },
+          {
+            "name": "Agniratha Beautification 2"
+          },
+          {
+            "name": "Civil Protection 1 - 1"
+          },
+          {
+            "name": "Civil Protection 1 - 2"
+          },
+          {
+            "name": "Civil Protection 1 - 3"
+          },
+          {
+            "name": "Civil Protection 2 - 1"
+          },
+          {
+            "name": "Civil Protection 2 - 2"
+          },
+          {
+            "name": "Civil Protection 2 - 3"
+          },
+          {
+            "name": "Military Status 1 - 1",
+            "access_rules": ["AGHunt"]
+          },
+          {
+            "name": "Military Status 1 - 2",
+            "access_rules": ["AGHunt"]
+          },
+          {
+            "name": "Military Status 2 - 1",
+            "access_rules": ["AGHunt"]
+          },
+          {
+            "name": "Military Status 2 - 2",
+            "access_rules": ["AGHunt"]
+          },
+          {
+            "name": "Telethia Investigation 1"
+          },
+          {
+            "name": "Telethia Investigation 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "AGQ",
+            "x": 486,
+            "y": 423,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Mechonis Core",
+        "sections": [
+          {
+            "name": "Save Bionis",
+            "access_rules": ["AreaKeys:20"]
+          },
+          {
+            "name": "Boss: Yaldabaoth",
+            "access_rules": ["AreaKeys:20"],
+            "chest_unopened_img": "images/mapicons/Boss.png",
+            "chest_opened_img": "images/mapicons/DeadBoss.png"
+          },
+          {
+            "name": "Boss: Zanza",
+            "access_rules": ["AreaKeys:20"],
+            "chest_unopened_img": "images/mapicons/Boss.png",
+            "chest_opened_img": "images/mapicons/DeadBoss.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "AGQ",
+            "x": 1457,
+            "y": 290,
+            "size": 16
+          },
+          {
+            "map": "AGFull",
+            "x": 1457,
+            "y": 290,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  }
+]

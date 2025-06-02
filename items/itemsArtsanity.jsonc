@@ -1,0 +1,2704 @@
+[
+  {
+    "name": "Lobster (Junk)",
+    "type": "consumable",
+    "img": "images/items/Lobster.png",
+    "max_quantity": 9999999,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "consumable,junk,Lobster"
+  },
+  {
+    "name": "Area Keys",
+    "type": "consumable",
+    "img": "images/items/key.png",
+    "max_quantity": 22,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "consumable,required,AreaKeys"
+  },
+  {
+    "name": "Memory Fragments",
+    "type": "consumable",
+    "img": "images/items/MemoryFragment.png",
+    "max_quantity": 20,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "consumable,required,MemoryFragments"
+  },
+  {
+    "name": "Shulk",
+    "type": "static",
+    "img": "images/items/Shulk.png",
+    "codes":"static,CharacterIcons,ShulkIcon"
+  },
+  {
+    "name": "Shulk Integrity",
+    "type": "toggle",
+    "allow_disabled": true,
+    "initial_active_state": true,
+    "img": "images/items/Integrity.png",
+    "codes": "skilltrees,ShulkIntegrity,ShulkSkill1"
+  },
+  {
+    "name": "Shulk Intuition",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Intuition.png",
+    "codes": "skilltrees,ShulkIntuition,ShulkSkill2"
+  },
+  {
+    "name": "Shulk Humanity",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Humanity.png",
+    "codes": "skilltrees,ShulkHumanity,ShulkSkill3"
+  },
+  {
+    "name": "Shulk Pessimism",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Pessimism.png",
+    "codes": "skilltrees,ShulkPessimism,ShulkSkill4"
+  },
+  {
+    "name": "Shulk Bravery",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Bravery.png",
+    "codes": "skilltrees,ShulkBravery,ShulkSkill5"
+  },
+  {
+    "name": "Shulk Affinity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Affinity1.png",
+        "codes": "ShulkAffinity,ShulkAffinity1"
+      },
+      {
+        "img": "images/items/Affinity2.png",
+        "codes": "ShulkAffinity,ShulkAffinity2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity3.png",
+        "codes": "ShulkAffinity,ShulkAffinity3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity4.png",
+        "codes": "ShulkAffinity,ShulkAffinity4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity5.png",
+        "codes": "ShulkAffinity,ShulkAffinity5",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shulk Back Slash Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkBackSlash.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkBackSlash,ShulkArt1"
+  },
+  {
+    "name": "Shulk Air Slash Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkAirSlash.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkAirSlash,ShulkArt2"
+  },
+  {
+    "name": "Shulk Battle Soul Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkBattleSoul.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkBattleSoul,ShulkArt3"
+  },
+  {
+    "name": "Shulk Light Heal Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkLightHeal.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkLightHeal,ShulkArt4"
+  },
+  {
+    "name": "Shulk Monado Armour Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkMonadoArmour.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkMonadoArmour,ShulkArt5"
+  },
+  {
+    "name": "Shulk Monado Buster Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkMonadoBuster.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkMonadoBuster,ShulkArt6"
+  },
+  {
+    "name": "Shulk Monado Cyclone Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkMonadoCyclone.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkMonadoCyclone,ShulkArt7"
+  },
+  {
+    "name": "Shulk Monado Eater Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkMonadoEater.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkMonadoEater,ShulkArt8"
+  },
+  {
+    "name": "Shulk Monado Enchant Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkMonadoEnchant.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkMonadoEnchant,ShulkArt9"
+  },
+  {
+    "name": "Shulk Monado Purge Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkMonadoPurge.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkMonadoPurge,ShulkArt10"
+  },
+  {
+    "name": "Shulk Monado Shield Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkMonadoShield.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkMonadoShield,ShulkArt11"
+  },
+  {
+    "name": "Shulk Monado Speed Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkMonadoSpeed.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkMonadoSpeed,ShulkArt12"
+  },
+  {
+    "name": "Shulk Shadow Eye Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkShadowEye.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkShadowEye,ShulkArt13"
+  },
+  {
+    "name": "Shulk Shaker Edge Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkShakerEdge.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkShakerEdge,ShulkArt14"
+  },
+  {
+    "name": "Shulk Slit Edge Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkSlitEdge.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkSlitEdge,ShulkArt15"
+  },
+  {
+    "name": "Shulk Stream Edge Max Level",
+    "type": "consumable",
+    "img": "images/items/ShulkStreamEdge.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ShulkStreamEdge,ShulkArt16"
+  },
+  {
+    "name": "Reyn",
+    "type": "static",
+    "img": "images/items/Reyn.png",
+    "codes":"static,CharacterIcons,ReynIcon"
+  },
+  {
+    "name": "Reyn Spirit",
+    "type": "toggle",
+    "allow_disabled": true,
+    "initial_active_state": true,
+    "img": "images/items/Spirit.png",
+    "codes": "skilltrees,ReynSpirit,ReynSkill1"
+  },
+  {
+    "name": "Reyn Diligence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Diligence.png",
+    "codes": "skilltrees,ReynDiligence,ReynSkill2"
+  },
+  {
+    "name": "Reyn Enthusiasm",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Enthusiasm.png",
+    "codes": "skilltrees,ReynEnthusiasm,ReynSkill3"
+  },
+  {
+    "name": "Reyn Impatience",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Impatience.png",
+    "codes": "skilltrees,ReynImpatience,ReynSkill4"
+  },
+  {
+    "name": "Reyn Camaraderie",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Camaraderie.png",
+    "codes": "skilltrees,ReynCamaraderie,ReynSkill5"
+  },
+  {
+    "name": "Reyn Affinity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Affinity1.png",
+        "codes": "ReynAffinity,ReynAffinity1"
+      },
+      {
+        "img": "images/items/Affinity2.png",
+        "codes": "ReynAffinity,ReynAffinity2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity3.png",
+        "codes": "ReynAffinity,ReynAffinity3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity4.png",
+        "codes": "ReynAffinity,ReynAffinity4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity5.png",
+        "codes": "ReynAffinity,ReynAffinity5",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Reyn Anchor Chain Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynAnchorChain.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynAnchorChain,ReynArt1"
+  },
+  {
+    "name": "Reyn Aura Burst Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynAuraBurst.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynAuraBurst,ReynArt2"
+  },
+  {
+    "name": "Reyn Berserker Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynBerserker.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynBerserker,ReynArt3"
+  },
+  {
+    "name": "Reyn Bone Upper Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynBoneUpper.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynBoneUpper,ReynArt4"
+  },
+  {
+    "name": "Reyn Dive Sobat Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynDiveSobat.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynDiveSobat,ReynArt5"
+  },
+  {
+    "name": "Reyn Engage Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynEngage.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynEngage,ReynArt6"
+  },
+  {
+    "name": "Reyn Guard Shift Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynGuardShift.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynGuardShift,ReynArt7"
+  },
+  {
+    "name": "Reyn Hammer Beat Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynHammerBeat.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynHammerBeat,ReynArt8"
+  },
+  {
+    "name": "Reyn Lariat Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynLariat.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynLariat,ReynArt9"
+  },
+  {
+    "name": "Reyn Last Stand Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynLastStand.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynLastStand,ReynArt10"
+  },
+  {
+    "name": "Reyn Magnum Charge Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynMagnumCharge.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynMagnumCharge,ReynArt11"
+  },
+  {
+    "name": "Reyn Rage Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynRage.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynRage,ReynArt12"
+  },
+  {
+    "name": "Reyn Shield Bash Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynShieldBash.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynShieldBash,ReynArt13"
+  },
+  {
+    "name": "Reyn Sword Drive Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynSwordDrive.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynSwordDrive,ReynArt14"
+  },
+  {
+    "name": "Reyn War Swing Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynWarSwing.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynWarSwing,ReynArt15"
+  },
+  {
+    "name": "Reyn Wild Down Max Level",
+    "type": "consumable",
+    "img": "images/items/ReynWildDown.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,ReynWildDown,ReynArt16"
+  },
+  {
+    "name": "Sharla",
+    "type": "static",
+    "img": "images/items/Sharla.png",
+    "codes":"static,CharacterIcons,SharlaIcon"
+  },
+  {
+    "name": "Sharla Devotion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Devotion.png",
+    "initial_active_state": true,
+    "codes": "skilltrees,SharlaDevotion,SharlaSkill1"
+  },
+  {
+    "name": "Sharla Confidence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Confidence.png",
+    "codes": "skilltrees,SharlaConfidence,SharlaSkill2"
+  },
+  {
+    "name": "Sharla Perseverance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Perseverance.png",
+    "codes": "skilltrees,SharlaPerseverance,SharlaSkill3"
+  },
+  {
+    "name": "Sharla Reliance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Reliance.png",
+    "codes": "skilltrees,SharlaReliance,SharlaSkill4"
+  },
+  {
+    "name": "Sharla Affection",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Affection.png",
+    "codes": "skilltrees,SharlaAffection,SharlaSkill5"
+  },
+  {
+    "name": "Sharla Affinity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Affinity1.png",
+        "codes": "SharlaAffinity,SharlaAffinity1"
+      },
+      {
+        "img": "images/items/Affinity2.png",
+        "codes": "SharlaAffinity,SharlaAffinity2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity3.png",
+        "codes": "SharlaAffinity,SharlaAffinity3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity4.png",
+        "codes": "SharlaAffinity,SharlaAffinity4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity5.png",
+        "codes": "SharlaAffinity,SharlaAffinity5",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sharla Aura Bullet Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaAuraBullet.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaAuraBullet,SharlaArt1"
+  },
+  {
+    "name": "Sharla Covert Stance Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaCovertStance.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaCovertStance,SharlaArt2"
+  },
+  {
+    "name": "Sharla Cure Bullet Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaCureBullet.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaCureBullet,SharlaArt3"
+  },
+  {
+    "name": "Sharla Cure Round Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaCureRound.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaCureRound,SharlaArt4"
+  },
+  {
+    "name": "Sharla Drive Boost Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaDriveBoost.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaDriveBoost,SharlaArt5"
+  },
+  {
+    "name": "Sharla Head Shaker Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaHeadShaker.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaHeadShaker,SharlaArt6"
+  },
+  {
+    "name": "Sharla Head Shot Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaHeadShot.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaHeadShot,SharlaArt7"
+  },
+  {
+    "name": "Sharla Heal Blast Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaHealBlast.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaHealBlast,SharlaArt8"
+  },
+  {
+    "name": "Sharla Heal Bullet Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaHealBullet.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaHealBullet,SharlaArt9"
+  },
+  {
+    "name": "Sharla Heal Counter Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaHealCounter.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaHealCounter,SharlaArt10"
+  },
+  {
+    "name": "Sharla Heal Round Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaHealRound.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaHealRound,SharlaArt11"
+  },
+  {
+    "name": "Sharla Heat Bullet Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaHeatBullet.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaHeatBullet,SharlaArt12"
+  },
+  {
+    "name": "Sharla Metal Blast Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaMetalBlast.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaMetalBlast,SharlaArt13"
+  },
+  {
+    "name": "Sharla Shield Bullet Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaShieldBullet.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaShieldBullet,SharlaArt14"
+  },
+  {
+    "name": "Sharla Thunder Bullet Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaThunderBullet.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaThunderBullet,SharlaArt15"
+  },
+  {
+    "name": "Sharla Tranquilliser Max Level",
+    "type": "consumable",
+    "img": "images/items/SharlaTranquilliser.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SharlaTranquilliser,SharlaArt16"
+  },
+  {
+    "name": "Dunban",
+    "type": "static",
+    "img": "images/items/Dunban.png",
+    "codes":"static,CharacterIcons,DunbanIcon"
+  },
+  {
+    "name": "Dunban Bravery",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Bravery.png",
+    "initial_active_state": true,
+    "codes": "skilltrees,DunbanBravery,DunbanSkill1"
+  },
+  {
+    "name": "Dunban Prudence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Prudence.png",
+    "codes": "skilltrees,DunbanPrudence,DunbanSkill2"
+  },
+  {
+    "name": "Dunban Wisdom",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Wisdom.png",
+    "codes": "skilltrees,DunbanWisdom,DunbanSkill3"
+  },
+  {
+    "name": "Dunban Obstinance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Obstinance.png",
+    "codes": "skilltrees,DunbanObstinance,DunbanSkill4"
+  },
+  {
+    "name": "Dunban Enthusiasm",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Enthusiasm.png",
+    "codes": "skilltrees,DunbanEnthusiasm,DunbanSkill5"
+  },
+  {
+    "name": "Dunban Affinity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Affinity1.png",
+        "codes": "DunbanAffinity,DunbanAffinity1"
+      },
+      {
+        "img": "images/items/Affinity2.png",
+        "codes": "DunbanAffinity,DunbanAffinity2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity3.png",
+        "codes": "DunbanAffinity,DunbanAffinity3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity4.png",
+        "codes": "DunbanAffinity,DunbanAffinity4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity5.png",
+        "codes": "DunbanAffinity,DunbanAffinity5",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Dunban Battle Eye Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanBattleEye.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanBattleEye,DunbanArt1"
+  },
+  {
+    "name": "Dunban Blinding Blossom Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanBlindingBlossom.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanBlindingBlossom,DunbanArt2"
+  },
+  {
+    "name": "Dunban Demon Slayer Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanDemonSlayer.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanDemonSlayer,DunbanArt3"
+  },
+  {
+    "name": "Dunban Electric Gutbuster Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanElectricGutbuster.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanElectricGutbuster,DunbanArt4"
+  },
+  {
+    "name": "Dunban Final Flicker Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanFinalFlicker.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanFinalFlicker,DunbanArt5"
+  },
+  {
+    "name": "Dunban Gale Slash Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanGaleSlash.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanGaleSlash,DunbanArt6"
+  },
+  {
+    "name": "Dunban Heat Haze Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanHeatHaze.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanHeatHaze,DunbanArt7"
+  },
+  {
+    "name": "Dunban Jaws of Death Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanJawsofDeath.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanJawsofDeath,DunbanArt8"
+  },
+  {
+    "name": "Dunban Peerless Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanPeerless.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanPeerless,DunbanArt9"
+  },
+  {
+    "name": "Dunban Serene Heart Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanSereneHeart.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanSereneHeart,DunbanArt10"
+  },
+  {
+    "name": "Dunban Soaring Tempest Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanSoaringTempest.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanSoaringTempest,DunbanArt11"
+  },
+  {
+    "name": "Dunban Spirit Breath Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanSpiritBreath.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanSpiritBreath,DunbanArt12"
+  },
+  {
+    "name": "Dunban Steel Strike Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanSteelStrike.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanSteelStrike,DunbanArt13"
+  },
+  {
+    "name": "Dunban Tempest Kick Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanTempestKick.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanTempestKick,DunbanArt14"
+  },
+  {
+    "name": "Dunban Thunder Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanThunder.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanThunder,DunbanArt15"
+  },
+  {
+    "name": "Dunban Worldly Slash Max Level",
+    "type": "consumable",
+    "img": "images/items/DunbanWorldlySlash.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,DunbanWorldlySlash,DunbanArt16"
+  },
+  {
+    "name": "Riki",
+    "type": "static",
+    "img": "images/items/Riki.png",
+    "codes":"static,CharacterIcons,RikiIcon"
+  },
+  {
+    "name": "Riki Vivacity",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Vivacity.png",
+    "initial_active_state": true,
+    "codes": "skilltrees,RikiVivacity,RikiSkill1"
+  },
+  {
+    "name": "Riki Flexibility",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Flexibility.png",
+    "codes": "skilltrees,RikiFlexibility,RikiSkill2"
+  },
+  {
+    "name": "Riki Innocence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Innocence.png",
+    "codes": "skilltrees,RikiInnocence,RikiSkill3"
+  },
+  {
+    "name": "Riki Cowardice",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Cowardice.png",
+    "codes": "skilltrees,RikiCowardice,RikiSkill4"
+  },
+  {
+    "name": "Riki Heroism",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Heroism.png",
+    "codes": "skilltrees,RikiHeroism,RikiSkill5"
+  },
+  {
+    "name": "Riki Affinity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Affinity1.png",
+        "codes": "RikiAffinity,RikiAffinity1"
+      },
+      {
+        "img": "images/items/Affinity2.png",
+        "codes": "RikiAffinity,RikiAffinity2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity3.png",
+        "codes": "RikiAffinity,RikiAffinity3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity4.png",
+        "codes": "RikiAffinity,RikiAffinity4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity5.png",
+        "codes": "RikiAffinity,RikiAffinity5",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Riki Bedtime Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiBedtime.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiBedtime,RikiArt1"
+  },
+  {
+    "name": "Riki Behave Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiBehave.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiBehave,RikiArt2"
+  },
+  {
+    "name": "Riki Bitey Bitey Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiBiteyBitey.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiBiteyBitey,RikiArt3"
+  },
+  {
+    "name": "Riki Burninate Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiBurninate.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiBurninate,RikiArt4"
+  },
+  {
+    "name": "Riki Freezinate Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiFreezinate.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiFreezinate,RikiArt5"
+  },
+  {
+    "name": "Riki Happy Happy Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiHappyHappy.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiHappyHappy,RikiArt6"
+  },
+  {
+    "name": "Riki Hero Time Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiHeroTime.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiHeroTime,RikiArt7"
+  },
+  {
+    "name": "Riki Lurgy Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiLurgy.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiLurgy,RikiArt8"
+  },
+  {
+    "name": "Riki Peekaboo Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiPeekaboo.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiPeekaboo,RikiArt9"
+  },
+  {
+    "name": "Riki Play Dead Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiPlayDead.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiPlayDead,RikiArt10"
+  },
+  {
+    "name": "Riki Riki is Angry Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiRikiisAngry.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiRikiisAngry,RikiArt11"
+  },
+  {
+    "name": "Riki Roly-Poly Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiRoly-Poly.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiRoly-Poly,RikiArt12"
+  },
+  {
+    "name": "Riki Say Sorry Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiSaySorry.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiSaySorry,RikiArt13"
+  },
+  {
+    "name": "Riki Sneaky Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiSneaky.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiSneaky,RikiArt14"
+  },
+  {
+    "name": "Riki Tantrum Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiTantrum.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiTantrum,RikiArt15"
+  },
+  {
+    "name": "Riki You Can Do It Max Level",
+    "type": "consumable",
+    "img": "images/items/RikiYouCanDoIt.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,RikiYouCanDoIt,RikiArt16"
+  },
+  {
+    "name": "Melia",
+    "type": "static",
+    "img": "images/items/Melia.png",
+    "codes":"static,CharacterIcons,MeliaIcon"
+  },
+  {
+    "name": "Melia Serenity",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Serenity.png",
+    "initial_active_state": true,
+    "codes": "skilltrees,MeliaSerenity,MeliaSkill1"
+  },
+  {
+    "name": "Melia Reliability",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Reliability.png",
+    "codes": "skilltrees,MeliaReliability,MeliaSkill2"
+  },
+  {
+    "name": "Melia Honesty",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Honesty.png",
+    "codes": "skilltrees,MeliaHonesty,MeliaSkill3"
+  },
+  {
+    "name": "Melia Reticence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Reticence.png",
+    "codes": "skilltrees,MeliaReticence,MeliaSkill4"
+  },
+  {
+    "name": "Melia Passion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Passion.png",
+    "codes": "skilltrees,MeliaPassion,MeliaSkill5"
+  },
+  {
+    "name": "Melia Affinity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Affinity1.png",
+        "codes": "MeliaAffinity,MeliaAffinity1"
+      },
+      {
+        "img": "images/items/Affinity2.png",
+        "codes": "MeliaAffinity,MeliaAffinity2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity3.png",
+        "codes": "MeliaAffinity,MeliaAffinity3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity4.png",
+        "codes": "MeliaAffinity,MeliaAffinity4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity5.png",
+        "codes": "MeliaAffinity,MeliaAffinity5",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Melia Burst End Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaBurstEnd.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaBurstEnd,MeliaArt1"
+  },
+  {
+    "name": "Melia Healing Gift Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaHealingGift.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaHealingGift,MeliaArt2"
+  },
+  {
+    "name": "Melia Hypnotise Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaHypnotise.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaHypnotise,MeliaArt3"
+  },
+  {
+    "name": "Melia Mind Blast Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaMindBlast.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaMindBlast,MeliaArt4"
+  },
+  {
+    "name": "Melia Power Effect Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaPowerEffect.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaPowerEffect,MeliaArt5"
+  },
+  {
+    "name": "Melia Reflection Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaReflection.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaReflection,MeliaArt6"
+  },
+  {
+    "name": "Melia Shadow Stitch Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaShadowStitch.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaShadowStitch,MeliaArt7"
+  },
+  {
+    "name": "Melia Spear Break Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaSpearBreak.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaSpearBreak,MeliaArt8"
+  },
+  {
+    "name": "Melia Starlight Kick Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaStarlightKick.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaStarlightKick,MeliaArt9"
+  },
+  {
+    "name": "Melia Summon Aqua Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaSummonAqua.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaSummonAqua,MeliaArt10"
+  },
+  {
+    "name": "Melia Summon Bolt Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaSummonBolt.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaSummonBolt,MeliaArt11"
+  },
+  {
+    "name": "Melia Summon Copy Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaSummonCopy.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaSummonCopy,MeliaArt12"
+  },
+  {
+    "name": "Melia Summon Earth Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaSummonEarth.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaSummonEarth,MeliaArt13"
+  },
+  {
+    "name": "Melia Summon Flare Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaSummonFlare.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaSummonFlare,MeliaArt14"
+  },
+  {
+    "name": "Melia Summon Ice Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaSummonIce.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaSummonIce,MeliaArt15"
+  },
+  {
+    "name": "Melia Summon Wind Max Level",
+    "type": "consumable",
+    "img": "images/items/MeliaSummonWind.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,MeliaSummonWind,MeliaArt16"
+  },
+  {
+    "name": "Seven",
+    "type": "static",
+    "img": "images/items/Seven.png",
+    "codes":"static,CharacterIcons,SevenIcon"
+  },
+  {
+    "name": "Seven Courage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Courage.png",
+    "initial_active_state": true,
+    "codes": "skilltrees,SevenCourage,SevenSkill1"
+  },
+  {
+    "name": "Seven Zeal",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Zeal.png",
+    "codes": "skilltrees,SevenZeal,SevenSkill2"
+  },
+  {
+    "name": "Seven Daring",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Daring.png",
+    "codes": "skilltrees,SevenDaring,SevenSkill3"
+  },
+  {
+    "name": "Seven Rashness",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Rashness.png",
+    "codes": "skilltrees,SevenRashness,SevenSkill4"
+  },
+  {
+    "name": "Seven Innocence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/Innocence.png",
+    "codes": "skilltrees,SevenInnocence,SevenSkill5"
+  },
+  {
+    "name": "Seven Affinity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Affinity1.png",
+        "codes": "SevenAffinity,SevenAffinity1"
+      },
+      {
+        "img": "images/items/Affinity2.png",
+        "codes": "SevenAffinity,SevenAffinity2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity3.png",
+        "codes": "SevenAffinity,SevenAffinity3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity4.png",
+        "codes": "SevenAffinity,SevenAffinity4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Affinity5.png",
+        "codes": "SevenAffinity,SevenAffinity5",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Seven Air Fang Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenAirFang.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenAirFang,SevenArt1"
+  },
+  {
+    "name": "Seven Cross Impact Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenCrossImpact.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenCrossImpact,SevenArt2"
+  },
+  {
+    "name": "Seven Double Blade Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenDoubleBlade.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenDoubleBlade,SevenArt3"
+  },
+  {
+    "name": "Seven Double Wind Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenDoubleWind.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenDoubleWind,SevenArt4"
+  },
+  {
+    "name": "Seven Ether Drain Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenEtherDrain.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenEtherDrain,SevenArt5"
+  },
+  {
+    "name": "Seven Final Cross Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenFinalCross.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenFinalCross,SevenArt6"
+  },
+  {
+    "name": "Seven Guard Shift Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenGuardShift.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenGuardShift,SevenArt7"
+  },
+  {
+    "name": "Seven Healing Energy Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenHealingEnergy.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenHealingEnergy,SevenArt8"
+  },
+  {
+    "name": "Seven Lock-On Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenLock-On.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenLock-On,SevenArt9"
+  },
+  {
+    "name": "Seven Mag Storm Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenMagStorm.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenMagStorm,SevenArt10"
+  },
+  {
+    "name": "Seven Power Drain Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenPowerDrain.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenPowerDrain,SevenArt11"
+  },
+  {
+    "name": "Seven Second Gear Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenSecondGear.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenSecondGear,SevenArt12"
+  },
+  {
+    "name": "Seven Shutdown Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenShutdown.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenShutdown,SevenArt13"
+  },
+  {
+    "name": "Seven Spear Blade Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenSpearBlade.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenSpearBlade,SevenArt14"
+  },
+  {
+    "name": "Seven Speed Shift Max Level",
+    "type": "consumable",
+    "img": "images/items/SevenSpeedShift.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenSpeedShift,SevenArt15"
+  },
+  {
+    "name": "Seven Zero GravityMax Level",
+    "type": "consumable",
+    "img": "images/items/SevenZeroGravity.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "arts,SevenZeroGravity,SevenArt16"
+  },
+  {
+    "name": "Colony 6 Housing Level",
+    "type": "consumable",
+    "img": "images/items/Housing.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "reconstruction,Colony6Housing"
+  },
+  {
+    "name": "Colony 6 Commerce Level",
+    "type": "consumable",
+    "img": "images/items/Commerce.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "reconstruction,Colony6Commerce"
+  },
+  {
+    "name": "Colony 6 Nature Level",
+    "type": "consumable",
+    "img": "images/items/Nature.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "reconstruction,Colony6Nature"
+  },
+  {
+    "name": "Colony 6 Special Level",
+    "type": "consumable",
+    "img": "images/items/Strange.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 10,
+    "codes": "reconstruction,Colony6Special"
+  },
+  {
+    "name": "Hunting License",
+    "type": "static",
+    "img": "images/items/HuntingLicense.png",
+    "codes": "static,Hunt"
+  },
+  {
+    "name": "Colony 9 Hunting License",
+    "type": "toggle",
+    "img": "images/items/C9.png",
+    "codes": "toggle,Hunt,Colony9,C9Hunt"
+  },
+  {
+    "name": "Tephra Cave Hunting License",
+    "type": "toggle",
+    "img": "images/items/TC.png",
+    "codes": "toggle,Hunt,TephraCave,TCHunt"
+  },
+  {
+    "name": "Bionis' Leg Hunting License",
+    "type": "toggle",
+    "img": "images/items/BL.png",
+    "codes": "toggle,Hunt,BionisLeg,BLHunt"
+  },
+  {
+    "name": "Colony 6 Hunting License",
+    "type": "toggle",
+    "img": "images/items/C6.png",
+    "codes": "toggle,Hunt,Colony6,C6Hunt"
+  },
+  {
+    "name": "Ether Mine Hunting License",
+    "type": "toggle",
+    "img": "images/items/EM.png",
+    "codes": "toggle,Hunt,EtherMine,EMHunt"
+  },
+  {
+    "name": "Satorl Marsh Hunting License",
+    "type": "toggle",
+    "img": "images/items/SM.png",
+    "codes": "toggle,Hunt,SatorlMarsh,SMHunt"
+  },
+  {
+    "name": "Makna Forest Hunting License",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Hunt,MaknaForest,MaFoHunt"
+  },
+  {
+    "name": "Eryth Sea Hunting License",
+    "type": "toggle",
+    "img": "images/items/ES.png",
+    "codes": "toggle,Hunt,ErythSea,ESHunt"
+  },
+  {
+    "name": "High Entia Tomb Hunting License",
+    "type": "toggle",
+    "img": "images/items/HT.PNG",
+    "codes": "toggle,Hunt,HighEntiaTomb,HTHunt"
+  },
+  {
+    "name": "Valak Mountain Hunting License",
+    "type": "toggle",
+    "img": "images/items/VM.png",
+    "codes": "toggle,Hunt,ValakMountain,VMHunt"
+  },
+  {
+    "name": "Sword Valley Hunting License",
+    "type": "toggle",
+    "img": "images/items/SV.png",
+    "codes": "toggle,Hunt,Sword Valley,SVHunt"
+  },
+  {
+    "name": "Galahad Fortress Hunting License",
+    "type": "toggle",
+    "img": "images/items/GF.png",
+    "codes": "toggle,Hunt,GalahadFortress,GFHunt"
+  },
+  {
+    "name": "Fallen Arm Hunting License",
+    "type": "toggle",
+    "img": "images/items/FA.png",
+    "codes": "toggle,Hunt,FallenArm,FAHunt"
+  },
+  {
+    "name": "Mechonis Field Hunting License",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Hunt,MechonisField,MeFiHunt"
+  },
+  {
+    "name": "Central Factory Hunting License",
+    "type": "toggle",
+    "img": "images/items/CF.png",
+    "codes": "toggle,Hunt,CentralFactory,CFHunt"
+  },
+  {
+    "name": "Agniratha Hunting License",
+    "type": "toggle",
+    "img": "images/items/AG.png",
+    "codes": "toggle,Hunt,Agniratha,AGHunt"
+  },
+  {
+    "name": "Bionis' Interior Hunting License",
+    "type": "toggle",
+    "img": "images/items/BI.png",
+    "codes": "toggle,Hunt,BionisInterior,BIHunt"
+  },
+  {
+    "name": "Prison Island Hunting License",
+    "type": "toggle",
+    "img": "images/items/PI.png",
+    "codes": "toggle,Hunt,PrisonIsland,PIHunt"
+  },
+  {
+    "name": "Veg Collectopaedia",
+    "type": "static",
+    "img": "images/items/Veg.png",
+    "codes": "static,Veg"
+  },
+  {
+    "name": "Colony 9 Veg",
+    "type": "toggle",
+    "img": "images/items/C9.png",
+    "codes": "toggle,Veg,Colony9,C9Veg"
+  },
+  {
+    "name": "Bionis' Leg Veg",
+    "type": "toggle",
+    "img": "images/items/BL.png",
+    "codes": "toggle,Veg,BionisLeg,BLVeg"
+  },
+  {
+    "name": "Satorl Marsh Veg",
+    "type": "toggle",
+    "img": "images/items/SM.png",
+    "codes": "toggle,Veg,SatorlMarsh,SMVeg"
+  },
+  {
+    "name": "Makna Forest Veg",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Veg,MaknaForest,MaFoVeg"
+  },
+  {
+    "name": "Eryth Sea Veg",
+    "type": "toggle",
+    "img": "images/items/ES.png",
+    "codes": "toggle,Veg,ErythSea,ESVeg"
+  },
+  {
+    "name": "Valak Mountain Veg",
+    "type": "toggle",
+    "img": "images/items/VM.png",
+    "codes": "toggle,Veg,ValakMountain,VMVeg"
+  },
+  {
+    "name": "Sword Valley Veg",
+    "type": "toggle",
+    "img": "images/items/SV.png",
+    "codes": "toggle,Veg,Sword Valley,SVVeg"
+  },
+  {
+    "name": "Fallen Arm Veg",
+    "type": "toggle",
+    "img": "images/items/FA.png",
+    "codes": "toggle,Veg,FallenArm,FAVeg"
+  },
+  {
+    "name": "Mechonis Field Veg",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Veg,MechonisField,MeFiVeg"
+  },
+  {
+    "name": "Central Factory Veg",
+    "type": "toggle",
+    "img": "images/items/CF.png",
+    "codes": "toggle,Veg,CentralFactory,CFVeg"
+  },
+  {
+    "name": "Bionis' Interior Veg",
+    "type": "toggle",
+    "img": "images/items/BI.png",
+    "codes": "toggle,Veg,BionisInterior,BIVeg"
+  },
+  {
+    "name": "Fruit Collectopaedia",
+    "type": "static",
+    "img": "images/items/Fruit.png",
+    "codes": "static,Fruit"
+  },
+  {
+    "name": "Colony 9 Fruit",
+    "type": "toggle",
+    "img": "images/items/C9.png",
+    "codes": "toggle,Fruit,Colony9,C9Fruit"
+  },
+  {
+    "name": "Tephra Cave Fruit",
+    "type": "toggle",
+    "img": "images/items/TC.png",
+    "codes": "toggle,Fruit,TephraCave,TCFruit"
+  },
+  {
+    "name": "Bionis' Leg Fruit",
+    "type": "toggle",
+    "img": "images/items/BL.png",
+    "codes": "toggle,Fruit,BionisLeg,BLFruit"
+  },
+  {
+    "name": "Makna Forest Fruit",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Fruit,MaknaForest,MaFoFruit"
+  },
+  {
+    "name": "Frontier Village Fruit",
+    "type": "toggle",
+    "img": "images/items/FV.png",
+    "codes": "toggle,Fruit,FrontierVillage,FVFruit"
+  },
+  {
+    "name": "Alcamoth Fruit",
+    "type": "toggle",
+    "img": "images/items/AL.png",
+    "codes": "toggle,Fruit,Alcamoth,ALFruit"
+  },
+  {
+    "name": "Valak Mountain Fruit",
+    "type": "toggle",
+    "img": "images/items/VM.png",
+    "codes": "toggle,Fruit,ValakMountain,VMFruit"
+  },
+  {
+    "name": "Sword Valley Fruit",
+    "type": "toggle",
+    "img": "images/items/SV.png",
+    "codes": "toggle,Fruit,Sword Valley,SVFruit"
+  },
+  {
+    "name": "Fallen Arm Fruit",
+    "type": "toggle",
+    "img": "images/items/FA.png",
+    "codes": "toggle,Fruit,FallenArm,FAFruit"
+  },
+  {
+    "name": "Agniratha Fruit",
+    "type": "toggle",
+    "img": "images/items/AG.png",
+    "codes": "toggle,Fruit,Agniratha,AGFruit"
+  },
+  {
+    "name": "Prison Island Fruit",
+    "type": "toggle",
+    "img": "images/items/PI.png",
+    "codes": "toggle,Fruit,PrisonIsland,PIFruit"
+  },
+  {
+    "name": "Flower Collectopaedia",
+    "type": "static",
+    "img": "images/items/Flower.png",
+    "codes": "static,Flower"
+  },
+  {
+    "name": "Colony 9 Flower",
+    "type": "toggle",
+    "img": "images/items/C9.png",
+    "codes": "toggle,Flower,Colony9,C9Flower"
+  },
+  {
+    "name": "Tephra Cave Flower",
+    "type": "toggle",
+    "img": "images/items/TC.png",
+    "codes": "toggle,Flower,TephraCave,TCFlower"
+  },
+  {
+    "name": "Colony 6 Flower",
+    "type": "toggle",
+    "img": "images/items/C6.png",
+    "codes": "toggle,Flower,Colony6,C6Flower"
+  },
+  {
+    "name": "Satorl Marsh Flower",
+    "type": "toggle",
+    "img": "images/items/SM.png",
+    "codes": "toggle,Flower,SatorlMarsh,SMFlower"
+  },
+  {
+    "name": "Makna Forest Flower",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Flower,MaknaForest,MaFoFlower"
+  },
+  {
+    "name": "Eryth Sea Flower",
+    "type": "toggle",
+    "img": "images/items/ES.png",
+    "codes": "toggle,Flower,ErythSea,ESFlower"
+  },
+  {
+    "name": "Alcamoth Flower",
+    "type": "toggle",
+    "img": "images/items/AL.png",
+    "codes": "toggle,Flower,Alcamoth,ALFlower"
+  },
+  {
+    "name": "Valak Mountain Flower",
+    "type": "toggle",
+    "img": "images/items/VM.png",
+    "codes": "toggle,Flower,ValakMountain,VMFlower"
+  },
+  {
+    "name": "Sword Valley Flower",
+    "type": "toggle",
+    "img": "images/items/SV.png",
+    "codes": "toggle,Flower,Sword Valley,SVFlower"
+  },
+  {
+    "name": "Mechonis Field Flower",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Flower,MechonisField,MeFiFlower"
+  },
+  {
+    "name": "Agniratha Flower",
+    "type": "toggle",
+    "img": "images/items/AG.png",
+    "codes": "toggle,Flower,Agniratha,AGFlower"
+  },
+  {
+    "name": "Animal Collectopaedia",
+    "type": "static",
+    "img": "images/items/Animal.png",
+    "codes": "static,Animal"
+  },
+  {
+    "name": "Tephra Cave Animal",
+    "type": "toggle",
+    "img": "images/items/TC.png",
+    "codes": "toggle,Animal,TephraCave,TCAnimal"
+  },
+  {
+    "name": "Colony 6 Animal",
+    "type": "toggle",
+    "img": "images/items/C6.png",
+    "codes": "toggle,Animal,Colony6,C6Animal"
+  },
+  {
+    "name": "Ether Mine Animal",
+    "type": "toggle",
+    "img": "images/items/EM.png",
+    "codes": "toggle,Animal,EtherMine,EMAnimal"
+  },
+  {
+    "name": "Satorl Marsh Animal",
+    "type": "toggle",
+    "img": "images/items/SM.png",
+    "codes": "toggle,Animal,SatorlMarsh,SMAnimal"
+  },
+  {
+    "name": "Makna Forest Animal",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Animal,MaknaForest,MaFoAnimal"
+  },
+  {
+    "name": "Eryth Sea Animal",
+    "type": "toggle",
+    "img": "images/items/ES.png",
+    "codes": "toggle,Animal,ErythSea,ESAnimal"
+  },
+  {
+    "name": "Valak Mountain Animal",
+    "type": "toggle",
+    "img": "images/items/VM.png",
+    "codes": "toggle,Animal,ValakMountain,VMAnimal"
+  },
+  {
+    "name": "Fallen Arm Animal",
+    "type": "toggle",
+    "img": "images/items/FA.png",
+    "codes": "toggle,Animal,FallenArm,FAAnimal"
+  },
+  {
+    "name": "Central Factory Animal",
+    "type": "toggle",
+    "img": "images/items/CF.png",
+    "codes": "toggle,Animal,CentralFactory,CFAnimal"
+  },
+  {
+    "name": "Bionis' Interior Animal",
+    "type": "toggle",
+    "img": "images/items/BI.png",
+    "codes": "toggle,Animal,BionisInterior,BIAnimal"
+  },
+  {
+    "name": "Prison Island Animal",
+    "type": "toggle",
+    "img": "images/items/PI.png",
+    "codes": "toggle,Animal,PrisonIsland,PIAnimal"
+  },
+  {
+    "name": "Bug Collectopaedia",
+    "type": "static",
+    "img": "images/items/Bug.png",
+    "codes": "static,Bug"
+  },
+  {
+    "name": "Colony 9 Bug",
+    "type": "toggle",
+    "img": "images/items/C9.png",
+    "codes": "toggle,Bug,Colony9,C9Bug"
+  },
+  {
+    "name": "Tephra Cave Bug",
+    "type": "toggle",
+    "img": "images/items/TC.png",
+    "codes": "toggle,Bug,TephraCave,TCBug"
+  },
+  {
+    "name": "Bionis' Leg Bug",
+    "type": "toggle",
+    "img": "images/items/BL.png",
+    "codes": "toggle,Bug,BionisLeg,BLBug"
+  },
+  {
+    "name": "Ether Mine Bug",
+    "type": "toggle",
+    "img": "images/items/EM.png",
+    "codes": "toggle,Bug,EtherMine,EMBug"
+  },
+  {
+    "name": "Makna Forest Bug",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Bug,MaknaForest,MaFoBug"
+  },
+  {
+    "name": "Frontier Village Bug",
+    "type": "toggle",
+    "img": "images/items/FV.png",
+    "codes": "toggle,Bug,FrontierVillage,FVBug"
+  },
+  {
+    "name": "High Entia Tomb Bug",
+    "type": "toggle",
+    "img": "images/items/HT.PNG",
+    "codes": "toggle,Bug,HighEntiaTomb,HTBug"
+  },
+  {
+    "name": "Galahad Fortress Bug",
+    "type": "toggle",
+    "img": "images/items/GF.png",
+    "codes": "toggle,Bug,GalahadFortress,GFBug"
+  },
+  {
+    "name": "Mechonis Field Bug",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Bug,MechonisField,MeFiBug"
+  },
+  {
+    "name": "Central Factory Bug",
+    "type": "toggle",
+    "img": "images/items/CF.png",
+    "codes": "toggle,Bug,CentralFactory,CFBug"
+  },
+  {
+    "name": "Agniratha Bug",
+    "type": "toggle",
+    "img": "images/items/AG.png",
+    "codes": "toggle,Bug,Agniratha,AGBug"
+  },
+  {
+    "name": "Prison Island Bug",
+    "type": "toggle",
+    "img": "images/items/PI.png",
+    "codes": "toggle,Bug,PrisonIsland,PIBug"
+  },
+  {
+    "name": "Nature Collectopaedia",
+    "type": "static",
+    "img": "images/items/Nature.png",
+    "codes": "static,Nature"
+  },
+  {
+    "name": "Tephra Cave Nature",
+    "type": "toggle",
+    "img": "images/items/TC.png",
+    "codes": "toggle,Nature,TephraCave,TCNature"
+  },
+  {
+    "name": "Bionis' Leg Nature",
+    "type": "toggle",
+    "img": "images/items/BL.png",
+    "codes": "toggle,Nature,BionisLeg,BLNature"
+  },
+  {
+    "name": "Ether Mine Nature",
+    "type": "toggle",
+    "img": "images/items/EM.png",
+    "codes": "toggle,Nature,EtherMine,EMNature"
+  },
+  {
+    "name": "Satorl Marsh Nature",
+    "type": "toggle",
+    "img": "images/items/SM.png",
+    "codes": "toggle,Nature,SatorlMarsh,SMNature"
+  },
+  {
+    "name": "Eryth Sea Nature",
+    "type": "toggle",
+    "img": "images/items/ES.png",
+    "codes": "toggle,Nature,ErythSea,ESNature"
+  },
+  {
+    "name": "Valak Mountain Nature",
+    "type": "toggle",
+    "img": "images/items/VM.png",
+    "codes": "toggle,Nature,ValakMountain,VMNature"
+  },
+  {
+    "name": "Fallen Arm Nature",
+    "type": "toggle",
+    "img": "images/items/FA.png",
+    "codes": "toggle,Nature,FallenArm,FANature"
+  },
+  {
+    "name": "Mechonis Field Nature",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Nature,MechonisField,MeFiNature"
+  },
+  {
+    "name": "Central Factory Nature",
+    "type": "toggle",
+    "img": "images/items/CF.png",
+    "codes": "toggle,Nature,CentralFactory,CFNature"
+  },
+  {
+    "name": "Agniratha Nature",
+    "type": "toggle",
+    "img": "images/items/AG.png",
+    "codes": "toggle,Nature,Agniratha,AGNature"
+  },
+  {
+    "name": "Prison Island Nature",
+    "type": "toggle",
+    "img": "images/items/PI.png",
+    "codes": "toggle,Nature,PrisonIsland,PINature"
+  },
+  {
+    "name": "Parts Collectopaedia",
+    "type": "static",
+    "img": "images/items/Parts.png",
+    "codes": "static,Parts"
+  },
+  {
+    "name": "Colony 9 Parts",
+    "type": "toggle",
+    "img": "images/items/C9.png",
+    "codes": "toggle,Parts,Colony9,C9Parts"
+  },
+  {
+    "name": "Bionis' Leg Parts",
+    "type": "toggle",
+    "img": "images/items/BL.png",
+    "codes": "toggle,Parts,BionisLeg,BLParts"
+  },
+  {
+    "name": "Ether Mine Parts",
+    "type": "toggle",
+    "img": "images/items/EM.png",
+    "codes": "toggle,Parts,EtherMine,EMParts"
+  },
+  {
+    "name": "Satorl Marsh Parts",
+    "type": "toggle",
+    "img": "images/items/SM.png",
+    "codes": "toggle,Parts,SatorlMarsh,SMParts"
+  },
+  {
+    "name": "High Entia Tomb Parts",
+    "type": "toggle",
+    "img": "images/items/HT.PNG",
+    "codes": "toggle,Parts,HighEntiaTomb,HTParts"
+  },
+  {
+    "name": "Sword Valley Parts",
+    "type": "toggle",
+    "img": "images/items/SV.png",
+    "codes": "toggle,Parts,Sword Valley,SVParts"
+  },
+  {
+    "name": "Galahad Fortress Parts",
+    "type": "toggle",
+    "img": "images/items/GF.png",
+    "codes": "toggle,Parts,GalahadFortress,GFParts"
+  },
+  {
+    "name": "Fallen Arm Parts",
+    "type": "toggle",
+    "img": "images/items/FA.png",
+    "codes": "toggle,Parts,FallenArm,FAParts"
+  },
+  {
+    "name": "Mechonis Field Parts",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Parts,MechonisField,MeFiParts"
+  },
+  {
+    "name": "Central Factory Parts",
+    "type": "toggle",
+    "img": "images/items/CF.png",
+    "codes": "toggle,Parts,CentralFactory,CFParts"
+  },
+  {
+    "name": "Agniratha Parts",
+    "type": "toggle",
+    "img": "images/items/AG.png",
+    "codes": "toggle,Parts,Agniratha,AGParts"
+  },
+  {
+    "name": "Prison Island Parts",
+    "type": "toggle",
+    "img": "images/items/PI.png",
+    "codes": "toggle,Parts,PrisonIsland,PIParts"
+  },
+  {
+    "name": "Strange Collectopaedia",
+    "type": "static",
+    "img": "images/items/Strange.png",
+    "codes": "static,Strange"
+  },
+  {
+    "name": "Colony 9 Strange",
+    "type": "toggle",
+    "img": "images/items/C9.png",
+    "codes": "toggle,Strange,Colony9,C9Strange"
+  },
+  {
+    "name": "Tephra Cave Strange",
+    "type": "toggle",
+    "img": "images/items/TC.png",
+    "codes": "toggle,Strange,TephraCave,TCStrange"
+  },
+  {
+    "name": "Bionis' Leg Strange",
+    "type": "toggle",
+    "img": "images/items/BL.png",
+    "codes": "toggle,Strange,BionisLeg,BLStrange"
+  },
+  {
+    "name": "Colony 6 Strange",
+    "type": "toggle",
+    "img": "images/items/C6.png",
+    "codes": "toggle,Strange,Colony6,C6Strange"
+  },
+  {
+    "name": "Ether Mine Strange",
+    "type": "toggle",
+    "img": "images/items/EM.png",
+    "codes": "toggle,Strange,EtherMine,EMStrange"
+  },
+  {
+    "name": "Satorl Marsh Strange",
+    "type": "toggle",
+    "img": "images/items/SM.png",
+    "codes": "toggle,Strange,SatorlMarsh,SMStrange"
+  },
+  {
+    "name": "Makna Forest Strange",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Strange,MaknaForest,MaFoStrange"
+  },
+  {
+    "name": "Frontier Village Strange",
+    "type": "toggle",
+    "img": "images/items/FV.png",
+    "codes": "toggle,Strange,FrontierVillage,FVStrange"
+  },
+  {
+    "name": "Eryth Sea Strange",
+    "type": "toggle",
+    "img": "images/items/ES.png",
+    "codes": "toggle,Strange,ErythSea,ESStrange"
+  },
+  {
+    "name": "Alcamoth Strange",
+    "type": "toggle",
+    "img": "images/items/AL.png",
+    "codes": "toggle,Strange,Alcamoth,ALStrange"
+  },
+  {
+    "name": "High Entia Tomb Strange",
+    "type": "toggle",
+    "img": "images/items/HT.PNG",
+    "codes": "toggle,Strange,HighEntiaTomb,HTStrange"
+  },
+  {
+    "name": "Valak Mountain Strange",
+    "type": "toggle",
+    "img": "images/items/VM.png",
+    "codes": "toggle,Strange,ValakMountain,VMStrange"
+  },
+  {
+    "name": "Sword Valley Strange",
+    "type": "toggle",
+    "img": "images/items/SV.png",
+    "codes": "toggle,Strange,Sword Valley,SVStrange"
+  },
+  {
+    "name": "Galahad Fortress Strange",
+    "type": "toggle",
+    "img": "images/items/GF.png",
+    "codes": "toggle,Strange,GalahadFortress,GFStrange"
+  },
+  {
+    "name": "Fallen Arm Strange",
+    "type": "toggle",
+    "img": "images/items/FA.png",
+    "codes": "toggle,Strange,FallenArm,FAStrange"
+  },
+  {
+    "name": "Mechonis Field Strange",
+    "type": "toggle",
+    "img": "images/items/MF.png",
+    "codes": "toggle,Strange,MechonisField,MeFiStrange"
+  },
+  {
+    "name": "Central Factory Strange",
+    "type": "toggle",
+    "img": "images/items/CF.png",
+    "codes": "toggle,Strange,CentralFactory,CFStrange"
+  },
+  {
+    "name": "Agniratha Strange",
+    "type": "toggle",
+    "img": "images/items/AG.png",
+    "codes": "toggle,Strange,Agniratha,AGStrange"
+  },
+  {
+    "name": "Bionis' Interior Strange",
+    "type": "toggle",
+    "img": "images/items/BI.png",
+    "codes": "toggle,Strange,BionisInterior,BIStrange"
+  },
+  {
+    "name": "Prison Island Strange",
+    "type": "toggle",
+    "img": "images/items/PI.png",
+    "codes": "toggle,Strange,PrisonIsland,PIStrange"
+  }
+]

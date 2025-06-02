@@ -1,0 +1,1923 @@
+[
+  {
+    "name": "Colony 9 NPCs",
+    "chest_unopened_img": "images/npcs/MetNPC.png",
+    "children": [
+      {
+        "name": "Mechon Wreckage Site",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Werner",
+            "chest_opened_img": "images/npcs/Werner.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 187,
+            "y": 84,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Residential District (West)",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Jackson (AM)",
+            "chest_opened_img": "images/npcs/Jackson.png"
+          },
+          {
+            "name": "Lukas (AM)",
+            "chest_opened_img": "images/npcs/Lukas.png"
+          },
+          {
+            "name": "Minnie (PM)",
+            "chest_opened_img": "images/npcs/Minnie.png"
+          },
+          {
+            "name": "Moritz (AM)",
+            "chest_opened_img": "images/npcs/Moritz.png"
+          },
+          {
+            "name": "Narine (AM)",
+            "chest_opened_img": "images/npcs/Narine.png"
+          },
+          {
+            "name": "Niranira (AM)",
+            "chest_opened_img": "images/npcs/Niranira.png"
+          },
+          {
+            "name": "Suzanna (AM)",
+            "chest_opened_img": "images/npcs/Suzanna.png"
+          },
+          {
+            "name": "Zukazu (PM)",
+            "chest_opened_img": "images/npcs/Zukazu.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 496,
+            "y": 471,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Residential District (South)",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dionysis (AM)",
+            "chest_opened_img": "images/npcs/Dionysis.png"
+          },
+          {
+            "name": "Jolele (PM)",
+            "chest_opened_img": "images/npcs/Jolele.png"
+          },
+          {
+            "name": "Jiroque (PM)",
+            "chest_opened_img": "images/npcs/Jiroque.png"
+          },
+          {
+            "name": "Peppino (PM)",
+            "chest_opened_img": "images/npcs/Peppino.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 540,
+            "y": 480,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Tranquil Square",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kenny Rohan (AM)",
+            "chest_opened_img": "images/npcs/KennyRohan.png"
+          },
+          {
+            "name": "Betty (AM)",
+            "chest_opened_img": "images/npcs/Betty.png"
+          },
+          {
+            "name": "Francoise (AM)",
+            "chest_opened_img": "images/npcs/Francoise.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 540,
+            "y": 441,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Gem Man's Stall",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Paola (AM)",
+            "chest_opened_img": "images/npcs/Paola.png"
+          },
+          {
+            "name": "Rocco (AM)",
+            "chest_opened_img": "images/npcs/Rocco.png"
+          },
+          {
+            "name": "Oleksiy (PM)",
+            "chest_opened_img": "images/npcs/Oleksiy.png"
+          },
+          {
+            "name": "Rosemary (PM)",
+            "chest_opened_img": "images/npcs/Rosemary.png"
+          },
+          {
+            "name": "Sesame (PM)",
+            "chest_opened_img": "images/npcs/Sesame.png"
+          },
+          {
+            "name": "King Squeeze (PM)",
+            "chest_opened_img": "images/npcs/KingSqueeze.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 479,
+            "y": 303,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Ether Light",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cheryl (AM)",
+            "chest_opened_img": "images/npcs/Cheryl.png"
+          },
+          {
+            "name": "Marcia (AM)",
+            "chest_opened_img": "images/npcs/Marcia.png"
+          },
+          {
+            "name": "Sonia (AM)",
+            "chest_opened_img": "images/npcs/Sonia.png"
+          },
+          {
+            "name": "Giorgio (AM)",
+            "chest_opened_img": "images/npcs/Giorgio.png"
+          },
+          {
+            "name": "Desiree (PM)",
+            "chest_opened_img": "images/npcs/Desiree.png"
+          },
+          {
+            "name": "Shura (PM)",
+            "chest_opened_img": "images/npcs/Shura.png"
+          },
+          {
+            "name": "Leopold (PM)",
+            "chest_opened_img": "images/npcs/Leopold.png"
+          },
+          {
+            "name": "Sylviane (PM)",
+            "chest_opened_img": "images/npcs/Sylviane.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 462,
+            "y": 358,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Dunban's House",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dorothy (AM)",
+            "chest_opened_img": "images/npcs/Dorothy.png"
+          },
+          {
+            "name": "Liliana (AM)",
+            "chest_opened_img": "images/npcs/Liliana.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 405,
+            "y": 335,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Fortress Entrance|Weapons Dev. Lab",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Raoul (AM)",
+            "chest_opened_img": "images/npcs/Raoul.png"
+          },
+          {
+            "name": "Jan (AM)",
+            "chest_opened_img": "images/npcs/Jan.png"
+          },
+          {
+            "name": "Miller (AM)",
+            "chest_opened_img": "images/npcs/Miller.png"
+          },
+          {
+            "name": "Dean (AM)",
+            "chest_opened_img": "images/npcs/Dean.png"
+          },
+          {
+            "name": "Mefimefi (PM)",
+            "chest_opened_img": "images/npcs/Mefimefi.png"
+          },
+          {
+            "name": "Arnaut (PM)",
+            "chest_opened_img": "images/npcs/Arnaut.png"
+          },
+          {
+            "name": "Erik (20:00)",
+            "chest_opened_img": "images/npcs/Erik.png"
+          },
+          {
+            "name": "Perrine (20:00)",
+            "chest_opened_img": "images/npcs/Perrine.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 592,
+            "y": 210,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Military District (Rear)",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Emmy Leater (AM)",
+            "chest_opened_img": "images/npcs/EmmyLeater.png"
+          },
+          {
+            "name": "Kantz (AM)",
+            "chest_opened_img": "images/npcs/Kantz.png"
+          },
+          {
+            "name": "Monica (PM)",
+            "chest_opened_img": "images/npcs/Monica.png"
+          },
+          {
+            "name": "Andreas (PM)",
+            "chest_opened_img": "images/npcs/Andreas.png"
+          },
+          {
+            "name": "Nic (PM)",
+            "chest_opened_img": "images/npcs/Nic.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C9NPC",
+            "x": 592,
+            "y": 137,
+            "size": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Colony 6 NPCs",
+    "chest_unopened_img": "images/npcs/MetNPC.png",
+    "children": [
+      {
+        "name": "Refugee Camp",
+        "access_rules": ["AreaKeys:2"],
+        "sections": [
+          {
+            "name": "Anna (AM)",
+            "chest_opened_img": "images/npcs/Anna.png"
+          },
+          {
+            "name": "Arda",
+            "chest_opened_img": "images/npcs/Arda.png"
+          },
+          {
+            "name": "Earnest",
+            "chest_opened_img": "images/npcs/Earnest.png"
+          },
+          {
+            "name": "Ewan",
+            "chest_opened_img": "images/npcs/Ewan.png"
+          },
+          {
+            "name": "Gorman (PM)",
+            "chest_opened_img": "images/npcs/Gorman.png"
+          },
+          {
+            "name": "Juju",
+            "chest_opened_img": "images/npcs/Juju.png"
+          },
+          {
+            "name": "Kiroki (AM)",
+            "chest_opened_img": "images/npcs/Kiroki.png"
+          },
+          {
+            "name": "Matryona (AM)",
+            "chest_opened_img": "images/npcs/Matryona.png"
+          },
+          {
+            "name": "Nikita (AM)",
+            "chest_opened_img": "images/npcs/Nikita.png"
+          },
+          {
+            "name": "Olga (AM)",
+            "chest_opened_img": "images/npcs/Olga.png"
+          },
+          {
+            "name": "Pama",
+            "chest_opened_img": "images/npcs/Pama.png"
+          },
+          {
+            "name": "Satata (AM)",
+            "chest_opened_img": "images/npcs/Satata.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BLNPC",
+            "x": 411,
+            "y": 835,
+            "size": 16
+          },
+          {
+            "map": "BLFull",
+            "x": 401,
+            "y": 835,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Traveller's Rest",
+        "access_rules": ["AreaKeys:2"],
+        "sections": [
+          {
+            "name": "Batubatu",
+            "chest_opened_img": "images/npcs/Batubatu.png"
+          },
+          {
+            "name": "Gerugu",
+            "chest_opened_img": "images/npcs/Gerugu.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BLNPC",
+            "x": 278,
+            "y": 268,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Reconstruction HQ",
+        "access_rules": ["AreaKeys:3"],
+        "sections": [
+          {
+            "name": "Anna (AM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Anna (AM)"
+          },
+          {
+            "name": "Arda (AM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Arda (AM)"
+          },
+          {
+            "name": "Ewan (PM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Ewan"
+          },
+          {
+            "name": "Gorman (PM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Gorman (PM)"
+          },
+          {
+            "name": "Juju",
+            "ref": "Colony 6 NPCs/Refugee Camp/Juju"
+          },
+          {
+            "name": "Kiroki (AM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Kiroki (AM)"
+          },
+          {
+            "name": "Matryona (PM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Matryona (AM)"
+          },
+          {
+            "name": "Nikita (AM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Nikita (AM)"
+          },
+          {
+            "name": "Olga (PM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Olga (AM)"
+          },
+          {
+            "name": "Otharon",
+            "chest_opened_img": "images/npcs/Otharon.png",
+            "access_rules": ["AreaKeys:4"]
+          },
+          {
+            "name": "Pama (AM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Pama"
+          },
+          {
+            "name": "Satata (AM)",
+            "ref": "Colony 6 NPCs/Refugee Camp/Satata (AM)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C6NPC",
+            "x": 73,
+            "y": 632,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Watchpoint Junction",
+        "access_rules": ["AreaKeys:3"],
+        "sections": [
+          {
+            "name": "Daza",
+            "chest_opened_img": "images/npcs/Daza.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "C6NPC",
+            "x": 375,
+            "y": 365,
+            "size": 16
+          },
+          {
+            "map": "C6Full",
+            "x": 375,
+            "y": 365,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Satorl Marsh NPCs",
+    "chest_unopened_img": "images/npcs/MetNPC.png",
+    "children": [
+      {
+        "name": "Nopon Merchant Camp",
+        "access_rules": ["AreaKeys:5"],
+        "sections": [
+          {
+            "name": "Bokoko",
+            "chest_opened_img": "images/npcs/Bokoko.png"
+          },
+          {
+            "name": "Kacha",
+            "chest_opened_img": "images/npcs/Kacha.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SMNPC",
+            "x": 115,
+            "y": 525,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Nopon Refuge",
+        "access_rules": ["AreaKeys:5"],
+        "sections": [
+          {
+            "name": "Zazadan",
+            "chest_opened_img": "images/npcs/Zazadan.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "SMNPC",
+            "x": 709,
+            "y": 836,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Makna Forest NPCs",
+    "chest_unopened_img": "images/npcs/MetNPC.png",
+    "children": [
+      {
+        "name": "Divine Sanctuary",
+        "access_rules": ["AreaKeys:7"],
+        "sections": [
+          {
+            "name": "Nopon Sage",
+            "chest_opened_img": "images/npcs/NoponSage.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MaFoNPC",
+            "x": 293,
+            "y": 627,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Frontier Village NPCs",
+    "chest_unopened_img": "images/npcs/MetNPC.png",
+    "children": [
+      {
+        "name": "Ababa",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Ababa",
+            "chest_opened_img": "images/npcs/Ababa.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 455,
+            "y": 407,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 455,
+            "y": 407,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Adidi",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Adidi",
+            "chest_opened_img": "images/npcs/Adidi.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 88,
+            "y": 394,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 88,
+            "y": 394,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Bana",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Bana",
+            "chest_opened_img": "images/npcs/Bana.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 682,
+            "y": 409,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 682,
+            "y": 409,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Berryjammy",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Berryjammy",
+            "chest_opened_img": "images/npcs/Berryjammy.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 583,
+            "y": 927,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Pollen Orb Storehouse",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Cherri",
+            "chest_opened_img": "images/npcs/Cherri.png"
+          },
+          {
+            "name": "Dedeba",
+            "chest_opened_img": "images/npcs/Dedeba.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 821,
+            "y": 375,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 821,
+            "y": 375,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Dabidabi",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Dabidabi",
+            "chest_opened_img": "images/npcs/Dabidabi.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 256,
+            "y": 939,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Deki",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Deki",
+            "chest_opened_img": "images/npcs/Deki.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 454,
+            "y": 320,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 454,
+            "y": 320,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Dobadoba",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Dobadoba",
+            "chest_opened_img": "images/npcs/Dobadoba.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 110,
+            "y": 761,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 110,
+            "y": 761,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Pollen Works",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Gadada",
+            "chest_opened_img": "images/npcs/Gadada.png"
+          },
+          {
+            "name": "Rono",
+            "chest_opened_img": "images/npcs/Rono.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 400,
+            "y": 716,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Gowago",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Gowago",
+            "chest_opened_img": "images/npcs/Gowago.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 301,
+            "y": 675,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Hoko",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Hoko",
+            "chest_opened_img": "images/npcs/Hoko.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 153,
+            "y": 925,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Archaeology Level",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Kilaki",
+            "chest_opened_img": "images/npcs/Kilaki.png"
+          },
+          {
+            "name": "Leku",
+            "chest_opened_img": "images/npcs/Leku.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 593,
+            "y": 677,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 593,
+            "y": 677,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Kokora",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Kokora",
+            "chest_opened_img": "images/npcs/Kokora.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 615,
+            "y": 240,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Central Plaza",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Kofuko",
+            "chest_opened_img": "images/npcs/Kofuko.png"
+          },
+          {
+            "name": "Kuriku",
+            "chest_opened_img": "images/npcs/Kuriku.png"
+          },
+          {
+            "name": "Migaga",
+            "chest_opened_img": "images/npcs/Migaga.png"
+          },
+          {
+            "name": "Pipiki",
+            "chest_opened_img": "images/npcs/Pipiki.png"
+          },
+          {
+            "name": "Pokapoka",
+            "chest_opened_img": "images/npcs/Pokapoka.png"
+          },
+          {
+            "name": "Rasha",
+            "chest_opened_img": "images/npcs/Rasha.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 631,
+            "y": 398,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Lalapa",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Lalapa",
+            "chest_opened_img": "images/npcs/Lalapa.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 103,
+            "y": 906,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Archaeology Centre",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Lupa",
+            "chest_opened_img": "images/npcs/Lupa.png"
+          },
+          {
+            "name": "Pachipa",
+            "chest_opened_img": "images/npcs/Pachipa.png"
+          },
+          {
+            "name": "Tuzu",
+            "chest_opened_img": "images/npcs/Tuzu.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 560,
+            "y": 752,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 560,
+            "y": 752,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Kyn Shopping Street",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Medi",
+            "chest_opened_img": "images/npcs/Medi.png"
+          },
+          {
+            "name": "Minana",
+            "chest_opened_img": "images/npcs/Minana.png"
+          },
+          {
+            "name": "Puko",
+            "chest_opened_img": "images/npcs/Puko.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 798,
+            "y": 288,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 798,
+            "y": 288,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Miko",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Miko",
+            "chest_opened_img": "images/npcs/Miko.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 372,
+            "y": 943,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Modamo",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Modamo",
+            "chest_opened_img": "images/npcs/Modamo.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 570,
+            "y": 644,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 570,
+            "y": 644,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Norara",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Norara",
+            "chest_opened_img": "images/npcs/Norara.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 142,
+            "y": 368,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 142,
+            "y": 368,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Npa",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Npa",
+            "chest_opened_img": "images/npcs/Npa.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 340,
+            "y": 462,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 340,
+            "y": 462,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Pelupelu",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Pelupelu",
+            "chest_opened_img": "images/npcs/Pelupelu.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 646,
+            "y": 887,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 646,
+            "y": 887,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Pepa",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Pepa",
+            "chest_opened_img": "images/npcs/Pepa.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 144,
+            "y": 894,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Underground Store",
+        "access_rules": ["AreaKeys:8"],
+        "sections": [
+          {
+            "name": "Tati",
+            "chest_opened_img": "images/npcs/Tati.png"
+          },
+          {
+            "name": "Yusa",
+            "chest_opened_img": "images/npcs/Yusa.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FVNPC",
+            "x": 242,
+            "y": 477,
+            "size": 16
+          },
+          {
+            "map": "FVFull",
+            "x": 242,
+            "y": 477,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Eryth Sea NPCs",
+    "chest_unopened_img": "images/npcs/MetNPC.png",
+    "children": [
+      {
+        "name": "Jarack",
+        "access_rules": ["AreaKeys:9"],
+        "sections": [
+          {
+            "name": "Jarack",
+            "chest_opened_img": "images/npcs/Jarack.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ESNPC",
+            "x": 311,
+            "y": 285,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Shalen",
+        "access_rules": ["AreaKeys:9"],
+        "sections": [
+          {
+            "name": "Shalen",
+            "chest_opened_img": "images/npcs/Shalen.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ESNPC",
+            "x": 591,
+            "y": 447,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alcamoth NPCs",
+    "chest_unopened_img": "images/npcs/MetNPC.png",
+    "access_rules": ["AreaKeys:10"],
+    "children": [
+      {
+        "name": "Arielle",
+        "sections": [
+          {
+            "name": "Arielle",
+            "chest_opened_img": "images/npcs/Arielle.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 186,
+            "y": 306,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Kiddos",
+        "sections": [
+          {
+            "name": "Atael",
+            "chest_opened_img": "images/npcs/Atael.png"
+          },
+          {
+            "name": "Cian",
+            "chest_opened_img": "images/npcs/Cian.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 305,
+            "y": 730,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 305,
+            "y": 730,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Baroba",
+        "sections": [
+          {
+            "name": "Baroba",
+            "chest_opened_img": "images/npcs/Baroba.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 93,
+            "y": 473,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Caul",
+        "sections": [
+          {
+            "name": "Caul",
+            "chest_opened_img": "images/npcs/Caul.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 810,
+            "y": 317,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 810,
+            "y": 317,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Don Argentis",
+        "sections": [
+          {
+            "name": "Don Argentis",
+            "chest_opened_img": "images/npcs/Don Argentis.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 263,
+            "y": 304,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Ascension Hall",
+        "sections": [
+          {
+            "name": "Donnis",
+            "chest_opened_img": "images/npcs/Donnis.png"
+          },
+          {
+            "name": "Kaelin",
+            "chest_opened_img": "images/npcs/Kaelin.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 1103,
+            "y": 490,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Elior",
+        "sections": [
+          {
+            "name": "Elior",
+            "chest_opened_img": "images/npcs/Elior.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 430,
+            "y": 210,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "En Argentis",
+        "sections": [
+          {
+            "name": "En Argentis",
+            "chest_opened_img": "images/npcs/En Argentis.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 268,
+            "y": 753,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 268,
+            "y": 753,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Great Hall Guards",
+        "sections": [
+          {
+            "name": "Galdo",
+            "chest_opened_img": "images/npcs/Galdo.png"
+          },
+          {
+            "name": "Galvin",
+            "chest_opened_img": "images/npcs/Galvin.png"
+          },
+          {
+            "name": "Lar'shen",
+            "chest_opened_img": "images/npcs/Lar'shen.png"
+          },
+          {
+            "name": "Lecrough",
+            "chest_opened_img": "images/npcs/Lecrough.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 997,
+            "y": 486,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Jer'ell & Scarlen",
+        "sections": [
+          {
+            "name": "Jer'ell",
+            "chest_opened_img": "images/npcs/Jer'ell.png"
+          },
+          {
+            "name": "Scarlen",
+            "chest_opened_img": "images/npcs/Scarlen.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 184,
+            "y": 487,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Kaleka",
+        "sections": [
+          {
+            "name": "Kaleka",
+            "chest_opened_img": "images/npcs/Kaleka.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 811,
+            "y": 414,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 811,
+            "y": 414,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Kurralth, Ricoth, Rozeal, & Zain",
+        "sections": [
+          {
+            "name": "Kurralth",
+            "chest_opened_img": "images/npcs/Kurralth.png"
+          },
+          {
+            "name": "Ricoth",
+            "chest_opened_img": "images/npcs/Ricoth.png"
+          },
+          {
+            "name": "Rozeal",
+            "chest_opened_img": "images/npcs/Rozeal.png"
+          },
+          {
+            "name": "Zain",
+            "chest_opened_img": "images/npcs/Zain.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 318,
+            "y": 222,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Lesunia",
+        "sections": [
+          {
+            "name": "Lesunia",
+            "chest_opened_img": "images/npcs/Lesunia.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 742,
+            "y": 591,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 742,
+            "y": 591,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Lunara & Yura",
+        "sections": [
+          {
+            "name": "Lunara",
+            "chest_opened_img": "images/npcs/Lunara.png"
+          },
+          {
+            "name": "Yura",
+            "chest_opened_img": "images/npcs/Yura.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 130,
+            "y": 487,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Ma'crish",
+        "sections": [
+          {
+            "name": "Ma'crish",
+            "chest_opened_img": "images/npcs/Ma'crish.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 764,
+            "y": 452,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 764,
+            "y": 452,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Merisa",
+        "sections": [
+          {
+            "name": "Merisa",
+            "chest_opened_img": "images/npcs/Merisa.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 844,
+            "y": 196,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Miriall",
+        "sections": [
+          {
+            "name": "Miriall",
+            "chest_opened_img": "images/npcs/Miriall.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 799,
+            "y": 547,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 799,
+            "y": 547,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Mir'leiz",
+        "sections": [
+          {
+            "name": "Mir'leiz",
+            "chest_opened_img": "images/npcs/Mir'leiz.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 752,
+            "y": 616,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Naroth",
+        "sections": [
+          {
+            "name": "Naroth",
+            "chest_opened_img": "images/npcs/Naroth.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 766,
+            "y": 415,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Nelo",
+        "sections": [
+          {
+            "name": "Nelo",
+            "chest_opened_img": "images/npcs/Nelo.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 319,
+            "y": 752,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Piko",
+        "sections": [
+          {
+            "name": "Piko",
+            "chest_opened_img": "images/npcs/Piko.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 416,
+            "y": 182,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 416,
+            "y": 182,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Popipo",
+        "sections": [
+          {
+            "name": "Popipo",
+            "chest_opened_img": "images/npcs/Popipo.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 113,
+            "y": 454,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Ruthan",
+        "sections": [
+          {
+            "name": "Ruthan",
+            "chest_opened_img": "images/npcs/Ruthan.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 837,
+            "y": 648,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Talia",
+        "sections": [
+          {
+            "name": "Talia",
+            "chest_opened_img": "images/npcs/Talia.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 789,
+            "y": 513,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 789,
+            "y": 513,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Talonyth",
+        "sections": [
+          {
+            "name": "Talonyth",
+            "chest_opened_img": "images/npcs/Talonyth.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 156,
+            "y": 588,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 156,
+            "y": 588,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Teelan",
+        "sections": [
+          {
+            "name": "Teelan",
+            "chest_opened_img": "images/npcs/Teelan.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 697,
+            "y": 522,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Vidian",
+        "sections": [
+          {
+            "name": "Vidian",
+            "chest_opened_img": "images/npcs/Vidian.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 715,
+            "y": 806,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Vol'aren",
+        "sections": [
+          {
+            "name": "Vol'aren",
+            "chest_opened_img": "images/npcs/Vol'aren.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 405,
+            "y": 674,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Zel Argentis",
+        "sections": [
+          {
+            "name": "Zel Argentis",
+            "chest_opened_img": "images/npcs/Zel Argentis.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ALNPC",
+            "x": 306,
+            "y": 774,
+            "size": 16
+          },
+          {
+            "map": "ALFull",
+            "x": 306,
+            "y": 774,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fallen Arm NPCs",
+    "chest_unopened_img": "images/npcs/MetNPC.png",
+    "access_rules": ["AreaKeys:16"],
+    "children": [
+      {
+        "name": "Fallen Arm NPCs 1",
+        "sections": [
+          {
+            "name": "Eiz",
+            "chest_opened_img": "images/npcs/Eiz.png"
+          },
+          {
+            "name": "Eleqa",
+            "chest_opened_img": "images/npcs/Eleqa.png"
+          },
+          {
+            "name": "Karlos",
+            "chest_opened_img": "images/npcs/Karlos.png"
+          },
+          {
+            "name": "Kazat",
+            "chest_opened_img": "images/npcs/Kazat.png"
+          },
+          {
+            "name": "Mixik",
+            "chest_opened_img": "images/npcs/Mixik.png"
+          },
+          {
+            "name": "Natalia",
+            "chest_opened_img": "images/npcs/Natalia.png"
+          },
+          {
+            "name": "Neonik",
+            "chest_opened_img": "images/npcs/Neonik.png"
+          },
+          {
+            "name": "Orkatix",
+            "chest_opened_img": "images/npcs/Orkatix.png"
+          },
+          {
+            "name": "Prox",
+            "chest_opened_img": "images/npcs/Prox.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FANPC",
+            "x": 428,
+            "y": 440,
+            "size": 16
+          },
+          {
+            "map": "FAFull",
+            "x": 428,
+            "y": 440,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Fallen Arm NPCs 2",
+        "sections": [
+          {
+            "name": "Qofaria",
+            "chest_opened_img": "images/npcs/Qofaria.png"
+          },
+          {
+            "name": "Rakzet",
+            "chest_opened_img": "images/npcs/Rakzet.png"
+          },
+          {
+            "name": "Rizaka",
+            "chest_opened_img": "images/npcs/Rizaka.png"
+          },
+          {
+            "name": "Shilx",
+            "chest_opened_img": "images/npcs/Shilx.png"
+          },
+          {
+            "name": "Voltak",
+            "chest_opened_img": "images/npcs/Voltak.png"
+          },
+          {
+            "name": "Vronik",
+            "chest_opened_img": "images/npcs/Vronik.png"
+          },
+          {
+            "name": "Xekit",
+            "chest_opened_img": "images/npcs/Xekit.png"
+          },
+          {
+            "name": "Zilex",
+            "chest_opened_img": "images/npcs/Zilex.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FANPC",
+            "x": 492,
+            "y": 440,
+            "size": 16
+          },
+          {
+            "map": "FAFull",
+            "x": 492,
+            "y": 440,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Theo & Zarkort",
+        "sections": [
+          {
+            "name": "Theo",
+            "chest_opened_img": "images/npcs/Theo.png"
+          },
+          {
+            "name": "Zarkort",
+            "chest_opened_img": "images/npcs/Zarkort.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "FANPC",
+            "x": 238,
+            "y": 540,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  }
+]

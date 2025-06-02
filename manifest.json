@@ -1,0 +1,21 @@
+{
+  "name": "Xenoblade Chronicles (AP Manual)",
+  "game_name": "Manual_XenobladeChronicles_Xanderoni",
+  "package_version": "1.0.1",
+  "package_uid": "AP_Man_Xeno1_Xan",
+  "author": "skipperki1",
+  "min_poptracker_version": "0.25.9",
+  "target_poptracker_version": "0.28.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": ["apmanual"]
+    },
+    "var_artsanity": {
+      "display_name": "Map Tracker (Artsanity)",
+      "flags": [
+        "apmanual"
+      ]
+    }
+  }
+}
