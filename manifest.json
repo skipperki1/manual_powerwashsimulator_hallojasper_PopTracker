@@ -1,8 +1,8 @@
 {
-  "name": "Xenoblade Chronicles (AP Manual)",
-  "game_name": "Manual_XenobladeChronicles_Xanderoni",
-  "package_version": "1.0.1",
-  "package_uid": "AP_Man_Xeno1_Xan",
+  "name": "Powerwash Simulator (AP Manual)",
+  "game_name": "Manual_PowerwashSimulator_hallojasper",
+  "package_version": "0.0.1",
+  "package_uid": "AP_Man_Powerwash_Jas",
   "author": "skipperki1",
   "min_poptracker_version": "0.25.9",
   "target_poptracker_version": "0.28.0",
@@ -11,11 +11,9 @@
       "display_name": "Map Tracker",
       "flags": ["apmanual"]
     },
-    "var_artsanity": {
-      "display_name": "Map Tracker (Artsanity)",
-      "flags": [
-        "apmanual"
-      ]
+    "itemsonly": {
+      "display_name": "Item Tracker",
+      "flags": ["ap"]
     }
   }
 }
