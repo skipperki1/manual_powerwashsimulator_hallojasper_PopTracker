@@ -338,3 +338,19 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 end
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+
+function trigger3000()
+	PV3000.Active = true
+end
+
+function triggerUrban()
+	UrbanXU2.Active = true
+end
+
+function triggerPro()
+	PVPro.Active = true
+end
+
+ScriptHost:AddWatchForCode("Toggle PV3000","PV3000Nozzles1",trigger3000)
+ScriptHost:AddWatchForCode("Toggle UrbanXU2","UrbanXU2Nozzles1",triggerUrban)
+ScriptHost:AddWatchForCode("Toggle PVPro","PVProNozzles1",triggerPro)
