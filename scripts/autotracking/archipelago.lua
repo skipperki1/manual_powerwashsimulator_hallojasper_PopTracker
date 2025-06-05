@@ -340,17 +340,17 @@ end
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
 
 function trigger3000()
-	PV3000.Active = true
+	Tracker:FindObjectForCode("PV3000").Active = Tracker:FindObjectForCode("PV3000Nozzles").CurrentStage ~= 0
 end
 
 function triggerUrban()
-	UrbanXU2.Active = true
+	Tracker:FindObjectForCode("UrbanXU2").Active = Tracker:FindObjectForCode("UrbanXU2Nozzles").CurrentStage ~= 0
 end
 
 function triggerPro()
-	PVPro.Active = true
+	Tracker:FindObjectForCode("PVPro").Active = Tracker:FindObjectForCode("PVProNozzles").CurrentStage ~= 0
 end
 
-ScriptHost:AddWatchForCode("Toggle PV3000","PV3000Nozzles1",trigger3000)
-ScriptHost:AddWatchForCode("Toggle UrbanXU2","UrbanXU2Nozzles1",triggerUrban)
-ScriptHost:AddWatchForCode("Toggle PVPro","PVProNozzles1",triggerPro)
+ScriptHost:AddWatchForCode("Toggle PV3000","PV3000Nozzles",trigger3000)
+ScriptHost:AddWatchForCode("Toggle UrbanXU2","UrbanXU2Nozzles",triggerUrban)
+ScriptHost:AddWatchForCode("Toggle PVPro","PVProNozzles",triggerPro)
