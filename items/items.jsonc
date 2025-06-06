@@ -317,5 +317,1043 @@
         "inherit_codes": true
       }
     ]
+  },
+  {
+    "name": "Van Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Van"
+  },
+  {
+    "name": "Van Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Van"
+  },
+  {
+    "name": "Van Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Van"
+  },
+  {
+    "name": "Van Lights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Van"
+  },
+  {
+    "name": "Van",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Van"
+  },
+  {
+    "name": "Vintage Car Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,VintageCar"
+  },
+  {
+    "name": "Vintage Car Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,VintageCar"
+  },
+  {
+    "name": "Vintage Car Doors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,VintageCar"
+  },
+  {
+    "name": "Vintage Car Accesories",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,VintageCar"
+  },
+  {
+    "name": "Vintage Car Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,VintageCar"
+  },
+  {
+    "name": "Vintage Car Front",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,VintageCar"
+  },
+  {
+    "name": "Vintage Car",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,VintageCar"
+  },
+  {
+    "name": "Golf Cart Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GolfCart"
+  },
+  {
+    "name": "Golf Cart Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GolfCart"
+  },
+  {
+    "name": "Golf Cart Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GolfCart"
+  },
+  {
+    "name": "Golf Cart Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GolfCart"
+  },
+  {
+    "name": "Golf Cart",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,GolfCart"
+  },
+  {
+    "name": "Recreation Vehicle Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RV"
+  },
+  {
+    "name": "Recreation Vehicle Lights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RV"
+  },
+  {
+    "name": "Recreation Vehicle Lower Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RV"
+  },
+  {
+    "name": "Recreation Vehicle Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RV"
+  },
+  {
+    "name": "Recreation Vehicle Upper Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RV"
+  },
+  {
+    "name": "Recreation Vehicle Accessories",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RV"
+  },
+  {
+    "name": "Recreation Vehicle",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,RV"
+  },
+  {
+    "name": "Drill Front",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Drill"
+  },
+  {
+    "name": "Drill Tracks",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Drill"
+  },
+  {
+    "name": "Drill Shielding",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Drill"
+  },
+  {
+    "name": "Drill Door",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Drill"
+  },
+  {
+    "name": "Drill",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Drill"
+  },
+  {
+    "name": "Frolic Boat Underside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FrolicBoat"
+  },
+  {
+    "name": "Frolic Boat Floor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FrolicBoat"
+  },
+  {
+    "name": "Frolic Boat Controls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FrolicBoat"
+  },
+  {
+    "name": "Frolic Boat Doors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FrolicBoat"
+  },
+  {
+    "name": "Frolic Boat Cabin Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FrolicBoat"
+  },
+  {
+    "name": "Frolic Boat Canopy",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FrolicBoat"
+  },
+  {
+    "name": "Frolic Boat Accesories",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FrolicBoat"
+  },
+  {
+    "name": "Frolic Boat",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FrolicBoat"
+  },
+  {
+    "name": "Stunt Plane Wheels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,StuntPlane"
+  },
+  {
+    "name": "Stunt Plane Engine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,StuntPlane"
+  },
+  {
+    "name": "Stunt Plane Rear Wings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,StuntPlane"
+  },
+  {
+    "name": "Stunt Plane Lower Wings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,StuntPlane"
+  },
+  {
+    "name": "Stunt Plane Upper Wing",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,StuntPlane"
+  },
+  {
+    "name": "Stunt Plane Cockpit",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,StuntPlane"
+  },
+  {
+    "name": "Stunt Plane",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,StuntPlane"
+  },
+  {
+    "name": "Back Garden Pond",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Steps",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Patio",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Table",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Fence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Dog House",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Swing Sofa",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Shed",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Barbeque",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,BackGarden"
+  },
+  {
+    "name": "Back Garden",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,BackGarden"
+  },
+  {
+    "name": "Mayor's Mansion Fence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MayorsMansion"
+  },
+  {
+    "name": "Mayor's Mansion Garage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MayorsMansion"
+  },
+  {
+    "name": "Mayor's Mansion Main Gate",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MayorsMansion"
+  },
+  {
+    "name": "Mayor's Mansion Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MayorsMansion"
+  },
+  {
+    "name": "Mayor's Mansion Door",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MayorsMansion"
+  },
+  {
+    "name": "Mayor's Mansion Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MayorsMansion"
+  },
+  {
+    "name": "Mayor's Mansion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,MayorsMansion"
+  },
+  {
+    "name": "Detached House Garage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DetachedHouse"
+  },
+  {
+    "name": "Detached House Porch",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DetachedHouse"
+  },
+  {
+    "name": "Detached House Veranda",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DetachedHouse"
+  },
+  {
+    "name": "Detached House Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DetachedHouse"
+  },
+  {
+    "name": "Detached House Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DetachedHouse"
+  },
+  {
+    "name": "Detached House Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DetachedHouse"
+  },
+  {
+    "name": "Detached House",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,DetachedHouse"
+  },
+  {
+    "name": "Fire Helicopter Tail",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireHelicopter"
+  },
+  {
+    "name": "Fire Helicopter Water Tank",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireHelicopter"
+  },
+  {
+    "name": "Fire Helicopter Landing Gearr",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireHelicopter"
+  },
+  {
+    "name": "Fire Helicopter Engine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireHelicopter"
+  },
+  {
+    "name": "Fire Helicopter Hydraulics",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireHelicopter"
+  },
+  {
+    "name": "Fire Helicopter Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireHelicopter"
+  },
+  {
+    "name": "Fire Helicopter",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FireHelicopter"
+  },
+  {
+    "name": "Dirt Bike Wheels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DirtBike"
+  },
+  {
+    "name": "Dirt Bike Front",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DirtBike"
+  },
+  {
+    "name": "Dirt Bike Frame",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DirtBike"
+  },
+  {
+    "name": "Dirt Bike Engine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DirtBike"
+  },
+  {
+    "name": "Dirt Bike Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,DirtBike"
+  },
+  {
+    "name": "Dirt Bike",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,DirtBike"
+  },
+  {
+    "name": "Playground Outer Floor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground Inner Floor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground Roundabout",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground Bridges",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground Lower Tower",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground Upper Tower",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground Short Tower Playthings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground Tall Tower Playthings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Playground"
+  },
+  {
+    "name": "Playground",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Playground"
+  },
+  {
+    "name": "Tree House Lower Deck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Middle Deck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Upper Deck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Barbeque",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Playground",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Stairs",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Tables",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Door",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,TreeHouse"
+  },
+  {
+    "name": "Tree House",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,TreeHouse"
+  },
+  {
+    "name": "Washroom Urinals",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Washroom"
+  },
+  {
+    "name": "Washroom Toilets",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Washroom"
+  },
+  {
+    "name": "Washroom Floor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Washroom"
+  },
+  {
+    "name": "Washroom Doors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Washroom"
+  },
+  {
+    "name": "Washroom Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Washroom"
+  },
+  {
+    "name": "Washroom Ceiling",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Washroom"
+  },
+  {
+    "name": "Washroom Water",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Washroom"
+  },
+  {
+    "name": "Washroom Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Washroom"
+  },
+  {
+    "name": "Washroom",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Washroom"
+  },
+  {
+    "name": "Monster Truck Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck Cat Head",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck Cat Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck Hatches",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck Sides",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck Rear",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck Underside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MonsterTruck"
+  },
+  {
+    "name": "Monster Truck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,MonsterTruck"
+  },
+  {
+    "name": "Ferris Wheel Wiring",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FerrisWheel"
+  },
+  {
+    "name": "Ferris Wheel Platform",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FerrisWheel"
+  },
+  {
+    "name": "Ferris Wheel Fences",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FerrisWheel"
+  },
+  {
+    "name": "Ferris Wheel Spokes",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FerrisWheel"
+  },
+  {
+    "name": "Ferris Wheel Star",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FerrisWheel"
+  },
+  {
+    "name": "Ferris Wheel Supports",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FerrisWheel"
+  },
+  {
+    "name": "Ferris Wheel Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FerrisWheel"
+  },
+  {
+    "name": "Ferris Wheel",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FerrisWheel"
+  },
+  {
+    "name": "Bungalow Porch",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Bungalow"
+  },
+  {
+    "name": "Bungalow Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Bungalow"
+  },
+  {
+    "name": "Bungalow Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Bungalow"
+  },
+  {
+    "name": "Bungalow Entry",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Bungalow"
+  },
+  {
+    "name": "Bungalow",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Bungalow"
+  },
+  {
+    "name": "Penny Farthing Frame",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PennyFarthing"
+  },
+  {
+    "name": "Penny Farthing Steering",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PennyFarthing"
+  },
+  {
+    "name": "Penny Farthing",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,PennyFarthing"
+  },
+  {
+    "name": "Grandpa Miller's Car Lights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GMCar"
+  },
+  {
+    "name": "Grandpa Miller's Car Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GMCar"
+  },
+  {
+    "name": "Grandpa Miller's Car Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GMCar"
+  },
+  {
+    "name": "Grandpa Miller's Car Wheels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GMCar"
+  },
+  {
+    "name": "Grandpa Miller's Car Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,GMCar"
+  },
+  {
+    "name": "Grandpa Miller's Car",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,GMCar"
+  },
+  {
+    "name": "Subway Platform Floors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Subway"
+  },
+  {
+    "name": "Subway Platform Ceilings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Subway"
+  },
+  {
+    "name": "Subway Platform Lights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Subway"
+  },
+  {
+    "name": "Subway Platform Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Subway"
+  },
+  {
+    "name": "Subway Platform Doors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Subway"
+  },
+  {
+    "name": "Subway Platform Screens",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Subway"
+  },
+  {
+    "name": "Subway Platform Benches",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Subway"
+  },
+  {
+    "name": "Subway Platform Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Subway"
+  },
+  {
+    "name": "Subway Platform",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Subway"
+  },
+  {
+    "name": "Motorbike and Sidecar Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MotorbikeSidecar"
+  },
+  {
+    "name": "Motorbike and Sidecar Sidecar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MotorbikeSidecar"
+  },
+  {
+    "name": "Motorbike and Sidecar Lights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MotorbikeSidecar"
+  },
+  {
+    "name": "Motorbike and Sidecar Engine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MotorbikeSidecar"
+  },
+  {
+    "name": "Motorbike and Sidecar Frame",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MotorbikeSidecar"
+  },
+  {
+    "name": "Motorbike and Sidecar Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,MotorbikeSidecar"
+  },
+  {
+    "name": "Motorbike and Sidecar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,MotorbikeSidecar"
+  },
+  {
+    "name": "Skatepark Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Skatepark"
+  },
+  {
+    "name": "Skatepark Floors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Skatepark"
+  },
+  {
+    "name": "Skatepark Floor Transitions",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Skatepark"
+  },
+  {
+    "name": "Skatepark Stunt Parts",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Skatepark"
+  },
+  {
+    "name": "Skatepark",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Skatepark"
+  },
+  {
+    "name": "Fire Truck Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireTruck"
+  },
+  {
+    "name": "Fire Truck Lights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireTruck"
+  },
+  {
+    "name": "Fire Truck Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireTruck"
+  },
+  {
+    "name": "Fire Truck Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireTruck"
+  },
+  {
+    "name": "Fire Truck Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireTruck"
+  },
+  {
+    "name": "Fire Truck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FireTruck"
+  },
+  {
+    "name": "Fire Truck Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FireTruck"
   }
 ]

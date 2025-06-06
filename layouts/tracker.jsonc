@@ -1,9 +1,10 @@
 {
   //sets the trackers layout
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-  "tracker_default": {
+  "tracker_horizontal": {
     "type": "container",
     "background": "#000000",
+    "max_width": 550,
     "content": {
       "type": "dock",
       "dropshadow": true,
@@ -32,11 +33,34 @@
               }
             }
           ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Locations",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Locations"
+                ]
+              }
+            },
+            {
+              "title": "Vehicles",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Vehicles"
+                ]
+              }
+            }
+          ]
         }
       ]
     }
   },
-  "tracker_horizontal": {
+  "tracker_default": {
     "type": "container",
     "background": "#000000",
     "content": {
@@ -50,7 +74,7 @@
             {
               "type": "group",
               "header": "Washers",
-              "dock": "top",
+              "dock": "left",
               "content": {
                 "type": "layout",
                 "key": "washers"
@@ -59,10 +83,33 @@
             {
               "type": "group",
               "header": "Equipment",
-              "dock": "top",
+              "dock": "right",
               "content": {
                 "type": "layout",
                 "key": "equipment"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Locations",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Locations"
+                ]
+              }
+            },
+            {
+              "title": "Vehicles",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Vehicles"
+                ]
               }
             }
           ]
