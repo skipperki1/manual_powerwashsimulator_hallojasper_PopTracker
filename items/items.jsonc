@@ -319,6 +319,30 @@
     ]
   },
   {
+    "name": "Completion Star Parts Mode",
+    "type": "consumable",
+    "img": "images/items/starParts.png",
+    "max_quantity": 70,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "consumable,Parts"
+  },
+  {
+    "name": "Completion Star Percentage Mode",
+    "type": "consumable",
+    "img": "images/items/starPercentage.png",
+    "max_quantity": 30,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "consumable,Percentage"
+  },
+  {
     "name": "Van Tyres",
     "type": "toggle",
     "allow_disabled": true,
@@ -1351,9 +1375,544 @@
     "codes":"toggle,Percentage,FireTruck"
   },
   {
-    "name": "Fire Truck Tyres",
+    "name": "Shoe House Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireTruck"
+    "codes":"toggle,Parts,ShoeHouse"
+  },
+  {
+    "name": "Shoe House Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ShoeHouse"
+  },
+  {
+    "name": "Shoe House Door",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ShoeHouse"
+  },
+  {
+    "name": "Shoe House Sole",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ShoeHouse"
+  },
+  {
+    "name": "Shoe House",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,ShoeHouse"
+  },
+  {
+    "name": "SUV Lights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,SUV"
+  },
+  {
+    "name": "SUV Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,SUV"
+  },
+  {
+    "name": "SUV Body",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,SUV"
+  },
+  {
+    "name": "SUV Tyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,SUV"
+  },
+  {
+    "name": "SUV",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,SUV"
+  },
+  {
+    "name": "Fortune Teller's Wagon Bay Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Skylight",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Storage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Table",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Decorations",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Door",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Underside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Entry",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FTWagon"
+  },
+  {
+    "name": "Fortune Teller's Wagon",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FTWagon"
+  },
+  {
+    "name": "Ancient Monument Phalanges",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientMonument"
+  },
+  {
+    "name": "Ancient Monument Arm",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientMonument"
+  },
+  {
+    "name": "Ancient Monument Hand",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientMonument"
+  },
+  {
+    "name": "Ancient Monument",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,AncientMonument"
+  },
+  {
+    "name": "Ancient Statue Helmet Slabs",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientStatue"
+  },
+  {
+    "name": "Ancient Statue Helmet Decoration",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientStatue"
+  },
+  {
+    "name": "Ancient Statue Head",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientStatue"
+  },
+  {
+    "name": "Ancient Statue Torso",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientStatue"
+  },
+  {
+    "name": "Ancient Statue Neck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientStatue"
+  },
+  {
+    "name": "Ancient Statue Arm",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,AncientStatue"
+  },
+  {
+    "name": "Ancient Statue",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,AncientStatue"
+  },
+  {
+    "name": "Recreational Vehicle Again Landing Gear",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RVAgain"
+  },
+  {
+    "name": "Recreational Vehicle Again Saucers",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RVAgain"
+  },
+  {
+    "name": "Recreational Vehicle Again Tractor Beam",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RVAgain"
+  },
+  {
+    "name": "Recreational Vehicle Again Gyromagnetic Discs",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RVAgain"
+  },
+  {
+    "name": "Recreational Vehicle Again Gravity Plating",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RVAgain"
+  },
+  {
+    "name": "Recreational Vehicle Again Engine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RVAgain"
+  },
+  {
+    "name": "Recreational Vehicle Again Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,RVAgain"
+  },
+  {
+    "name": "Recreational Vehicle Again",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,RVAgain"
+  },
+  {
+    "name": "Fishing Boat Anchor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat Hull",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat Main Deck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat Cabin",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat Bridge",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat Mast",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat Storage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,FishingBoat"
+  },
+  {
+    "name": "Fishing Boat",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FishingBoat"
+  },
+  {
+    "name": "Forest Cottage Back Dormer",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Back Gable",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Front Dormer",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Front Gable",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Front Wall",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Fence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Side Gable",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Main Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage Foundation",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,ForestCottage"
+  },
+  {
+    "name": "Forest Cottage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,ForestCottage"
+  },
+  {
+    "name": "Private Jet Landing Gear",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PrivateJet"
+  },
+  {
+    "name": "Private Jet Tail",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PrivateJet"
+  },
+  {
+    "name": "Private Jet Wings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PrivateJet"
+  },
+  {
+    "name": "Private Jet Cockpit",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PrivateJet"
+  },
+  {
+    "name": "Private Jet Propulsion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PrivateJet"
+  },
+  {
+    "name": "Private Jet Fuselage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PrivateJet"
+  },
+  {
+    "name": "Private Jet Laser",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PrivateJet"
+  },
+  {
+    "name": "Private Jet Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PrivateJet"
+  },
+  {
+    "name": "Private Jet",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,PrivateJet"
+  },
+  {
+    "name": "Temple Roof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Temple"
+  },
+  {
+    "name": "Temple Entrance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Temple"
+  },
+  {
+    "name": "Temple Windows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Temple"
+  },
+  {
+    "name": "Temple Walls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Temple"
+  },
+  {
+    "name": "Temple Miscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Temple"
+  },
+  {
+    "name": "Temple",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Temple"
+  },
+  {
+    "name": "Lost City Palace Atrium Alcove",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Atrium",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Central Opening",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Entrance Pediment",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Entrance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Gallery Ceiling",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Gallery",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Palace",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Pyramidion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Rear Entrance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Octopus",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace Statue",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,Palace"
+  },
+  {
+    "name": "Lost City Palace",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Palace"
+  },
+  {
+    "name": "Dirt",
+    "type": "consumable",
+    "max_quantity": 999999,
+    "increment": 1,
+    "codes":"consumable,Junk,Dirt"
   }
 ]
