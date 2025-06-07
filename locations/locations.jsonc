@@ -23,11 +23,11 @@
     ]
   },
   {
-    "name": "Victory",
+    "name": "Van",
     "children":[
       {
         "name": "Victory",
-        "access_rules": ["StarParts:70","StarPercentage:30"],
+        "access_rules": [""],
         "sections": [
           {
             "name": "Victory",

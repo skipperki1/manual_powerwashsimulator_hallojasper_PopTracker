@@ -346,25 +346,25 @@
     "name": "Van Tyres",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Van"
+    "codes":"toggle,Parts,PartVan"
   },
   {
     "name": "Van Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Van"
+    "codes":"toggle,Parts,PartVan"
   },
   {
     "name": "Van Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Van"
+    "codes":"toggle,Parts,PartVan"
   },
   {
     "name": "Van Lights",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Van"
+    "codes":"toggle,Parts,PartVan"
   },
   {
     "name": "Van",
@@ -376,37 +376,37 @@
     "name": "Vintage Car Tyres",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,VintageCar"
+    "codes":"toggle,Parts,PartVintageCar"
   },
   {
     "name": "Vintage Car Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,VintageCar"
+    "codes":"toggle,Parts,PartVintageCar"
   },
   {
     "name": "Vintage Car Doors",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,VintageCar"
+    "codes":"toggle,Parts,PartVintageCar"
   },
   {
     "name": "Vintage Car Accesories",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,VintageCar"
+    "codes":"toggle,Parts,PartVintageCar"
   },
   {
     "name": "Vintage Car Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,VintageCar"
+    "codes":"toggle,Parts,PartVintageCar"
   },
   {
     "name": "Vintage Car Front",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,VintageCar"
+    "codes":"toggle,Parts,PartVintageCar"
   },
   {
     "name": "Vintage Car",
@@ -418,25 +418,25 @@
     "name": "Golf Cart Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GolfCart"
+    "codes":"toggle,Parts,PartGolfCart"
   },
   {
     "name": "Golf Cart Tyres",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GolfCart"
+    "codes":"toggle,Parts,PartGolfCart"
   },
   {
     "name": "Golf Cart Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GolfCart"
+    "codes":"toggle,Parts,PartGolfCart"
   },
   {
     "name": "Golf Cart Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GolfCart"
+    "codes":"toggle,Parts,PartGolfCart"
   },
   {
     "name": "Golf Cart",
@@ -448,37 +448,37 @@
     "name": "Recreation Vehicle Tyres",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RV"
+    "codes":"toggle,Parts,PartRV"
   },
   {
     "name": "Recreation Vehicle Lights",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RV"
+    "codes":"toggle,Parts,PartRV"
   },
   {
     "name": "Recreation Vehicle Lower Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RV"
+    "codes":"toggle,Parts,PartRV"
   },
   {
     "name": "Recreation Vehicle Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RV"
+    "codes":"toggle,Parts,PartRV"
   },
   {
     "name": "Recreation Vehicle Upper Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RV"
+    "codes":"toggle,Parts,PartRV"
   },
   {
-    "name": "Recreation Vehicle Accessories",
+    "name": "Recreation Vehicle Accesories",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RV"
+    "codes":"toggle,Parts,PartRV"
   },
   {
     "name": "Recreation Vehicle",
@@ -490,25 +490,25 @@
     "name": "Drill Front",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Drill"
+    "codes":"toggle,Parts,PartDrill"
   },
   {
     "name": "Drill Tracks",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Drill"
+    "codes":"toggle,Parts,PartDrill"
   },
   {
     "name": "Drill Shielding",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Drill"
+    "codes":"toggle,Parts,PartDrill"
   },
   {
     "name": "Drill Door",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Drill"
+    "codes":"toggle,Parts,PartDrill"
   },
   {
     "name": "Drill",
@@ -520,43 +520,43 @@
     "name": "Frolic Boat Underside",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FrolicBoat"
+    "codes":"toggle,Parts,PartFrolicBoat"
   },
   {
     "name": "Frolic Boat Floor",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FrolicBoat"
+    "codes":"toggle,Parts,PartFrolicBoat"
   },
   {
     "name": "Frolic Boat Controls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FrolicBoat"
+    "codes":"toggle,Parts,PartFrolicBoat"
   },
   {
     "name": "Frolic Boat Doors",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FrolicBoat"
+    "codes":"toggle,Parts,PartFrolicBoat"
   },
   {
     "name": "Frolic Boat Cabin Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FrolicBoat"
+    "codes":"toggle,Parts,PartFrolicBoat"
   },
   {
     "name": "Frolic Boat Canopy",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FrolicBoat"
+    "codes":"toggle,Parts,PartFrolicBoat"
   },
   {
     "name": "Frolic Boat Accesories",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FrolicBoat"
+    "codes":"toggle,Parts,PartFrolicBoat"
   },
   {
     "name": "Frolic Boat",
@@ -568,37 +568,37 @@
     "name": "Stunt Plane Wheels",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,StuntPlane"
+    "codes":"toggle,Parts,PartStuntPlane"
   },
   {
     "name": "Stunt Plane Engine",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,StuntPlane"
+    "codes":"toggle,Parts,PartStuntPlane"
   },
   {
     "name": "Stunt Plane Rear Wings",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,StuntPlane"
+    "codes":"toggle,Parts,PartStuntPlane"
   },
   {
     "name": "Stunt Plane Lower Wings",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,StuntPlane"
+    "codes":"toggle,Parts,PartStuntPlane"
   },
   {
     "name": "Stunt Plane Upper Wing",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,StuntPlane"
+    "codes":"toggle,Parts,PartStuntPlane"
   },
   {
     "name": "Stunt Plane Cockpit",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,StuntPlane"
+    "codes":"toggle,Parts,PartStuntPlane"
   },
   {
     "name": "Stunt Plane",
@@ -610,61 +610,61 @@
     "name": "Back Garden Pond",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Steps",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Patio",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Table",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Fence",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Dog House",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Swing Sofa",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Shed",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Barbeque",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,BackGarden"
+    "codes":"toggle,Parts,PartBackGarden"
   },
   {
     "name": "Back Garden",
@@ -676,37 +676,37 @@
     "name": "Mayor's Mansion Fence",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MayorsMansion"
+    "codes":"toggle,Parts,PartMayorsMansion"
   },
   {
     "name": "Mayor's Mansion Garage",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MayorsMansion"
+    "codes":"toggle,Parts,PartMayorsMansion"
   },
   {
     "name": "Mayor's Mansion Main Gate",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MayorsMansion"
+    "codes":"toggle,Parts,PartMayorsMansion"
   },
   {
     "name": "Mayor's Mansion Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MayorsMansion"
+    "codes":"toggle,Parts,PartMayorsMansion"
   },
   {
     "name": "Mayor's Mansion Door",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MayorsMansion"
+    "codes":"toggle,Parts,PartMayorsMansion"
   },
   {
     "name": "Mayor's Mansion Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MayorsMansion"
+    "codes":"toggle,Parts,PartMayorsMansion"
   },
   {
     "name": "Mayor's Mansion",
@@ -718,37 +718,37 @@
     "name": "Detached House Garage",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DetachedHouse"
+    "codes":"toggle,Parts,PartDetachedHouse"
   },
   {
     "name": "Detached House Porch",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DetachedHouse"
+    "codes":"toggle,Parts,PartDetachedHouse"
   },
   {
     "name": "Detached House Veranda",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DetachedHouse"
+    "codes":"toggle,Parts,PartDetachedHouse"
   },
   {
     "name": "Detached House Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DetachedHouse"
+    "codes":"toggle,Parts,PartDetachedHouse"
   },
   {
     "name": "Detached House Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DetachedHouse"
+    "codes":"toggle,Parts,PartDetachedHouse"
   },
   {
     "name": "Detached House Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DetachedHouse"
+    "codes":"toggle,Parts,PartDetachedHouse"
   },
   {
     "name": "Detached House",
@@ -760,37 +760,37 @@
     "name": "Fire Helicopter Tail",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireHelicopter"
+    "codes":"toggle,Parts,PartFireHelicopter"
   },
   {
     "name": "Fire Helicopter Water Tank",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireHelicopter"
+    "codes":"toggle,Parts,PartFireHelicopter"
   },
   {
     "name": "Fire Helicopter Landing Gearr",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireHelicopter"
+    "codes":"toggle,Parts,PartFireHelicopter"
   },
   {
     "name": "Fire Helicopter Engine",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireHelicopter"
+    "codes":"toggle,Parts,PartFireHelicopter"
   },
   {
     "name": "Fire Helicopter Hydraulics",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireHelicopter"
+    "codes":"toggle,Parts,PartFireHelicopter"
   },
   {
     "name": "Fire Helicopter Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireHelicopter"
+    "codes":"toggle,Parts,PartFireHelicopter"
   },
   {
     "name": "Fire Helicopter",
@@ -802,31 +802,31 @@
     "name": "Dirt Bike Wheels",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DirtBike"
+    "codes":"toggle,Parts,PartDirtBike"
   },
   {
     "name": "Dirt Bike Front",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DirtBike"
+    "codes":"toggle,Parts,PartDirtBike"
   },
   {
     "name": "Dirt Bike Frame",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DirtBike"
+    "codes":"toggle,Parts,PartDirtBike"
   },
   {
     "name": "Dirt Bike Engine",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DirtBike"
+    "codes":"toggle,Parts,PartDirtBike"
   },
   {
     "name": "Dirt Bike Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,DirtBike"
+    "codes":"toggle,Parts,PartDirtBike"
   },
   {
     "name": "Dirt Bike",
@@ -838,55 +838,55 @@
     "name": "Playground Outer Floor",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground Inner Floor",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground Roundabout",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground Bridges",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground Lower Tower",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground Upper Tower",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground Short Tower Playthings",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground Tall Tower Playthings",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Playground"
+    "codes":"toggle,Parts,PartPlayground"
   },
   {
     "name": "Playground",
@@ -898,67 +898,67 @@
     "name": "Tree House Lower Deck",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Middle Deck",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Upper Deck",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Barbeque",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Playground",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Stairs",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Tables",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Door",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,TreeHouse"
+    "codes":"toggle,Parts,PartTreeHouse"
   },
   {
     "name": "Tree House",
@@ -970,49 +970,49 @@
     "name": "Washroom Urinals",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Washroom"
+    "codes":"toggle,Parts,PartWashroom"
   },
   {
     "name": "Washroom Toilets",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Washroom"
+    "codes":"toggle,Parts,PartWashroom"
   },
   {
     "name": "Washroom Floor",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Washroom"
+    "codes":"toggle,Parts,PartWashroom"
   },
   {
     "name": "Washroom Doors",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Washroom"
+    "codes":"toggle,Parts,PartWashroom"
   },
   {
     "name": "Washroom Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Washroom"
+    "codes":"toggle,Parts,PartWashroom"
   },
   {
     "name": "Washroom Ceiling",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Washroom"
+    "codes":"toggle,Parts,PartWashroom"
   },
   {
     "name": "Washroom Water",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Washroom"
+    "codes":"toggle,Parts,PartWashroom"
   },
   {
     "name": "Washroom Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Washroom"
+    "codes":"toggle,Parts,PartWashroom"
   },
   {
     "name": "Washroom",
@@ -1024,55 +1024,55 @@
     "name": "Monster Truck Tyres",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck Cat Head",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck Cat Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck Hatches",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck Sides",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck Rear",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck Underside",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MonsterTruck"
+    "codes":"toggle,Parts,PartMonsterTruck"
   },
   {
     "name": "Monster Truck",
@@ -1084,43 +1084,43 @@
     "name": "Ferris Wheel Wiring",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FerrisWheel"
+    "codes":"toggle,Parts,PartFerrisWheel"
   },
   {
     "name": "Ferris Wheel Platform",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FerrisWheel"
+    "codes":"toggle,Parts,PartFerrisWheel"
   },
   {
     "name": "Ferris Wheel Fences",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FerrisWheel"
+    "codes":"toggle,Parts,PartFerrisWheel"
   },
   {
     "name": "Ferris Wheel Spokes",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FerrisWheel"
+    "codes":"toggle,Parts,PartFerrisWheel"
   },
   {
     "name": "Ferris Wheel Star",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FerrisWheel"
+    "codes":"toggle,Parts,PartFerrisWheel"
   },
   {
     "name": "Ferris Wheel Supports",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FerrisWheel"
+    "codes":"toggle,Parts,PartFerrisWheel"
   },
   {
     "name": "Ferris Wheel Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FerrisWheel"
+    "codes":"toggle,Parts,PartFerrisWheel"
   },
   {
     "name": "Ferris Wheel",
@@ -1132,25 +1132,25 @@
     "name": "Bungalow Porch",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Bungalow"
+    "codes":"toggle,Parts,PartBungalow"
   },
   {
     "name": "Bungalow Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Bungalow"
+    "codes":"toggle,Parts,PartBungalow"
   },
   {
     "name": "Bungalow Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Bungalow"
+    "codes":"toggle,Parts,PartBungalow"
   },
   {
     "name": "Bungalow Entry",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Bungalow"
+    "codes":"toggle,Parts,PartBungalow"
   },
   {
     "name": "Bungalow",
@@ -1162,13 +1162,13 @@
     "name": "Penny Farthing Frame",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PennyFarthing"
+    "codes":"toggle,Parts,PartPennyFarthing"
   },
   {
     "name": "Penny Farthing Steering",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PennyFarthing"
+    "codes":"toggle,Parts,PartPennyFarthing"
   },
   {
     "name": "Penny Farthing",
@@ -1180,31 +1180,31 @@
     "name": "Grandpa Miller's Car Lights",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GMCar"
+    "codes":"toggle,Parts,PartGMCar"
   },
   {
     "name": "Grandpa Miller's Car Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GMCar"
+    "codes":"toggle,Parts,PartGMCar"
   },
   {
     "name": "Grandpa Miller's Car Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GMCar"
+    "codes":"toggle,Parts,PartGMCar"
   },
   {
     "name": "Grandpa Miller's Car Wheels",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GMCar"
+    "codes":"toggle,Parts,PartGMCar"
   },
   {
     "name": "Grandpa Miller's Car Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,GMCar"
+    "codes":"toggle,Parts,PartGMCar"
   },
   {
     "name": "Grandpa Miller's Car",
@@ -1216,49 +1216,49 @@
     "name": "Subway Platform Floors",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Subway"
+    "codes":"toggle,Parts,PartSubway"
   },
   {
     "name": "Subway Platform Ceilings",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Subway"
+    "codes":"toggle,Parts,PartSubway"
   },
   {
     "name": "Subway Platform Lights",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Subway"
+    "codes":"toggle,Parts,PartSubway"
   },
   {
     "name": "Subway Platform Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Subway"
+    "codes":"toggle,Parts,PartSubway"
   },
   {
     "name": "Subway Platform Doors",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Subway"
+    "codes":"toggle,Parts,PartSubway"
   },
   {
     "name": "Subway Platform Screens",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Subway"
+    "codes":"toggle,Parts,PartSubway"
   },
   {
     "name": "Subway Platform Benches",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Subway"
+    "codes":"toggle,Parts,PartSubway"
   },
   {
     "name": "Subway Platform Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Subway"
+    "codes":"toggle,Parts,PartSubway"
   },
   {
     "name": "Subway Platform",
@@ -1270,37 +1270,37 @@
     "name": "Motorbike and Sidecar Tyres",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MotorbikeSidecar"
+    "codes":"toggle,Parts,PartMotorbikeSidecar"
   },
   {
     "name": "Motorbike and Sidecar Sidecar",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MotorbikeSidecar"
+    "codes":"toggle,Parts,PartMotorbikeSidecar"
   },
   {
     "name": "Motorbike and Sidecar Lights",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MotorbikeSidecar"
+    "codes":"toggle,Parts,PartMotorbikeSidecar"
   },
   {
     "name": "Motorbike and Sidecar Engine",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MotorbikeSidecar"
+    "codes":"toggle,Parts,PartMotorbikeSidecar"
   },
   {
     "name": "Motorbike and Sidecar Frame",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MotorbikeSidecar"
+    "codes":"toggle,Parts,PartMotorbikeSidecar"
   },
   {
     "name": "Motorbike and Sidecar Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,MotorbikeSidecar"
+    "codes":"toggle,Parts,PartMotorbikeSidecar"
   },
   {
     "name": "Motorbike and Sidecar",
@@ -1312,25 +1312,25 @@
     "name": "Skatepark Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Skatepark"
+    "codes":"toggle,Parts,PartSkatepark"
   },
   {
     "name": "Skatepark Floors",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Skatepark"
+    "codes":"toggle,Parts,PartSkatepark"
   },
   {
     "name": "Skatepark Floor Transitions",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Skatepark"
+    "codes":"toggle,Parts,PartSkatepark"
   },
   {
     "name": "Skatepark Stunt Parts",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Skatepark"
+    "codes":"toggle,Parts,PartSkatepark"
   },
   {
     "name": "Skatepark",
@@ -1342,31 +1342,31 @@
     "name": "Fire Truck Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireTruck"
+    "codes":"toggle,Parts,PartFireTruck"
   },
   {
     "name": "Fire Truck Lights",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireTruck"
+    "codes":"toggle,Parts,PartFireTruck"
   },
   {
     "name": "Fire Truck Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireTruck"
+    "codes":"toggle,Parts,PartFireTruck"
   },
   {
     "name": "Fire Truck Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireTruck"
+    "codes":"toggle,Parts,PartFireTruck"
   },
   {
     "name": "Fire Truck Tyres",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FireTruck"
+    "codes":"toggle,Parts,PartFireTruck"
   },
   {
     "name": "Fire Truck",
@@ -1378,25 +1378,25 @@
     "name": "Shoe House Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ShoeHouse"
+    "codes":"toggle,Parts,PartShoeHouse"
   },
   {
     "name": "Shoe House Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ShoeHouse"
+    "codes":"toggle,Parts,PartShoeHouse"
   },
   {
     "name": "Shoe House Door",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ShoeHouse"
+    "codes":"toggle,Parts,PartShoeHouse"
   },
   {
     "name": "Shoe House Sole",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ShoeHouse"
+    "codes":"toggle,Parts,PartShoeHouse"
   },
   {
     "name": "Shoe House",
@@ -1408,25 +1408,25 @@
     "name": "SUV Lights",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,SUV"
+    "codes":"toggle,Parts,PartSUV"
   },
   {
     "name": "SUV Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,SUV"
+    "codes":"toggle,Parts,PartSUV"
   },
   {
     "name": "SUV Body",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,SUV"
+    "codes":"toggle,Parts,PartSUV"
   },
   {
     "name": "SUV Tyres",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,SUV"
+    "codes":"toggle,Parts,PartSUV"
   },
   {
     "name": "SUV",
@@ -1438,61 +1438,61 @@
     "name": "Fortune Teller's Wagon Bay Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Skylight",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Storage",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Table",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Decorations",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Door",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Underside",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Entry",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FTWagon"
+    "codes":"toggle,Parts,PartFTWagon"
   },
   {
     "name": "Fortune Teller's Wagon",
@@ -1504,19 +1504,19 @@
     "name": "Ancient Monument Phalanges",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientMonument"
+    "codes":"toggle,Parts,PartAncientMonument"
   },
   {
     "name": "Ancient Monument Arm",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientMonument"
+    "codes":"toggle,Parts,PartAncientMonument"
   },
   {
     "name": "Ancient Monument Hand",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientMonument"
+    "codes":"toggle,Parts,PartAncientMonument"
   },
   {
     "name": "Ancient Monument",
@@ -1528,37 +1528,37 @@
     "name": "Ancient Statue Helmet Slabs",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientStatue"
+    "codes":"toggle,Parts,PartAncientStatue"
   },
   {
     "name": "Ancient Statue Helmet Decoration",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientStatue"
+    "codes":"toggle,Parts,PartAncientStatue"
   },
   {
     "name": "Ancient Statue Head",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientStatue"
+    "codes":"toggle,Parts,PartAncientStatue"
   },
   {
     "name": "Ancient Statue Torso",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientStatue"
+    "codes":"toggle,Parts,PartAncientStatue"
   },
   {
     "name": "Ancient Statue Neck",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientStatue"
+    "codes":"toggle,Parts,PartAncientStatue"
   },
   {
     "name": "Ancient Statue Arm",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,AncientStatue"
+    "codes":"toggle,Parts,PartAncientStatue"
   },
   {
     "name": "Ancient Statue",
@@ -1570,43 +1570,43 @@
     "name": "Recreational Vehicle Again Landing Gear",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RVAgain"
+    "codes":"toggle,Parts,PartRVAgain"
   },
   {
     "name": "Recreational Vehicle Again Saucers",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RVAgain"
+    "codes":"toggle,Parts,PartRVAgain"
   },
   {
     "name": "Recreational Vehicle Again Tractor Beam",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RVAgain"
+    "codes":"toggle,Parts,PartRVAgain"
   },
   {
     "name": "Recreational Vehicle Again Gyromagnetic Discs",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RVAgain"
+    "codes":"toggle,Parts,PartRVAgain"
   },
   {
     "name": "Recreational Vehicle Again Gravity Plating",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RVAgain"
+    "codes":"toggle,Parts,PartRVAgain"
   },
   {
     "name": "Recreational Vehicle Again Engine",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RVAgain"
+    "codes":"toggle,Parts,PartRVAgain"
   },
   {
     "name": "Recreational Vehicle Again Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,RVAgain"
+    "codes":"toggle,Parts,PartRVAgain"
   },
   {
     "name": "Recreational Vehicle Again",
@@ -1618,55 +1618,55 @@
     "name": "Fishing Boat Anchor",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat Hull",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat Main Deck",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat Cabin",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat Bridge",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat Mast",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat Storage",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,FishingBoat"
+    "codes":"toggle,Parts,PartFishingBoat"
   },
   {
     "name": "Fishing Boat",
@@ -1678,61 +1678,61 @@
     "name": "Forest Cottage Back Dormer",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Back Gable",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Front Dormer",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Front Gable",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Front Wall",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Fence",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Side Gable",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Main Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage Foundation",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,ForestCottage"
+    "codes":"toggle,Parts,PartForestCottage"
   },
   {
     "name": "Forest Cottage",
@@ -1744,49 +1744,49 @@
     "name": "Private Jet Landing Gear",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PrivateJet"
+    "codes":"toggle,Parts,PartPrivateJet"
   },
   {
     "name": "Private Jet Tail",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PrivateJet"
+    "codes":"toggle,Parts,PartPrivateJet"
   },
   {
     "name": "Private Jet Wings",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PrivateJet"
+    "codes":"toggle,Parts,PartPrivateJet"
   },
   {
     "name": "Private Jet Cockpit",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PrivateJet"
+    "codes":"toggle,Parts,PartPrivateJet"
   },
   {
     "name": "Private Jet Propulsion",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PrivateJet"
+    "codes":"toggle,Parts,PartPrivateJet"
   },
   {
     "name": "Private Jet Fuselage",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PrivateJet"
+    "codes":"toggle,Parts,PartPrivateJet"
   },
   {
     "name": "Private Jet Laser",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PrivateJet"
+    "codes":"toggle,Parts,PartPrivateJet"
   },
   {
     "name": "Private Jet Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PrivateJet"
+    "codes":"toggle,Parts,PartPrivateJet"
   },
   {
     "name": "Private Jet",
@@ -1798,31 +1798,31 @@
     "name": "Temple Roof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Temple"
+    "codes":"toggle,Parts,PartTemple"
   },
   {
     "name": "Temple Entrance",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Temple"
+    "codes":"toggle,Parts,PartTemple"
   },
   {
     "name": "Temple Windows",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Temple"
+    "codes":"toggle,Parts,PartTemple"
   },
   {
     "name": "Temple Walls",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Temple"
+    "codes":"toggle,Parts,PartTemple"
   },
   {
     "name": "Temple Miscellaneous",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Temple"
+    "codes":"toggle,Parts,PartTemple"
   },
   {
     "name": "Temple",
@@ -1834,73 +1834,73 @@
     "name": "Lost City Palace Atrium Alcove",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Atrium",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Central Opening",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Entrance Pediment",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Entrance",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Gallery Ceiling",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Gallery",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Palace",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Pyramidion",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Rear Entrance",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Octopus",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace Statue",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,Palace"
+    "codes":"toggle,Parts,PartPalace"
   },
   {
     "name": "Lost City Palace",
