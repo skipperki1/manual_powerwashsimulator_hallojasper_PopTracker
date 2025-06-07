@@ -31,6 +31,15 @@
                 "type": "layout",
                 "key": "equipment"
               }
+            },
+            {
+              "type": "group",
+              "header": "MacGuffins",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "MacGuffins"
+              }
             }
           ]
         },
@@ -52,6 +61,15 @@
                 "type": "map",
                 "maps": [
                   "Vehicles"
+                ]
+              }
+            },
+            {
+              "title": "Victory",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Victory"
                 ]
               }
             }
@@ -88,6 +106,15 @@
                 "type": "layout",
                 "key": "equipment"
               }
+            },
+            {
+              "type": "group",
+              "header": "MacGuffins",
+              "dock": "right",
+              "content": {
+                "type": "layout",
+                "key": "MacGuffins"
+              }
             }
           ]
         },
@@ -109,6 +136,15 @@
                 "type": "map",
                 "maps": [
                   "Vehicles"
+                ]
+              }
+            },
+            {
+              "title": "Victory",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Victory"
                 ]
               }
             }

@@ -327,8 +327,8 @@
     "decrement": 1,
     "initial_quantity": 0,
     "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable,Parts"
+    "overlay_font_size": 16,
+    "codes": "consumable,Parts,StarParts"
   },
   {
     "name": "Completion Star Percentage Mode",
@@ -339,8 +339,8 @@
     "decrement": 1,
     "initial_quantity": 0,
     "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable,Percentage"
+    "overlay_font_size": 16,
+    "codes": "consumable,Percentage,StarPercentage"
   },
   {
     "name": "Van Tyres",

@@ -11,5 +11,11 @@
     "location_size": 48,
     "location_border_thickness": 4,
     "img": "images/maps/Vehicles.png"
+  },
+  {
+    "name": "Victory",
+    "location_size": 48,
+    "location_border_thickness": 2,
+    "img": "images/maps/Victory.png"
   }
 ]
