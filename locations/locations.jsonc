@@ -1297,35 +1297,31 @@
             "name": "40%"
           },
           {
-            "name": "50%",
-            "access_rules": ["Encrusted"]
+            "name": "50%"
           },
           {
-            "name": "60%",
-            "access_rules": ["Encrusted"]
+            "name": "60%"
           },
           {
-            "name": "70%",
-            "access_rules": ["Ingrained"]
+            "name": "70%"
           },
           {
-            "name": "80%",
-            "access_rules": ["Ingrained"]
+            "name": "80%"
           },
           {
             "name": "90%",
-            "access_rules": ["Ingrained"]
+            "access_rules": ["Encrusted"]
           },
           {
             "name": "100%",
-            "access_rules": ["Oily"]
+            "access_rules": ["Tough"]
           }
         ],
         "map_locations": [
           {
-            "map": "Vehicles2",
-            "x": 822,
-            "y": 635,
+            "map": "Locations1",
+            "x": 130,
+            "y": 123,
             "size": 16
           }
         ]
@@ -1637,6 +1633,194 @@
             "map": "Locations1",
             "x": 270,
             "y": 163,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Miscellaneous",
+        "access_rules": ["BackGardenMiscellaneous"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Bird House",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Bird House Stand",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Lawnmower",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Lawnmower Engine",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Lawnmower Handle",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Toy Car",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Toy Car Seat",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 340,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mayors Mansion",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["MayorsMansion,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesMayorsMansion"],
+        "sections": [
+          {
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%"
+          },
+          {
+            "name": "50%"
+          },
+          {
+            "name": "60%"
+          },
+          {
+            "name": "70%"
+          },
+          {
+            "name": "80%"
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 130,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Fence",
+        "access_rules": ["MayorsMansionFence"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Fence Caps",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Fence Posts",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Fence Railings",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Fence Walls",
+            "access_rules": ["Stubborn"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1404,
+            "y": 634,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Garage",
+        "access_rules": ["MayorsMansionGarage"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Garage Door",
+            "access_rules": ["Surface,PV1500Extensions3,PV1500Nozzles4","Surface,UrbanXU2Extensions3,UrbanXU2Nozzles4","Surface,PV3000Extensions3,PV3000Nozzles3","Surface,PV3000Extensions2,PV3000Nozzles4","Surface,PVProExtensions3,PVProNozzles2","Surface,PVProExtensions2,PVProNozzles4"]
+          },
+          {
+            "name": "Garage Gates",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Garage Roof",
+            "access_rules": ["Surface,PV1500Extensions3,PV1500Nozzles4","Surface,UrbanXU2Extensions3,UrbanXU2Nozzles4","Surface,PV3000Extensions3,PV3000Nozzles3","Surface,PVProExtensions3,PVProNozzles2","Surface,PVProExtensions2,PVProNozzles4"]
+          },
+          {
+            "name": "Garage Walls",
+            "access_rules": ["Surface,PV1500Extensions3,PV1500Nozzles4","Surface,UrbanXU2Extensions3,UrbanXU2Nozzles4","Surface,PV3000Extensions3,PV3000Nozzles3","Surface,PVProExtensions3,PVProNozzles2","Surface,PVProExtensions2,PVProNozzles4"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1484,
+            "y": 634,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Main Gate",
+        "access_rules": ["MayorsMansionMainGate"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Main Gates",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Main Gate Ornaments",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Stairs",
+            "access_rules": ["Surface,PV1500Extensions3,PV1500Nozzles2","Surface,PV1500Extensions2,PV1500Nozzles3","Surface,PV1500Extensions1,PV1500Nozzles4"]
+          },
+          {
+            "name": "Stairs Ornaments",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1404,
+            "y": 634,
             "size": 16
           }
         ]
