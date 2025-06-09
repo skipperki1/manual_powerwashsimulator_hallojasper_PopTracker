@@ -1,6 +1,6 @@
 {
   //sets the layout for the broadcast view
-  "tracker_broadcast": {
+  "tracker_default": {
     "type": "array",
     "orientation": "vertical",
     "margin": "0,0",
@@ -26,6 +26,15 @@
               "content": {
                 "type": "layout",
                 "key": "equipment"
+              }
+            },
+            {
+              "type": "group",
+              "header": "MacGuffins/Settings",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "MacGuffins/Settings"
               }
             }
         ]

@@ -127,6 +127,7 @@ function onClear(slot_data)
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
 	CUR_INDEX = -1
+	SLOT_DATA = slot_data
 	-- reset locations
 	for _, mapping_entry in pairs(LOCATION_MAPPING) do
 		for _, location_table in ipairs(mapping_entry) do
@@ -172,9 +173,130 @@ function onClear(slot_data)
 			end
 		end
 	end
+	
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
+
+	for k, v in pairs(SETTINGS_MAPPING) do
+		obj = Tracker:FindObjectForCode(v)
+
+		local value = SLOT_DATA[k]
+		local tog = value == 1
+
+		if k == "Parts_Mode" then
+			Tracker:FindObjectForCode("mode").CurrentStage = value
+		elseif k == "Include_Temple" then
+			Tracker:FindObjectForCode("YesTemple").Active = tog
+
+		elseif k == "Hard_Parkour" then
+			Tracker:FindObjectForCode("HardParkour").Active = tog
+
+		elseif k == "Include_Forest_Cottage" then
+			Tracker:FindObjectForCode("YesForestCottage").Active = tog
+
+		elseif k == "Include_Fortune_Tellers_Wagon" then
+			Tracker:FindObjectForCode("YesFortuneTellersWagon").Active = tog
+
+		elseif k == "Include_Fire_Truck" then
+			Tracker:FindObjectForCode("YesFireTruck").Active = tog
+
+		elseif k == "Include_Shoe_House" then
+			Tracker:FindObjectForCode("YesShoeHouse").Active = tog
+
+		elseif k == "Include_Grandpa_Millers_Car" then
+			Tracker:FindObjectForCode("YesGrandpaMillersCar").Active = tog
+
+		elseif k == "Include_Private_Jet" then
+			Tracker:FindObjectForCode("YesPrivateJet").Active = tog
+
+		elseif k == "Include_Ancient_Statue" then
+			Tracker:FindObjectForCode("YesAncientStatue").Active = tog
+
+		elseif k == "Include_Skatepark" then
+			Tracker:FindObjectForCode("YesSkatepark").Active = tog
+
+		elseif k == "Include_Back_Garden" then
+			Tracker:FindObjectForCode("YesBackGarden").Active = tog
+
+		elseif k == "Include_Ferris_Wheel" then
+			Tracker:FindObjectForCode("YesFerrisWheel").Active = tog
+
+		elseif k == "Include_Tree_House" then
+			Tracker:FindObjectForCode("YesTreeHouse").Active = tog
+
+		elseif k == "Include_Bungalow" then
+			Tracker:FindObjectForCode("YesBungalow").Active = tog
+
+		elseif k == "Include_Drill" then
+			Tracker:FindObjectForCode("YesDrill").Active = tog
+
+		elseif k == "Include_Vintage_Car" then
+			Tracker:FindObjectForCode("YesVintageCar").Active = tog
+
+		elseif k == "Include_Fire_Helicopter" then
+			Tracker:FindObjectForCode("YesFireHelicopter").Active = tog
+
+		elseif k == "Include_Washroom" then
+			Tracker:FindObjectForCode("YesWashroom").Active = tog
+
+		elseif k == "Include_Subway_Platform" then
+			Tracker:FindObjectForCode("YesSubwayPlatform").Active = tog
+
+		elseif k == "Include_Van" then
+			Tracker:FindObjectForCode("YesVan").Active = tog
+
+		elseif k == "Include_Golf_Cart" then
+			Tracker:FindObjectForCode("YesGolfCart").Active = tog
+
+		elseif k == "Include_Fishing_Boat" then
+			Tracker:FindObjectForCode("YesFishingBoat").Active = tog
+
+		elseif k == "Include_SUV" then
+			Tracker:FindObjectForCode("YesSUV").Active = tog
+
+		elseif k == "Include_Recreation_Vehicle" then
+			Tracker:FindObjectForCode("YesRecreationVehicle").Active = tog
+
+		elseif k == "Include_Frolic_Boat" then
+			Tracker:FindObjectForCode("YesFrolicBoat").Active = tog
+
+		elseif k == "Include_Mayors_Mansion" then
+			Tracker:FindObjectForCode("YesMayorsMansion").Active = tog
+
+		elseif k == "Include_Stunt_Plane" then
+			Tracker:FindObjectForCode("YesStuntPlane").Active = tog
+
+		elseif k == "Include_Penny_Farthing" then
+			Tracker:FindObjectForCode("YesPennyFarthing").Active = tog
+
+		elseif k == "Include_Playground" then
+			Tracker:FindObjectForCode("YesPlayground").Active = tog
+
+		elseif k == "Include_Monster_Truck" then
+			Tracker:FindObjectForCode("YesMonsterTruck").Active = tog
+
+		elseif k == "Include_Lost_City_Palace" then
+			Tracker:FindObjectForCode("YesLostCityPalace").Active = tog
+
+		elseif k == "Include_Detached_House" then
+			Tracker:FindObjectForCode("YesDetachedHouse").Active = tog
+
+		elseif k == "Include_Ancient_Monument" then
+			Tracker:FindObjectForCode("YesAncientMonument").Active = tog
+
+		elseif k == "Include_Recreation_Vehicle_Again" then
+			Tracker:FindObjectForCode("YesRecreationVehicleAgain").Active = tog
+
+		elseif k == "Include_Motorbike_and_Sidecar" then
+			Tracker:FindObjectForCode("YesMotorbikeandSidecar").Active = tog
+
+		elseif k == "Include_Dirt_Bike" then
+			Tracker:FindObjectForCode("YesDirtBike").Active = tog
+		end
+		
+	end
+
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
 	if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
 		-- add snes interface functions here
@@ -282,7 +404,7 @@ end
 
 ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
     local sectionID = section.FullID
-    if sectionID == "Victory/Zanza The Devine/Clear" then
+    if sectionID == "Victory/Victory/Victory" then
         if section.AvailableChestCount == 0 then
             local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
             if res then
@@ -354,3 +476,51 @@ end
 ScriptHost:AddWatchForCode("Toggle PV3000","PV3000Nozzles",trigger3000)
 ScriptHost:AddWatchForCode("Toggle UrbanXU2","UrbanXU2Nozzles",triggerUrban)
 ScriptHost:AddWatchForCode("Toggle PVPro","PVProNozzles",triggerPro)
+
+function triggerSurface()
+	Tracker:FindObjectForCode("Surface").Active = Tracker:FindObjectForCode("PV1500Nozzles").CurrentStage ~= 0
+end
+
+function triggerEncrusted()
+	Tracker:FindObjectForCode("Encrusted").Active = (Tracker:FindObjectForCode("PV1500Nozzles").CurrentStage >= 2 or Tracker:FindObjectForCode("UrbanXU2Nozzles").CurrentStage ~= 0 or Tracker:FindObjectForCode("PV3000Nozzles").CurrentStage ~= 0 or Tracker:FindObjectForCode("PVProNozzles").CurrentStage ~= 0) 
+end
+
+function triggerEmbedded()
+	Tracker:FindObjectForCode("Embedded").Active = (Tracker:FindObjectForCode("PV1500Nozzles").CurrentStage >= 3 or Tracker:FindObjectForCode("UrbanXU2Nozzles").CurrentStage >= 2 or Tracker:FindObjectForCode("PV3000Nozzles").CurrentStage ~= 0 or Tracker:FindObjectForCode("PVProNozzles").CurrentStage ~= 0) 
+end
+
+function triggerTough()
+	Tracker:FindObjectForCode("Tough").Active = (Tracker:FindObjectForCode("PV1500Nozzles").CurrentStage <= 4 or Tracker:FindObjectForCode("UrbanXU2Nozzles").CurrentStage >= 3 or Tracker:FindObjectForCode("PV3000Nozzles").CurrentStage >= 2 or Tracker:FindObjectForCode("PVProNozzles").CurrentStage ~= 0) 
+end
+
+function triggerStubborn()
+	Tracker:FindObjectForCode("Stubborn").Active = (Tracker:FindObjectForCode("UrbanXU2Nozzles").CurrentStage >= 3 or Tracker:FindObjectForCode("PV3000Nozzles").CurrentStage >= 2 or Tracker:FindObjectForCode("PVProNozzles").CurrentStage ~= 0) 
+end
+
+function triggerIngrained()
+	Tracker:FindObjectForCode("Ingrained").Active = (Tracker:FindObjectForCode("PV3000Nozzles").CurrentStage >= 4 or Tracker:FindObjectForCode("PVProNozzles").CurrentStage >= 2)
+end
+
+function triggerOily()
+	Tracker:FindObjectForCode("Oily").Active = Tracker:FindObjectForCode("PVProNozzles").CurrentStage >= 4
+end
+
+ScriptHost:AddWatchForCode("Toggle Surface Region","PV1500Nozzles",triggerSurface)
+ScriptHost:AddWatchForCode("Toggle Encrusted Region","PV1500Nozzles",triggerEncrusted)
+ScriptHost:AddWatchForCode("Toggle Encrusted Region","UrbanXU2Nozzles",triggerEncrusted)
+ScriptHost:AddWatchForCode("Toggle Encrusted Region","PV3000Nozzles",triggerEncrusted)
+ScriptHost:AddWatchForCode("Toggle Encrusted Region","PVProNozzles",triggerEncrusted)
+ScriptHost:AddWatchForCode("Toggle Embedded Region","PV1500Nozzles",triggerEmbedded)
+ScriptHost:AddWatchForCode("Toggle Embedded Region","UrbanXU2Nozzles",triggerEmbedded)
+ScriptHost:AddWatchForCode("Toggle Embedded Region","PV3000Nozzles",triggerEmbedded)
+ScriptHost:AddWatchForCode("Toggle Embedded Region","PVProNozzles",triggerEmbedded)
+ScriptHost:AddWatchForCode("Toggle Tough Region","PV1500Nozzles",triggerTough)
+ScriptHost:AddWatchForCode("Toggle Tough Region","UrbanXU2Nozzles",triggerTough)
+ScriptHost:AddWatchForCode("Toggle Tough Region","PV3000Nozzles",triggerTough)
+ScriptHost:AddWatchForCode("Toggle Tough Region","PVProNozzles",triggerTough)
+ScriptHost:AddWatchForCode("Toggle Stubborn Region","UrbanXU2Nozzles",triggerStubborn)
+ScriptHost:AddWatchForCode("Toggle Stubborn Region","PV3000Nozzles",triggerStubborn)
+ScriptHost:AddWatchForCode("Toggle Stubborn Region","PVProNozzles",triggerStubborn)
+ScriptHost:AddWatchForCode("Toggle Ingrained Region","PV3000Nozzles",triggerIngrained)
+ScriptHost:AddWatchForCode("Toggle Ingrained Region","PVProNozzles",triggerIngrained)
+ScriptHost:AddWatchForCode("Toggle Oily Region","PVProNozzles",triggerOily)

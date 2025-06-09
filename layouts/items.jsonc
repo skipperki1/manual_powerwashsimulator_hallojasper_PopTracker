@@ -72,14 +72,14 @@
       }
     ]
   },
-  "MacGuffins": {
+  "MacGuffins/Settings": {
     "type": "array",
     "orientation": "horizontal",
     "margin": "0,0",
     "content": [
       {
         "type": "canvas",
-        "height": 408,
+        "height": 100,
         "width": 240,
         "margin": "5, 5",
         "content": [
@@ -95,6 +95,14 @@
             "item": "StarPercentage",
             "canvas_depth": 1,
             "canvas_left": 64,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "type": "item",
+            "item": "mode",
+            "canvas_depth": 1,
+            "canvas_left": 128,
             "width": 64,
             "height": 64
           }

@@ -26,20 +26,1618 @@
     "name": "Van",
     "children":[
       {
-        "name": "Victory",
-        "access_rules": [""],
+        "name": "Percentage",
+        "access_rules": ["Van,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesVan"],
         "sections": [
           {
-            "name": "Victory",
-            "chest_unopened_img": "images/maps/Victory.png"
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%"
+          },
+          {
+            "name": "50%"
+          },
+          {
+            "name": "60%"
+          },
+          {
+            "name": "70%"
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Tough"]
           }
         ],
         "map_locations": [
           {
-            "map": "Victory",
-            "x": 126,
-            "y": 159,
-            "size": 8
+            "map": "Vehicles1",
+            "x": 150,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Body",
+        "access_rules": ["VanBody"],
+        "visibility_rules": ["$YesPartsMode,$YesVan"],
+        "sections": [
+          {
+            "name": "Bonnet",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Doors",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Grille",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Body",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 75,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Tyres",
+        "access_rules": ["VanTyres"],
+        "visibility_rules": ["$YesPartsMode,$YesVan"],
+        "sections": [
+          {
+            "name": "Bumpers",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Hubcaps",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Tyres",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 150,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Lights",
+        "access_rules": ["VanLights"],
+        "visibility_rules": ["$YesPartsMode,$YesVan"],
+        "sections": [
+          {
+            "name": "Headlights",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Indicators",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Brake Lights",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 225,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Windows",
+        "access_rules": ["VanWindows"],
+        "visibility_rules": ["$YesPartsMode,$YesVan"],
+        "sections": [
+          {
+            "name": "Windows",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Windscreen",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Wing Mirrors",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 300,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vintage Car",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["VintageCar,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesVintageCar"],
+        "sections": [
+          {
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%"
+          },
+          {
+            "name": "50%",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "60%",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "70%",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 822,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Body",
+        "access_rules": ["VintageCarBody"],
+        "visibility_rules": ["$YesPartsMode,$YesVintageCar"],
+        "sections": [
+          {
+            "name": "Body",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Bonnet",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Bumpers",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Mudguard",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 742,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Roof",
+        "access_rules": ["VintageCarRoof"],
+        "visibility_rules": ["$YesPartsMode,$YesVintageCar"],
+        "sections": [
+          {
+            "name": "Canopy",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Canopy Hinges",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Windscreen",
+            "access_rules": ["Embedded"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 822,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Tyres",
+        "access_rules": ["VintageCarTyres"],
+        "visibility_rules": ["$YesPartsMode,$YesVintageCar"],
+        "sections": [
+          {
+            "name": "Hubcaps",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Straps",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Tyres",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 902,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Doors",
+        "access_rules": ["VintageCarDoors"],
+        "visibility_rules": ["$YesPartsMode,$YesVintageCar"],
+        "sections": [
+          {
+            "name": "Doors",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Door Handles",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Door Hinges",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Windows",
+            "access_rules": ["Embedded"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 742,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Accesories",
+        "access_rules": ["VintageCarAccesories"],
+        "visibility_rules": ["$YesPartsMode,$YesVintageCar"],
+        "sections": [
+          {
+            "name": "Indicators",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Shelf",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Trunk",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Wing Mirrors",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 822,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Front",
+        "access_rules": ["VintageCarFront"],
+        "visibility_rules": ["$YesPartsMode,$YesVintageCar"],
+        "sections": [
+          {
+            "name": "Grille",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Headlights",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Horns",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 902,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Golf Cart",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["GolfCart,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesGolfCart"],
+        "sections": [
+          {
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%"
+          },
+          {
+            "name": "50%"
+          },
+          {
+            "name": "60%"
+          },
+          {
+            "name": "70%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 1474,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Roof",
+        "access_rules": ["GolfCarRoof"],
+        "visibility_rules": ["$YesPartsMode,$YesGolfCart"],
+        "sections": [
+          {
+            "name": "Canopy",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Front Canopy Supports",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Rear Canopy Supports",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 1399,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Tyres",
+        "access_rules": ["GolfCartTyres"],
+        "visibility_rules": ["$YesPartsMode,$YesGolfCart"],
+        "sections": [
+          {
+            "name": "Alloy Wheels",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Chassis",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Tyres",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 1474,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Body",
+        "access_rules": ["GolfCartBody"],
+        "visibility_rules": ["$YesPartsMode,$YesGolfCart"],
+        "sections": [
+          {
+            "name": "Body",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Bonnet",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Bumper",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Seat Mounting",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 1549,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Miscellaneous",
+        "access_rules": ["GolfCartMiscellaneous"],
+        "visibility_rules": ["$YesPartsMode,$YesGolfCart"],
+        "sections": [
+          {
+            "name": "Back Cushions",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Seat Cushion",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Steering Column",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Windshield",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 1624,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Recreation Vehicle",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["RV,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesRecreationVehicle"],
+        "sections": [
+          {
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "50%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "60%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "70%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 160,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Tyres",
+        "access_rules": ["RecreationVehicleTyres"],
+        "visibility_rules": ["$YesPartsMode,$YesRecreationVehicle"],
+        "sections": [
+          {
+            "name": "Hubcaps",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Spare Wheel",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Tyres",
+            "access_rules": ["Stubborn"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 80,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Lights",
+        "access_rules": ["RecreationVehicleLights"],
+        "visibility_rules": ["$YesPartsMode,$YesRecreationVehicle"],
+        "sections": [
+          {
+            "name": "Brake Lights",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Headlights",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Indicators",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 160,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Lower Body",
+        "access_rules": ["RecreationVehicleLowerBody"],
+        "visibility_rules": ["$YesPartsMode,$YesRecreationVehicle"],
+        "sections": [
+          {
+            "name": "Bumpers",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Grille",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Exhaust",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Underside",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Hatches",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 240,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Windows",
+        "access_rules": ["RecreationVehicleWindows"],
+        "visibility_rules": ["$YesPartsMode,$YesRecreationVehicle"],
+        "sections": [
+          {
+            "name": "Door",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Windows",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Windscreens",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Windscreen Wipers",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 80,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Upper Body",
+        "access_rules": ["RecreationVehicleUpperBody"],
+        "visibility_rules": ["$YesPartsMode,$YesRecreationVehicle"],
+        "sections": [
+          {
+            "name": "Front Body",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Left Body",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Rear Body",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Right Body",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Roof",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 160,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Accesories",
+        "access_rules": ["RecreationVehicleAccesories"],
+        "visibility_rules": ["$YesPartsMode,$YesRecreationVehicle"],
+        "sections": [
+          {
+            "name": "Ladder",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Vents",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Wing Mirrors",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 240,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Drill",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["Drill,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesDrill"],
+        "sections": [
+          {
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%"
+          },
+          {
+            "name": "50%"
+          },
+          {
+            "name": "60%"
+          },
+          {
+            "name": "70%"
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 812,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Front",
+        "access_rules": ["DrillFront"],
+        "visibility_rules": ["$YesPartsMode,$YesDrill"],
+        "sections": [
+          {
+            "name": "Head",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Tip",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Front Gripper",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 737,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Tracks",
+        "access_rules": ["DrillTracks"],
+        "visibility_rules": ["$YesPartsMode,$YesDrill"],
+        "sections": [
+          {
+            "name": "Caterpillar Threads",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Wheels",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Wheel Drives",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 812,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Shielding",
+        "access_rules": ["DrillShielding"],
+        "visibility_rules": ["$YesPartsMode,$YesDrill"],
+        "sections": [
+          {
+            "name": "Armoured Panels",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Rear Fuselage",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Rear Gripper",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Rear Shieldings",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 887,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Door",
+        "access_rules": ["DrillDoor"],
+        "visibility_rules": ["$YesPartsMode,$YesDrill"],
+        "sections": [
+          {
+            "name": "Rear Door",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Rear Door Frame",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Rear Panel",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 962,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Frolic Boat",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["FrolicBoat,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesFrolicBoat"],
+        "sections": [
+          {
+            "name": "10%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "20%",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "30%",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "40%",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "50%",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "60%",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "70%",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 812,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Underside",
+        "access_rules": ["FrolicBoatUnderside"],
+        "visibility_rules": ["$YesPartsMode,$YesFrolicBoat"],
+        "sections": [
+          {
+            "name": "Hull",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Keel",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Propellor",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Rudder",
+            "access_rules": ["Embedded"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 75,
+            "y": 381,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Floor",
+        "access_rules": ["FrolicBoatFloor"],
+        "visibility_rules": ["$YesPartsMode,$YesFrolicBoat"],
+        "sections": [
+          {
+            "name": "Coaming",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Gunwhale",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Decks",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Deck Walls",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 150,
+            "y": 381,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Controls",
+        "access_rules": ["FrolicBoatControls"],
+        "visibility_rules": ["$YesPartsMode,$YesFrolicBoat"],
+        "sections": [
+          {
+            "name": "Control Box",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Control Panel",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Helm",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Steering Wheel",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Throttle",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 225,
+            "y": 381,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Doors",
+        "access_rules": ["FrolicBoatDoors"],
+        "visibility_rules": ["$YesPartsMode,$YesFrolicBoat"],
+        "sections": [
+          {
+            "name": "Doors",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Door Frames",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Door Handles",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Seats",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 300,
+            "y": 381,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Cabin Walls",
+        "access_rules": ["FrolicBoatCabinWalls"],
+        "visibility_rules": ["$YesPartsMode,$YesFrolicBoat"],
+        "sections": [
+          {
+            "name": "Cabin Walls",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Windows",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Window Frames",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Cabin Pillars",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 112,
+            "y": 421,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Canopy",
+        "access_rules": ["FrolicBoatCanopy"],
+        "visibility_rules": ["$YesPartsMode,$YesFrolicBoat"],
+        "sections": [
+          {
+            "name": "Canopy",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Canopy Supports",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Canopy Trim",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Canopy Undersides",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Poles",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 187,
+            "y": 421,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Accesories",
+        "access_rules": ["FrolicBoatAccesories"],
+        "visibility_rules": ["$YesPartsMode,$YesFrolicBoat"],
+        "sections": [
+          {
+            "name": "Cleats",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Fairleads",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Figurehead",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Golden Trims",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 262,
+            "y": 421,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Back Garden",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["BackGarden,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%"
+          },
+          {
+            "name": "50%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "60%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "70%",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Oily"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles2",
+            "x": 822,
+            "y": 635,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Pond",
+        "access_rules": ["BackGardenPond"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Pond Wall",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Pond Liners",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Flower Bed Edgings",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Pond Edgings",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Pond Rims",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 60,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Steps",
+        "access_rules": ["BackGardenSteps"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Retaining Walls",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Retaining Wall Caps",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Steps",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Step Edgings",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Step Walls",
+            "access_rules": ["Embedded"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 130,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Patio",
+        "access_rules": ["BackGardenPatio"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Patio",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Stepping Stones",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Path Edgings",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Patio Edging",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 200,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Table",
+        "access_rules": ["BackGardenTable"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Garden Chairs",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Garden Table",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Parasol",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Parasol Pole",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 270,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Fence",
+        "access_rules": ["BackGardenFence"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Fence Gate",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Trellis",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Fence Panels",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Fence Posts",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Fence Tops",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 340,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Dog House",
+        "access_rules": ["BackGardenDogHouse"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Dog House Door",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Dog House Roof",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Dog House Walls",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Water Bowl",
+            "access_rules": ["Embedded"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 60,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Swing Sofa",
+        "access_rules": ["BackGardenSwingSofa"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Swing Sofa",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Swing Sofa Frame",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Swing Sofa Roof",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Swing Sofa Chains",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Swing Sofa Cushions",
+            "access_rules": ["Embedded"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 130,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Shed",
+        "access_rules": ["BackGardenShed"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Shed Decorations",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Shed Door",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Shed",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Shed Foundations",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Shed Roof",
+            "access_rules": ["Surface"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 200,
+            "y": 163,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Barbeque",
+        "access_rules": ["BackGardenBarbeque"],
+        "visibility_rules": ["$YesPartsMode,$YesBackGarden"],
+        "sections": [
+          {
+            "name": "Control Panel",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Cooker Hood",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Food Shelves",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Gas Supply",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Trolly",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Barbeque Patio",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Barbeque Patio Trim",
+            "access_rules": ["Embedded"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 270,
+            "y": 163,
+            "size": 16
           }
         ]
       }

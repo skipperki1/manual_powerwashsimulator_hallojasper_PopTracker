@@ -8,7 +8,11 @@
   "target_poptracker_version": "0.28.0",
   "variants": {
     "standard": {
-      "display_name": "Map Tracker",
+      "display_name": "Map Tracker (Horizontal)",
+      "flags": ["apmanual"]
+    },
+    "vertical": {
+      "display_name": "Map Tracker (Vertical)",
       "flags": ["apmanual"]
     },
     "itemsonly": {

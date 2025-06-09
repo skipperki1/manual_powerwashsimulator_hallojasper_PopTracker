@@ -1,143 +1,303 @@
 function YesTemple()
-	return (1 - Tracker:ProviderCountForCode("YesTemple") > 0)
+	if Tracker:ProviderCountForCode("YesTemple") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesForestCottage()
-	return (1 - Tracker:ProviderCountForCode("YesForestCottage") > 0)
+	if Tracker:ProviderCountForCode("YesForestCottage") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesFortuneTellersWagon()
-	return (1 - Tracker:ProviderCountForCode("YesFortuneTellersWagon") > 0)
+	if Tracker:ProviderCountForCode("YesFortuneTellersWagon") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesFireTruck()
-	return (1 - Tracker:ProviderCountForCode("YesFireTruck") > 0)
+	if Tracker:ProviderCountForCode("YesFireTruck") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesShoeHouse()
-	return (1 - Tracker:ProviderCountForCode("YesShoeHouse") > 0)
+	if Tracker:ProviderCountForCode("YesShoeHouse") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesGrandpaMillersCar()
-	return (1 - Tracker:ProviderCountForCode("YesGrandpaMillersCar") > 0)
+	if Tracker:ProviderCountForCode("YesGrandpaMillersCar") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesPrivateJet()
-	return (1 - Tracker:ProviderCountForCode("YesPrivateJet") > 0)
+	if Tracker:ProviderCountForCode("YesPrivateJet") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesAncientStatue()
-	return (1 - Tracker:ProviderCountForCode("YesAncientStatue") > 0)
+	if Tracker:ProviderCountForCode("YesAncientStatue") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesSkatepark()
-	return (1 - Tracker:ProviderCountForCode("YesSkatepark") > 0)
+	if Tracker:ProviderCountForCode("YesSkatepark") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesBackGarden()
-	return (1 - Tracker:ProviderCountForCode("YesBackGarden") > 0)
+	if Tracker:ProviderCountForCode("YesBackGarden") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesFerrisWheel()
-	return (1 - Tracker:ProviderCountForCode("YesFerrisWheel") > 0)
+	if Tracker:ProviderCountForCode("YesFerrisWheel") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesTreeHouse()
-	return (1 - Tracker:ProviderCountForCode("YesTreeHouse") > 0)
+	if Tracker:ProviderCountForCode("YesTreeHouse") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesBungalow()
-	return (1 - Tracker:ProviderCountForCode("YesBungalow") > 0)
+	if Tracker:ProviderCountForCode("YesBungalow") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesDrill()
-	return (1 - Tracker:ProviderCountForCode("YesDrill") > 0)
+	if Tracker:ProviderCountForCode("YesDrill") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesVintageCar()
-	return (1 - Tracker:ProviderCountForCode("YesVintageCar") > 0)
+	if Tracker:ProviderCountForCode("YesVintageCar") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesFireHelicopter()
-	return (1 - Tracker:ProviderCountForCode("YesFireHelicopter") > 0)
+	if Tracker:ProviderCountForCode("YesFireHelicopter") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesWashroom()
-	return (1 - Tracker:ProviderCountForCode("YesWashroom") > 0)
+	if Tracker:ProviderCountForCode("YesWashroom") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesSubwayPlatform()
-	return (1 - Tracker:ProviderCountForCode("YesSubwayPlatform") > 0)
+	if Tracker:ProviderCountForCode("YesSubwayPlatform") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesVan()
-	return (1 - Tracker:ProviderCountForCode("YesVan") > 0)
+	if Tracker:ProviderCountForCode("YesVan") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesGolfCart()
-	return (1 - Tracker:ProviderCountForCode("YesGolfCart") > 0)
+	if Tracker:ProviderCountForCode("YesGolfCart") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesFishingBoat()
-	return (1 - Tracker:ProviderCountForCode("YesFishingBoat") > 0)
+	if Tracker:ProviderCountForCode("YesFishingBoat") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesSUV()
-	return (1 - Tracker:ProviderCountForCode("YesSUV") > 0)
+	if Tracker:ProviderCountForCode("YesSUV") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesRecreationVehicle()
-	return (1 - Tracker:ProviderCountForCode("YesRecreationVehicle") > 0)
+	if Tracker:ProviderCountForCode("YesRecreationVehicle") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesFrolicBoat()
-	return (1 - Tracker:ProviderCountForCode("YesFrolicBoat") > 0)
+	if Tracker:ProviderCountForCode("YesFrolicBoat") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesMayorsMansion()
-	return (1 - Tracker:ProviderCountForCode("YesMayorsMansion") > 0)
+	if Tracker:ProviderCountForCode("YesMayorsMansion") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesStuntPlane()
-	return (1 - Tracker:ProviderCountForCode("YesStuntPlane") > 0)
+	if Tracker:ProviderCountForCode("YesStuntPlane") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesPennyFarthing()
-	return (1 - Tracker:ProviderCountForCode("YesPennyFarthing") > 0)
+	if Tracker:ProviderCountForCode("YesPennyFarthing") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesPlayground()
-	return (1 - Tracker:ProviderCountForCode("YesPlayground") > 0)
+	if Tracker:ProviderCountForCode("YesPlayground") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesMonsterTruck()
-	return (1 - Tracker:ProviderCountForCode("YesMonsterTruck") > 0)
+	if Tracker:ProviderCountForCode("YesMonsterTruck") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesLostCityPalace()
-	return (1 - Tracker:ProviderCountForCode("YesLostCityPalace") > 0)
+	if Tracker:ProviderCountForCode("YesLostCityPalace") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesDetachedHouse()
-	return (1 - Tracker:ProviderCountForCode("YesDetachedHouse") > 0)
+	if Tracker:ProviderCountForCode("YesDetachedHouse") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesAncientMonument()
-	return (1 - Tracker:ProviderCountForCode("YesAncientMonument") > 0)
+	if Tracker:ProviderCountForCode("YesAncientMonument") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesRecreationVehicleAgain()
-	return (1 - Tracker:ProviderCountForCode("YesRecreationVehicleAgain") > 0)
+	if Tracker:ProviderCountForCode("YesRecreationVehicleAgain") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesMotorbikeandSidecar()
-	return (1 - Tracker:ProviderCountForCode("YesMotorbikeandSidecar") > 0)
+	if Tracker:ProviderCountForCode("YesMotorbikeandSidecar") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesDirtBike()
-	return (1 - Tracker:ProviderCountForCode("YesDirtBike") > 0)
+	if Tracker:ProviderCountForCode("YesDirtBike") == 1 then
+		return true
+	else
+		return false
+	end
 end
 
 function YesPartsMode()
-	return (1 - Tracker:ProviderCountForCode("PartsMode") > 0)
+	if Tracker:ProviderCountForCode("PartsMode") == 1 then
+		return true
+	else
+		return false
+	end
+end
+
+function NoPartsMode()
+	if Tracker:ProviderCountForCode("PartsMode") == 0 then
+		return true
+	else
+		return false
+	end
+end
+
+function YesHardParkour()
+	if Tracker:ProviderCountForCode("HardParkour") == 0 then
+		return true
+	else
+		return false
+	end
 end

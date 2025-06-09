@@ -10,12 +10,13 @@
       "content": [
         {
           "type": "dock",
-          "dock": "bottom",
+          "dock": "left",
+          "v_alignment": "stretch",
           "content": [
             {
               "type": "group",
               "header": "Washers",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "washers"
@@ -24,7 +25,7 @@
             {
               "type": "group",
               "header": "Equipment",
-              "dock": "center",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "equipment"
@@ -33,7 +34,7 @@
             {
               "type": "group",
               "header": "MacGuffins/Settings",
-              "dock": "center",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "MacGuffins/Settings"
