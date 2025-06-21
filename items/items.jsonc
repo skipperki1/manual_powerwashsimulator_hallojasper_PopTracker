@@ -29,31 +29,31 @@
   {
     "name": "Prime Vista 1500 Progressive Nozzle",
     "type": "progressive",
-    "allow_disabled": false,
+    "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/White.png",
-        "codes": "PV1500Nozzles,PV1500Nozzles1"
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles1"
       },
       {
         "img": "images/items/Green.png",
-        "codes": "PV1500Nozzles,PV1500Nozzles2",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles2",
         "inherit_codes": true
       },
       {
         "img": "images/items/Yellow.png",
-        "codes": "PV1500Nozzles,PV1500Nozzles3",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles3",
         "inherit_codes": true
       },
       {
         "img": "images/items/Red.png",
-        "codes": "PV1500Nozzles,PV1500Nozzles4",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles4",
         "inherit_codes": true
       },
       {
         "img": "images/items/PVTurbo.png",
-        "codes": "PV1500Nozzles,PV1500Nozzles5",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles5",
         "inherit_codes": true
       }
     ]
@@ -66,21 +66,21 @@
     "stages": [
       {
         "img": "images/items/White.png",
-        "codes": "UrbanXU2Nozzles,UrbanXU2Nozzles1"
+        "codes": "Nozzles,UrbanXU2Nozzles,UrbanXU2Nozzles1"
       },
       {
         "img": "images/items/Green.png",
-        "codes": "UrbanXU2Nozzles,UrbanXU2Nozzles2",
+        "codes": "Nozzles,UrbanXU2Nozzles,UrbanXU2Nozzles2",
         "inherit_codes": true
       },
       {
         "img": "images/items/Yellow.png",
-        "codes": "UrbanXU2Nozzles,UrbanXU2Nozzles3",
+        "codes": "Nozzles,UrbanXU2Nozzles,UrbanXU2Nozzles3",
         "inherit_codes": true
       },
       {
         "img": "images/items/Red.png",
-        "codes": "UrbanXU2Nozzles,UrbanXU2Nozzles4",
+        "codes": "Nozzles,UrbanXU2Nozzles,UrbanXU2Nozzles4",
         "inherit_codes": true
       },
       {
@@ -98,26 +98,26 @@
     "stages": [
       {
         "img": "images/items/White.png",
-        "codes": "PV3000Nozzles,PV3000Nozzles1"
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles1"
       },
       {
         "img": "images/items/Green.png",
-        "codes": "PV3000Nozzles,PV3000Nozzles2",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles2",
         "inherit_codes": true
       },
       {
         "img": "images/items/Yellow.png",
-        "codes": "PV3000Nozzles,PV3000Nozzles3",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles3",
         "inherit_codes": true
       },
       {
         "img": "images/items/Red.png",
-        "codes": "PV3000Nozzles,PV3000Nozzles4",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles4",
         "inherit_codes": true
       },
       {
         "img": "images/items/PVTurbo.png",
-        "codes": "PV3000Nozzles,PV3000Nozzles5",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles5",
         "inherit_codes": true
       }
     ]
@@ -130,31 +130,31 @@
     "stages": [
       {
         "img": "images/items/WhitePro.png",
-        "codes": "PVProNozzles,PVProNozzles1"
+        "codes": "Nozzles,PVProNozzles,PVProNozzles1"
       },
       {
         "img": "images/items/GreenPro.png",
-        "codes": "PVProNozzles,PVProNozzles2",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles2",
         "inherit_codes": true
       },
       {
         "img": "images/items/YellowPro.png",
-        "codes": "PVProNozzles,PVProNozzles3",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles3",
         "inherit_codes": true
       },
       {
         "img": "images/items/RedPro.png",
-        "codes": "PVProNozzles,PVProNozzles4",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles4",
         "inherit_codes": true
       },
       {
         "img": "images/items/PVProTurbo.png",
-        "codes": "PVProNozzles,PVProNozzles5",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles5",
         "inherit_codes": true
       },
       {
         "img": "images/items/Trident.png",
-        "codes": "PVProNozzles,PVProNozzles6",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles6",
         "inherit_codes": true
       }
     ]
@@ -437,10 +437,10 @@
     "codes":"toggle,Percentage,VintageCar"
   },
   {
-    "name": "GolfCarRoof",
+    "name": "GolfCartRoof",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PartGolfCart,GolfCarRoof"
+    "codes":"toggle,Parts,PartGolfCart,GolfCartRoof"
   },
   {
     "name": "GolfCartTyres",
@@ -1415,10 +1415,10 @@
     "codes":"toggle,Parts,PartShoeHouse,ShoeHouseDoor"
   },
   {
-    "name": "ShoeHouseSole",
+    "name": "ShoeHouseShoe",
     "type": "toggle",
     "allow_disabled": true,
-    "codes":"toggle,Parts,PartShoeHouse,ShoeHouseSole"
+    "codes":"toggle,Parts,PartShoeHouse,ShoeHouseShoe"
   },
   {
     "name": "ShoeHouse",

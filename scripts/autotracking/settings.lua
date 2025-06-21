@@ -295,7 +295,7 @@ function NoPartsMode()
 end
 
 function YesHardParkour()
-	if Tracker:ProviderCountForCode("HardParkour") == 0 then
+	if Tracker:ProviderCountForCode("HardParkour") == 1 then
 		return true
 	else
 		return false

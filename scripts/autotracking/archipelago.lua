@@ -285,7 +285,7 @@ function onClear(slot_data)
 		elseif k == "Include_Ancient_Monument" then
 			Tracker:FindObjectForCode("YesAncientMonument").Active = tog
 
-		elseif k == "Include_Recreation_Vehicle_Again" then
+		elseif k == "Include_Recreational_Vehicle_Again" then
 			Tracker:FindObjectForCode("YesRecreationVehicleAgain").Active = tog
 
 		elseif k == "Include_Motorbike_and_Sidecar" then
@@ -490,7 +490,7 @@ function triggerEmbedded()
 end
 
 function triggerTough()
-	Tracker:FindObjectForCode("Tough").Active = (Tracker:FindObjectForCode("PV1500Nozzles").CurrentStage <= 4 or Tracker:FindObjectForCode("UrbanXU2Nozzles").CurrentStage >= 3 or Tracker:FindObjectForCode("PV3000Nozzles").CurrentStage >= 2 or Tracker:FindObjectForCode("PVProNozzles").CurrentStage ~= 0) 
+	Tracker:FindObjectForCode("Tough").Active = (Tracker:FindObjectForCode("PV1500Nozzles").CurrentStage == 4 or Tracker:FindObjectForCode("UrbanXU2Nozzles").CurrentStage >= 3 or Tracker:FindObjectForCode("PV3000Nozzles").CurrentStage >= 2 or Tracker:FindObjectForCode("PVProNozzles").CurrentStage ~= 0) 
 end
 
 function triggerStubborn()
@@ -505,22 +505,10 @@ function triggerOily()
 	Tracker:FindObjectForCode("Oily").Active = Tracker:FindObjectForCode("PVProNozzles").CurrentStage >= 4
 end
 
-ScriptHost:AddWatchForCode("Toggle Surface Region","PV1500Nozzles",triggerSurface)
-ScriptHost:AddWatchForCode("Toggle Encrusted Region","PV1500Nozzles",triggerEncrusted)
-ScriptHost:AddWatchForCode("Toggle Encrusted Region","UrbanXU2Nozzles",triggerEncrusted)
-ScriptHost:AddWatchForCode("Toggle Encrusted Region","PV3000Nozzles",triggerEncrusted)
-ScriptHost:AddWatchForCode("Toggle Encrusted Region","PVProNozzles",triggerEncrusted)
-ScriptHost:AddWatchForCode("Toggle Embedded Region","PV1500Nozzles",triggerEmbedded)
-ScriptHost:AddWatchForCode("Toggle Embedded Region","UrbanXU2Nozzles",triggerEmbedded)
-ScriptHost:AddWatchForCode("Toggle Embedded Region","PV3000Nozzles",triggerEmbedded)
-ScriptHost:AddWatchForCode("Toggle Embedded Region","PVProNozzles",triggerEmbedded)
-ScriptHost:AddWatchForCode("Toggle Tough Region","PV1500Nozzles",triggerTough)
-ScriptHost:AddWatchForCode("Toggle Tough Region","UrbanXU2Nozzles",triggerTough)
-ScriptHost:AddWatchForCode("Toggle Tough Region","PV3000Nozzles",triggerTough)
-ScriptHost:AddWatchForCode("Toggle Tough Region","PVProNozzles",triggerTough)
-ScriptHost:AddWatchForCode("Toggle Stubborn Region","UrbanXU2Nozzles",triggerStubborn)
-ScriptHost:AddWatchForCode("Toggle Stubborn Region","PV3000Nozzles",triggerStubborn)
-ScriptHost:AddWatchForCode("Toggle Stubborn Region","PVProNozzles",triggerStubborn)
-ScriptHost:AddWatchForCode("Toggle Ingrained Region","PV3000Nozzles",triggerIngrained)
-ScriptHost:AddWatchForCode("Toggle Ingrained Region","PVProNozzles",triggerIngrained)
-ScriptHost:AddWatchForCode("Toggle Oily Region","PVProNozzles",triggerOily)
+ScriptHost:AddWatchForCode("Toggle Surface Region","Nozzles",triggerSurface)
+ScriptHost:AddWatchForCode("Toggle Encrusted Region","Nozzles",triggerEncrusted)
+ScriptHost:AddWatchForCode("Toggle Embedded Region","Nozzles",triggerEmbedded)
+ScriptHost:AddWatchForCode("Toggle Tough Region","Nozzles",triggerTough)
+ScriptHost:AddWatchForCode("Toggle Stubborn Region","Nozzles",triggerStubborn)
+ScriptHost:AddWatchForCode("Toggle Ingrained Region","Nozzles",triggerIngrained)
+ScriptHost:AddWatchForCode("Toggle Oily Region","Nozzles",triggerOily)
