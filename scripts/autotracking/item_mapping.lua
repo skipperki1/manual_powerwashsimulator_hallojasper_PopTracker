@@ -39,6 +39,7 @@ SETTINGS_MAPPING = {
  ["Include_Recreational_Vehicle_Again"] = "YesRecreationVehicleAgain",
  ["Include_Motorbike_and_Sidecar"] = "YesMotorbikeandSidecar",
  ["Include_Dirt_Bike"] = "YesDirtBike",
+ ["Include_Fire_Station"] = "YesFireStation",
 }
 
 ITEM_MAPPING = {
@@ -316,5 +317,14 @@ ITEM_MAPPING = {
  [272] = {{"LostCityPalaceOctopus"}},
  [273] = {{"LostCityPalaceStatue"}},
  [274] = {{"Palace"}},
- [275] = {{"Dirt"}},
+ [275] = {{"FireStationDrillTowerInside"}},
+ [276] = {{"FireStationDrillTowerOutside"}},
+ [277] = {{"FireStationGarage"}},
+ [278] = {{"FireStationOffice"}},
+ [279] = {{"FireStationFireExit"}},
+ [280] = {{"FireStationDoors"}},
+ [281] = {{"FireStationWalls"}},
+ [282] = {{"FireStationMiscellaneous"}},
+ [283] = {{"FireStation"}},
+ [284] = {{"Dirt"}},
 }
