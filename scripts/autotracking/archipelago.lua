@@ -201,6 +201,9 @@ function onClear(slot_data)
 		elseif k == "Include_Fire_Truck" then
 			Tracker:FindObjectForCode("YesFireTruck").Active = tog
 
+		elseif k == "Include_Fire_Station" then
+			Tracker:FindObjectForCode("YesFireStation").Active = tog
+
 		elseif k == "Include_Shoe_House" then
 			Tracker:FindObjectForCode("YesShoeHouse").Active = tog
 
