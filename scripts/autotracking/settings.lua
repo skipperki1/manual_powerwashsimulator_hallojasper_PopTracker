@@ -301,3 +301,11 @@ function YesHardParkour()
 		return false
 	end
 end
+
+function YesFireStation()
+	if Tracker:ProviderCountForCode("YesFireStation") == 1 then
+		return true
+	else
+		return false
+	end
+end

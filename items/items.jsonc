@@ -2194,5 +2194,65 @@
     "type": "toggle",
     "allow_disabled": true,
     "codes":"toggle,regions,Oily"
+  },
+  {
+    "name": "FireStationWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationWalls"
+  },
+  {
+    "name": "FireStationGarage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationGarage"
+  },
+  {
+    "name": "FireStationDoors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationDoors"
+  },
+  {
+    "name": "FireStationDrillTowerOutside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationDrillTowerOutside"
+  },
+  {
+    "name": "FireStationDrillTowerInside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationDrillTowerInside"
+  },
+  {
+    "name": "FireStationOffice",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationOffice"
+  },
+  {
+    "name": "FireStationMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationMiscellaneous"
+  },
+  {
+    "name": "FireStationFireExit",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationFireExit"
+  },
+  {
+    "name": "FireStation",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FireStation"
+  },
+  {
+    "name": "EnableFireStation",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFireStation"
   }
 ]

@@ -2296,7 +2296,7 @@
             ]
           },
           {
-            "name": "Wall Pilars",
+            "name": "Wall Pillars",
             "access_rules": ["Surface,PV1500Extensions3,PV1500Nozzles4",
             "Surface,UrbanXU2Extensions3,UrbanXU2Nozzles4",
             "Surface,PV3000Extensions3,PV3000Nozzles3",
@@ -2635,8 +2635,12 @@
         "sections": [
           {
             "name": "Chimney",
-            "access_rules": ["Stubborn,UrbanXU2Extensions1,UrbanXU2Nozzles4",
+            "access_rules": [
+            "Stubborn,UrbanXU2Extensions2,UrbanXU2Nozzles3",
+            "Stubborn,UrbanXU2Extensions1,UrbanXU2Nozzles4",
+            "Stubborn,PV3000Extensions2,PV3000Nozzles2",
             "Stubborn,PV3000Extensions1,PV3000Nozzles3",
+            "Stubborn,PVProExtensions2,PVProNozzles1",
             "Stubborn,PVProExtensions1,PVProNozzles2",
             "Stubborn,Ladder2",
             "Stubborn,$YesHardParkour"
@@ -5679,7 +5683,7 @@
               "Embedded,PV1500Extensions2,PV1500Nozzles3",
               "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
               "Embedded,PV3000Extensions1,PV3000Nozzles2",
-              "Embedded,Ladder2,PV1500Nozzle4",
+              "Embedded,Ladder2,PV1500Nozzles4",
               "Embedded,PV1500Extensions1,PV1500Nozzles4",
               "Embedded,UrbanXU2Nozzles3",
               "Embedded,PV3000Nozzles2",
@@ -5798,8 +5802,8 @@
           {
             "name": "Tunnel Ceilings",
             "access_rules": [
-              "Tough,UrbanXU2Extensions1,UrbanNozzles3",
-              "Tough,UrbanNozzles4",
+              "Tough,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Tough,UrbanXU2Nozzles4",
               "Tough,PV3000Extensions1,PV3000Nozzles2",
               "Tough,PV3000Nozzles3",
               "Tough,PVProExtensions1,PVProNozzles1",
@@ -5912,8 +5916,8 @@
           {
             "name": "Tunnel Walls",
             "access_rules": [
-              "Tough,UrbanXU2Extensions1,UrbanNozzles3",
-              "Tough,UrbanNozzles4",
+              "Tough,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Tough,UrbanXU2Nozzles4",
               "Tough,PV3000Extensions1,PV3000Nozzles2",
               "Tough,PV3000Nozzles3",
               "Tough,PVProExtensions1,PVProNozzles1",
@@ -6333,15 +6337,26 @@
           },
           {
             "name": "80%",
-            "access_rules": ["Embedded"]
+            "access_rules": ["Encrusted"]
           },
           {
             "name": "90%",
-            "access_rules": ["Embedded"]
+            "access_rules": ["Encrusted"]
           },
           {
             "name": "100%",
-            "access_rules": ["Embedded,Ladder1"]
+            "access_rules": [
+              "Stubborn,Ladder3",
+              "Stubborn,Ladder1,PV1500Extensions2,PV1500Nozzles2",
+              "Stubborn,Ladder1,PV1500Extensions1,PV1500Nozzles3",
+              "Stubborn,Ladder1,PV1500Nozzles4",
+              "Stubborn,Ladder1,UrbanXU2Extensions2,UrbanXU2Nozzles1",
+              "Stubborn,Ladder1,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Stubborn,Ladder1,UrbanXU2Nozzles3",
+              "Stubborn,Ladder1,PV3000Extensions1,PV3000Nozzles1",
+              "Stubborn,Ladder1,PV3000Nozzles2",
+              "Stubborn,Ladder1,PVProNozzles1"
+            ]
           }
         ],
         "map_locations": [
@@ -6419,15 +6434,16 @@
           {
             "name": "Arch",
             "access_rules": [
-              "Encrusted,PV1500Extensions2,PV1500Nozzles2",
-              "Encrusted,PV1500Extensions1,PV1500Nozzles3",
-              "Encrusted,PV1500Nozzles4",
-              "Encrusted,UrbanXU2Extensions2,UrbanXU2Nozzles1",
-              "Encrusted,UrbanXU2Extensions1,UrbanXU2Nozzles2",
-              "Encrusted,UrbanXU2Nozzles3",
-              "Encrusted,PV3000Extensions1,PV3000Nozzles1",
-              "Encrusted,PV3000Nozzles2",
-              "Encrusted,PVProNozzles1"
+              "Encrusted,Ladder3",
+              "Encrusted,Ladder1,PV1500Extensions2,PV1500Nozzles2",
+              "Encrusted,Ladder1,PV1500Extensions1,PV1500Nozzles3",
+              "Encrusted,Ladder1,PV1500Nozzles4",
+              "Encrusted,Ladder1,UrbanXU2Extensions2,UrbanXU2Nozzles1",
+              "Encrusted,Ladder1,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Encrusted,Ladder1,UrbanXU2Nozzles3",
+              "Encrusted,Ladder1,PV3000Extensions1,PV3000Nozzles1",
+              "Encrusted,Ladder1,PV3000Nozzles2",
+              "Encrusted,Ladder1,PVProNozzles1"
             ]
           },
           {
@@ -6735,7 +6751,15 @@
           },
           {
             "name": "70%",
-            "access_rules": ["Encrusted"]
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Ladder3",
+              "Encrusted,Scaffolding3",
+              "Encrusted,PV1500Nozzles3",
+              "Encrusted,UrbanXU2Nozzles2",
+              "Encrusted,PV3000Nozzles1",
+              "Encrusted,PVProNozzles1"
+            ]
           },
           {
             "name": "80%",
@@ -6743,23 +6767,18 @@
           },
           {
             "name": "90%",
-            "access_rules": ["Embedded"]
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Ladder3",
+              "Embedded,Scaffolding3"
+            ]
           },
           {
             "name": "100%",
             "access_rules": [
               "Tough,$YesHardParkour",
-              "Tough,PV1500Extensions2,PV1500Nozzles4",
-              "Tough,UrbanXU2Extensions2,UrbanNozzles3",
-              "Tough,UrbanXU2Extensions1,UrbanNozzles4",
-              "Tough,PV3000Extensions2,PV3000Nozzles2",
-              "Tough,PV3000Extensions1,PV3000Nozzles3",
-              "Tough,PVProExtensions1,PVProNozzles2",
-              "Tough,PVProExtensions1,PVProNozzles4",
-              "Tough,StepStool,PV3000Nozzles4",
-              "Tough,StepStool,PVProNozzles3",
               "Tough,Ladder3",
-              "Tough,Scaffolding1"
+              "Tough,Scaffolding3"
             ]
           }
         ],
@@ -6779,11 +6798,19 @@
         "sections": [
           {
             "name": "Chimney",
-            "access_rules": ["Embedded"]
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Ladder3",
+              "Embedded,Scaffolding3"
+            ]
           },
           {
             "name": "Roof",
-            "access_rules": ["Embedded"]
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Ladder3",
+              "Embedded,Scaffolding3"
+            ]
           },
           {
             "name": "Roof Underside",
@@ -6817,33 +6844,17 @@
             "name": "Walls",
             "access_rules": [
               "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions3,PV1500Nozzles3",
-              "Embedded,PV1500Extensions2,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions3,UrbanXU2Nozzles2",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles3",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles4",
-              "Embedded,PV3000Extensions3,PV3000Nozzles1",
-              "Embedded,PV3000Extensions2,PV3000Nozzles2",
-              "Embedded,PV3000Extensions1,PV3000Nozzles3",
-              "Embedded,PVProExtensions2,PVProNozzles1",
-              "Embedded,PVProExtensions1,PVProNozzles2",
-              "Embedded,PVProNozzles4",
-              "Embedded,StepStool,PV3000Nozzles4",
-              "Embedded,StepStool,PVProNozzles3",
               "Embedded,Ladder3",
-              "Embedded,Scaffolding2",
-              "Embedded,Scaffolding1,PV1500Extensions1,PV1500Nozzles3",
-              "Embedded,Scaffolding1,PV1500Nozzles4",
-              "Embedded,Scaffolding1,UrbanXU2Extensions1,UrbanXU2Nozzles2",
-              "Embedded,Scaffolding1,UrbanXU2Nozzles3",
-              "Embedded,Scaffolding1,PV3000Extensions1,PV3000Nozzles1",
-              "Embedded,Scaffolding1,PV3000Nozzles2",
-              "Embedded,Scaffolding1,PVProNozzles1"
+              "Embedded,Scaffolding2"
             ]
           },
           {
             "name": "Wooden Top",
-            "access_rules": ["Embedded"]
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Ladder3",
+              "Embedded,Scaffolding2"
+            ]
           }
         ],
         "map_locations": [
@@ -6920,7 +6931,18 @@
         "sections": [
           {
             "name": "Boot Walls",
-            "access_rules": ["Embedded"]
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Ladder3",
+              "Embedded,Scaffolding1",
+              "Embedded,PV1500Extensions1,PV1500Nozzles3",
+              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Embedded,UrbanXU2Nozzles4",
+              "Embedded,PV3000Extensions1,PV3000Nozzles1",
+              "Embedded,PV3000Nozzles3",
+              "Embedded,PVProExtensions1,PVProNozzles1",
+              "Embedded,PVProNozzles2"
+            ]
           },
           {
             "name": "Eyelets",
@@ -6936,7 +6958,11 @@
           },
           {
             "name": "Wooden Trims",
-            "access_rules": ["Embedded"]
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Ladder3",
+              "Embedded,Scaffolding1"
+            ]
           }
         ],
         "map_locations": [
@@ -8730,150 +8756,43 @@
         "sections": [
           {
             "name": "10%",
-            "access_rules": [
-              "Surface,StepStool",
-              "Surface,Ladder1",
-              "Surface,Scaffolding1",
-              "Surface,$YesHardParkour",
-              "Surface,PV1500Nozzles2",
-              "Surface,UrbanXU2Nozzles1",
-              "Surface,PV3000Nozzles1",
-              "Surface,PVProNozzles1"
-          ]
+            "access_rules": ["Surface"]
           },
           {
             "name": "20%",
-            "access_rules": [
-              "Surface,StepStool",
-              "Surface,Ladder1",
-              "Surface,Scaffolding1",
-              "Surface,$YesHardParkour",
-              "Surface,PV1500Nozzles2",
-              "Surface,UrbanXU2Nozzles1",
-              "Surface,PV3000Nozzles1",
-              "Surface,PVProNozzles1"
-          ]
+            "access_rules": ["Surface"]
           },
           {
             "name": "30%",
-            "access_rules": [
-              "Surface,StepStool",
-              "Surface,Ladder1",
-              "Surface,Scaffolding1",
-              "Surface,$YesHardParkour",
-              "Surface,PV1500Extensions2,PV1500Nozzles1",
-              "Surface,PV1500Nozzles3",
-              "Surface,UrbanXU2Extensions2,UrbanXU2Nozzles1",
-              "Surface,UrbanXU2Nozzles2",
-              "Surface,PV3000Nozzles1",
-              "Surface,PVProNozzles1"
-          ]
+            "access_rules": ["Surface"]
           },
           {
             "name": "40%",
-            "access_rules": [
-              "Encrusted,StepStool",
-              "Encrusted,Ladder1",
-              "Encrusted,Scaffolding1",
-              "Encrusted,$YesHardParkour",
-              "Encrusted,PV1500Extensions3,PV1500Nozzles2",
-              "Encrusted,PV1500Nozzles3",
-              "Encrusted,UrbanXU2Extensions3,UrbanXU2Nozzles1",
-              "Encrusted,UrbanXU2Nozzles2",
-              "Encrusted,PV3000Nozzles1",
-              "Encrusted,PVProNozzles1"
-          ]
+            "access_rules": ["Encrusted"]
           },
           {
             "name": "50%",
-            "access_rules": [
-              "Encrusted,StepStool",
-              "Encrusted,Ladder1",
-              "Encrusted,Scaffolding1",
-              "Encrusted,$YesHardParkour",
-              "Encrusted,PV1500Extensions1,PV1500Nozzles3",
-              "Encrusted,PV1500Nozzles4",
-              "Encrusted,UrbanXU2Extensions1,UrbanXU2Nozzles2",
-              "Encrusted,UrbanXU2Nozzles3",
-              "Encrusted,PV3000Extensions1,PV3000Nozzles1",
-              "Encrusted,PV3000Nozzles2",
-              "Encrusted,PVProNozzles1"
-          ]
+            "access_rules": ["Encrusted"]
           },
           {
             "name": "60%",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions2,PV1500Nozzles3",
-              "Embedded,PV1500Extensions1,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
-              "Embedded,PV3000Extensions2,PV3000Nozzles1",
-              "Embedded,PV3000Extensions1,PV3000Nozzles2",
-              "Embedded,PV3000Nozzles4",
-              "Embedded,PVProExtensions1,PVProNozzles1",
-              "Embedded,PVProNozzles2"
-          ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "70%",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions2,PV1500Nozzles3",
-              "Embedded,PV1500Extensions1,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
-              "Embedded,PV3000Extensions2,PV3000Nozzles1",
-              "Embedded,PV3000Extensions1,PV3000Nozzles2",
-              "Embedded,PVProExtensions1,PVProNozzles1"
-          ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "80%",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions3,PV1500Nozzles3",
-              "Embedded,PV1500Extensions2,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions3,UrbanXU2Nozzles2",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles3",
-              "Embedded,PV3000Extensions3,PV3000Nozzles1",
-              "Embedded,PV3000Extensions2,PV3000Nozzles2",
-              "Embedded,PV3000Extensions1,PV3000Nozzles4",
-              "Embedded,PVProExtensions1,PVProNozzles2",
-              "Embedded,PVProExtensions2,PVProNozzles1"
-          ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "90%",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,UrbanXU2Extensions3,UrbanXU2Nozzles3",
-              "Embedded,PV3000Extensions3,PV3000Nozzles2",
-              "Embedded,PV3000Extensions2,PV3000Nozzles4",
-              "Embedded,PVProExtensions2,PVProNozzles2",
-              "Embedded,PVProExtensions3,PVProNozzles1"
-          ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "100%",
-            "access_rules": [
-              "Ingrained,StepStool",
-              "Ingrained,Ladder1",
-              "Ingrained,Scaffolding1",
-              "Ingrained,$YesHardParkour"
-            ]
+            "access_rules": ["Ingrained"]
           }
         ],
         "map_locations": [
@@ -8892,39 +8811,19 @@
         "sections": [
           {
             "name": "Back Dormer Cap",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Back Dormer Frames",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Back Dormer Roofs",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Back Dormer Wall",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           }
         ],
         "map_locations": [
@@ -8943,74 +8842,23 @@
         "sections": [
           {
             "name": "Back Gable Roofs",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,UrbanXU2Extensions3,UrbanXU2Nozzles3",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles4",
-              "Embedded,PV3000Extensions3,PV3000Nozzles2",
-              "Embedded,PV3000Extensions2,PV3000Nozzles3",
-              "Embedded,PV3000Extensions1,PV3000Nozzles4",
-              "Embedded,PVProExtensions1,PVProNozzles3",
-              "Embedded,PVProExtensions2,PVProNozzles2",
-              "Embedded,PVProExtensions3,PVProNozzles1"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Back Gable Roof Cap",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Back Gable Roof Frames",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Back Eaves",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions2,PV1500Nozzles3",
-              "Embedded,PV1500Extensions1,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
-              "Embedded,PV3000Nozzles4",
-              "Embedded,PV3000Extensions1,PV3000Nozzles2",
-              "Embedded,PV3000Extensions2,PV3000Nozzles1",
-              "Embedded,PVProNozzles3",
-              "Embedded,PVProExtensions1,PVProNozzles1"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Back Wall",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions2,PV1500Nozzles3",
-              "Embedded,PV1500Extensions1,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
-              "Embedded,PV3000Nozzles4",
-              "Embedded,PV3000Extensions1,PV3000Nozzles2",
-              "Embedded,PV3000Extensions2,PV3000Nozzles1",
-              "Embedded,PVProNozzles3",
-              "Embedded,PVProExtensions1,PVProNozzles1"
-            ]
+            "access_rules": ["Embedded"]
           }
         ],
         "map_locations": [
@@ -9029,39 +8877,19 @@
         "sections": [
           {
             "name": "Front Dormer Cap",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Front Dormer Frames",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Front Dormer Roofs",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Front Dormer Wall",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           }
         ],
         "map_locations": [
@@ -9080,68 +8908,23 @@
         "sections": [
           {
             "name": "Front Eaves",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions2,PV1500Nozzles3",
-              "Embedded,PV1500Extensions1,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
-              "Embedded,PV3000Nozzles4",
-              "Embedded,PV3000Extensions1,PV3000Nozzles2",
-              "Embedded,PV3000Extensions2,PV3000Nozzles1",
-              "Embedded,PVProNozzles3",
-              "Embedded,PVProExtensions1,PVProNozzles1"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Front Gable Roofs",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,UrbanXU2Extensions3,UrbanXU2Nozzles3",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles4",
-              "Embedded,PV3000Extensions3,PV3000Nozzles2",
-              "Embedded,PV3000Extensions2,PV3000Nozzles3",
-              "Embedded,PV3000Extensions1,PV3000Nozzles4",
-              "Embedded,PVProExtensions1,PVProNozzles3",
-              "Embedded,PVProExtensions2,PVProNozzles2",
-              "Embedded,PVProExtensions3,PVProNozzles1"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Front Gable Roof Cap",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Front Gable Roof Frames",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Weather Vane",
-            "access_rules": [
-              "Ingrained,StepStool",
-              "Ingrained,Ladder1",
-              "Ingrained,Scaffolding1",
-              "Ingrained,$YesHardParkour",
-              "Ingrained,PV3000Extensions2,PV3000Nozzles4",
-              "Ingrained,PVProExtensions2,PVProNozzles2",
-              "Ingrained,PVProExtensions1,PVProNozzles3"
-            ]
+            "access_rules": ["Ingrained"]
           }
         ],
         "map_locations": [
@@ -9176,21 +8959,7 @@
           },
           {
             "name": "Front Wall",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions2,PV1500Nozzles3",
-              "Embedded,PV1500Extensions1,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
-              "Embedded,PV3000Nozzles4",
-              "Embedded,PV3000Extensions1,PV3000Nozzles2",
-              "Embedded,PV3000Extensions2,PV3000Nozzles1",
-              "Embedded,PVProNozzles3",
-              "Embedded,PVProExtensions1,PVProNozzles1"
-            ]
+            "access_rules": ["Embedded"]
           }
         ],
         "map_locations": [
@@ -9236,57 +9005,23 @@
         "sections": [
           {
             "name": "Side Eaves",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions2,PV1500Nozzles3",
-              "Embedded,PV1500Extensions1,PV1500Nozzles4",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
-              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
-              "Embedded,PV3000Nozzles4",
-              "Embedded,PV3000Extensions1,PV3000Nozzles2",
-              "Embedded,PV3000Extensions2,PV3000Nozzles1",
-              "Embedded,PVProNozzles3",
-              "Embedded,PVProExtensions1,PVProNozzles1"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Side Gable Roofs",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Side Gable Roof Caps",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Side Gable Roof Frames",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Side Walls",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           }
         ],
         "map_locations": [
@@ -9305,54 +9040,23 @@
         "sections": [
           {
             "name": "Main Roof",
-            "access_rules": [
-              "Stubborn,StepStool",
-              "Stubborn,Ladder1",
-              "Stubborn,Scaffolding1",
-              "Stubborn,$YesHardParkour"
-            ]
+            "access_rules": ["Stubborn"]
           },
           {
             "name": "Chimney",
-            "access_rules": [
-              "Stubborn,StepStool",
-              "Stubborn,Ladder1",
-              "Stubborn,Scaffolding1",
-              "Stubborn,$YesHardParkour"
-            ]
+            "access_rules": ["Stubborn"]
           },
           {
             "name": "Chimney Shaft",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour",
-              "Embedded,PV1500Extensions1,PV1500Nozzles3",
-              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles2",
-              "Embedded,UrbanXU2Nozzle4",
-              "Embedded,PV3000Extensions1,PV3000Nozzles1",
-              "Embedded,PV3000Nozzles3",
-              "Embedded,PVProNozzles1"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Main Roof Cap",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Main Roof Frames",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           }
         ],
         "map_locations": [
@@ -9375,30 +9079,15 @@
           },
           {
             "name": "Windows",
-            "access_rules": [
-              "Tough,StepStool",
-              "Tough,Ladder1",
-              "Tough,Scaffolding1",
-              "Tough,$YesHardParkour"
-            ]
+            "access_rules": ["Tough"]
           },
           {
             "name": "Window Frames",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           },
           {
             "name": "Window Sills",
-            "access_rules": [
-              "Embedded,StepStool",
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
+            "access_rules": ["Embedded"]
           }
         ],
         "map_locations": [
@@ -10766,6 +10455,357 @@
             "map": "Locations2",
             "x": 967,
             "y": 968,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fire Station",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["FireStation,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesFireStation"],
+        "sections": [
+          {
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%"
+          },
+          {
+            "name": "50%"
+          },
+          {
+            "name": "60%"
+          },
+          {
+            "name": "70%"
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1484,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Walls",
+        "access_rules": ["FireStationWalls"],
+        "visibility_rules": ["$YesPartsMode,$YesFireStation"],
+        "sections": [
+          {
+            "name": "Wall Bases",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Wall Toppers",
+            "access_rules": [
+              "Embedded,Ladder1",
+              "Embedded,Scaffolding1",
+              "Embedded,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Walls",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Windows",
+            "access_rules": [
+              "Tough,Ladder1",
+              "Tough,Scaffolding1",
+              "Tough,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Window Frames",
+            "access_rules": [
+              "Tough,Ladder1",
+              "Tough,Scaffolding1",
+              "Tough,$YesHardParkour",
+              "Tough,PV1500Extensions2,PV1500Nozzles4",
+              "Tough,UrbanXU2Extensions2,UrbanXU2Nozzles3",
+              "Tough,UrbanXU2Extensions1,UrbanXU2Nozzles4",
+              "Tough,PV3000Extensions2,PV3000Nozzles2",
+              "Tough,PV3000Extensions1,PV3000Nozzles3",
+              "Tough,PVProExtensions2,PVProNozzles1",
+              "Tough,PVProExtensions1,PVProNozzles2",
+              "Tough,PVProNozzles4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1399,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Garage",
+        "access_rules": ["FireStationGarage"],
+        "visibility_rules": ["$YesPartsMode,$YesFireStation"],
+        "sections": [
+          {
+            "name": "Cladding Trim",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Garage Claddings",
+            "access_rules": [
+              "Embedded,Ladder1",
+              "Embedded,Scaffolding1",
+              "Embedded,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Garage Doors",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Garage Door Frames",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Garage Door Windows",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Garage Roof",
+            "access_rules": [
+              "Embedded,Ladder1",
+              "Embedded,Scaffolding1",
+              "Embedded,$YesHardParkour"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1474,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Garage",
+        "access_rules": ["FireStationGarage"],
+        "visibility_rules": ["$YesPartsMode,$YesFireStation"],
+        "sections": [
+          {
+            "name": "Cladding Trim",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Garage Claddings",
+            "access_rules": [
+              "Embedded,Ladder1",
+              "Embedded,Scaffolding1",
+              "Embedded,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Garage Doors",
+            "access_rules": ["Stubborn"]
+          },
+          {
+            "name": "Garage Door Frames",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Garage Door Windows",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Garage Roof",
+            "access_rules": [
+              "Embedded,Ladder1",
+              "Embedded,Scaffolding1",
+              "Embedded,$YesHardParkour"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1474,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Doors",
+        "access_rules": ["FireStationDoors"],
+        "visibility_rules": ["$YesPartsMode,$YesFireStation"],
+        "sections": [
+          {
+            "name": "Doors",
+            "access_rules": [
+              "Tough,Ladder1",
+              "Tough,Scaffolding1",
+              "Tough,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Doorsteps",
+            "access_rules": [
+              "Encrusted,Ladder1",
+              "Encrusted,Scaffolding1",
+              "Encrusted,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Door Windows",
+            "access_rules": [
+              "Tough,Ladder1",
+              "Tough,Scaffolding1",
+              "Tough,$YesHardParkour"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1549,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Office",
+        "access_rules": ["FireStationOffice"],
+        "visibility_rules": ["$YesPartsMode,$YesFireStation"],
+        "sections": [
+          {
+            "name": "Ladder",
+            "access_rules": [
+              "Embedded,Ladder1",
+              "Embedded,Scaffolding1",
+              "Embedded,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Office Cladding",
+            "access_rules": [
+              "Encrusted,Ladder1",
+              "Encrusted,Scaffolding1",
+              "Encrusted,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Office Overhang",
+            "access_rules": [
+              "Encrusted,Ladder1",
+              "Encrusted,Scaffolding1",
+              "Encrusted,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Office Roof",
+            "access_rules": [
+              "Encrusted,Ladder1",
+              "Encrusted,Scaffolding1",
+              "Encrusted,$YesHardParkour"
+            ]
+          },
+          {
+            "name": "Office Walls",
+            "access_rules": [
+              "Embedded,Ladder1",
+              "Embedded,Scaffolding1",
+              "Embedded,$YesHardParkour"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1624,
+            "y": 376,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Drill Tower Outside",
+        "access_rules": ["FireStationDrillTowerOutside"],
+        "visibility_rules": ["$YesPartsMode,$YesFireStation"],
+        "sections": [
+          {
+            "name": "Drill Tower Door Frame",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Drill Tower Ledges",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Drill Tower Railings",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Drill Tower Wall Frames",
+            "access_rules": [
+              "Tough,Scaffolding1",
+              "Tough,PV1500Extensions1,PV1500Nozzles4",
+              "Tough,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Tough,UrbanXU2Nozzles4",
+              "Tough,PV3000Extensions1,PV3000Nozzles2",
+              "Tough,PV3000Nozzles3",
+              "Tough,PVProExtensions1,PVProNozzles1",
+              "Tough,PVProNozzles2"
+            ]
+          },
+          {
+            "name": "Drill Tower Walls",
+            "access_rules": [
+              "Stubborn,PV3000Extensions3,PV3000Nozzles4",
+              "Stubborn,PVProExtensions3,PVProNozzles3",
+              "Stubborn,PVProExtensions2,PVProNozzles4",
+              "Stubborn,Scaffolding1,UrbanXU2Extensions3,UrbanXU2Nozzles3",
+              "Stubborn,Scaffolding1,UrbanXU2Extensions2,UrbanXU2Nozzles4",
+              "Stubborn,Scaffolding1,PV3000Extensions3,PV3000Nozzles2"
+            ]
+          },
+          {
+            "name": "Drill Tower Window Sills",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations1",
+            "x": 1399,
+            "y": 416,
             "size": 16
           }
         ]

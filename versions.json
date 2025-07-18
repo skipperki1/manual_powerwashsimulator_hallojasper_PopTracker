@@ -1,0 +1,13 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0.1",
+            "download_url": "https://github.com/skipperki1/manual_powerwashsimulator_hallojasper_PopTracker/releases/download/BugFix/manual_PowerwashSimulator_hallojasper_TrackerAndClient.zip",
+            "sha256": "1cb3d495374c338b52d843d5fbb47d2b4bde3a354a05fdccf00c37785a687fc2",
+            "changelog": [
+                "Changed version to 1.0.1",
+                "Fixed a logic mismatch on the Ancient Monument Distal Finger Phalanges"
+            ]
+        }
+    ]
+}
