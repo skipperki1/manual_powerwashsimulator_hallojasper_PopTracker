@@ -10683,53 +10683,6 @@
         ]
       },
       {
-        "name": "Garage",
-        "access_rules": ["FireStationGarage"],
-        "visibility_rules": ["$YesPartsMode,$YesFireStation"],
-        "sections": [
-          {
-            "name": "Cladding Trim",
-            "access_rules": ["Ingrained"]
-          },
-          {
-            "name": "Garage Claddings",
-            "access_rules": [
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
-          },
-          {
-            "name": "Garage Doors",
-            "access_rules": ["Stubborn"]
-          },
-          {
-            "name": "Garage Door Frames",
-            "access_rules": ["Tough"]
-          },
-          {
-            "name": "Garage Door Windows",
-            "access_rules": ["Tough"]
-          },
-          {
-            "name": "Garage Roof",
-            "access_rules": [
-              "Embedded,Ladder1",
-              "Embedded,Scaffolding1",
-              "Embedded,$YesHardParkour"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Locations1",
-            "x": 1474,
-            "y": 376,
-            "size": 16
-          }
-        ]
-      },
-      {
         "name": "Doors",
         "access_rules": ["FireStationDoors"],
         "visibility_rules": ["$YesPartsMode,$YesFireStation"],
