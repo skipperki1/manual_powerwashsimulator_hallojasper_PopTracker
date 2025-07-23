@@ -1,0 +1,2258 @@
+[
+  {
+    "name": "Prime Vista 1500",
+    "type": "static",
+    "img": "images/items/PV1500.jpg",
+    "codes":"static,Washers,PV1500"
+  },
+  {
+    "name": "UrbanX U2",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/UrbanXU2.jpg",
+    "codes":"toggle,Washers,UrbanXU2"
+  },
+  {
+    "name": "Prime Vista 3000",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/PV3000.jpg",
+    "codes":"toggle,Washers,PV3000"
+  },
+  {
+    "name": "Prime Vista Pro",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/PVPro.jpg",
+    "codes":"toggle,Washers,PVPro"
+  },
+  {
+    "name": "Prime Vista 1500 Progressive Nozzle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/White.png",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles1"
+      },
+      {
+        "img": "images/items/Green.png",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Yellow.png",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Red.png",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles4",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/PVTurbo.png",
+        "codes": "Nozzles,PV1500Nozzles,PV1500Nozzles5",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "UrbanX U2 Progressive Nozzle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/White.png",
+        "codes": "Nozzles,UrbanXU2Nozzles,UrbanXU2Nozzles1"
+      },
+      {
+        "img": "images/items/Green.png",
+        "codes": "Nozzles,UrbanXU2Nozzles,UrbanXU2Nozzles2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Yellow.png",
+        "codes": "Nozzles,UrbanXU2Nozzles,UrbanXU2Nozzles3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Red.png",
+        "codes": "Nozzles,UrbanXU2Nozzles,UrbanXU2Nozzles4",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/UrbanXU2Turbo.png",
+        "codes": "UrbanXU2Nozzles,UrbanXU2Nozzles5",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Prime Vista 3000 Progressive Nozzle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/White.png",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles1"
+      },
+      {
+        "img": "images/items/Green.png",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Yellow.png",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Red.png",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles4",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/PVTurbo.png",
+        "codes": "Nozzles,PV3000Nozzles,PV3000Nozzles5",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Prime Vista Pro Progressive Nozzle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/WhitePro.png",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles1"
+      },
+      {
+        "img": "images/items/GreenPro.png",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/YellowPro.png",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/RedPro.png",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles4",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/PVProTurbo.png",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles5",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Trident.png",
+        "codes": "Nozzles,PVProNozzles,PVProNozzles6",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Prime Vista 1500 Progressive Extension",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/PV1500S.png",
+        "codes": "PV1500Extensions,PV1500Extensions1"
+      },
+      {
+        "img": "images/items/PV1500L.png",
+        "codes": "PV1500Extensions,PV1500Extensions2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/PV1500XL.png",
+        "codes": "PV1500Extensions,PV1500Extensions3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "UrbanX U2 Progressive Extension",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/UrbanXU2S.png",
+        "codes": "UrbanXU2Extensions,UrbanXU2Extensions1"
+      },
+      {
+        "img": "images/items/UrbanXU2L.png",
+        "codes": "UrbanXU2Extensions,UrbanXU2Extensions2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/UrbanXU2XL.png",
+        "codes": "UrbanXU2Extensions,UrbanXU2Extensions3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Prime Vista 3000 Progressive Extension",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/PV3000S.png",
+        "codes": "PV3000Extensions,PV3000Extensions1"
+      },
+      {
+        "img": "images/items/PV3000L.png",
+        "codes": "PV3000Extensions,PV3000Extensions2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/PV3000XL.png",
+        "codes": "PV3000Extensions,PV3000Extensions3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Prime Vista Pro Progressive Extension",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/PVProS.png",
+        "codes": "PVProExtensions,PVProExtensions1"
+      },
+      {
+        "img": "images/items/PVProL.png",
+        "codes": "PVProExtensions,PVProExtensions2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/PVProXL.png",
+        "codes": "PVProExtensions,PVProExtensions3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Step Stool",
+    "type": "toggle",
+    "allow_disabled": true,
+    "img": "images/items/StepStool.png",
+    "codes":"toggle,Equipment,StepStool"
+  },
+  {
+    "name": "Progressive Ladder",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/NoLadder.png",
+        "codes": "Ladder,Ladder0"
+      },
+      {
+        "img": "images/items/Ladder.png",
+        "codes": "Ladder,Ladder1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/LadderMid.png",
+        "codes": "Ladder,Ladder2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/LadderFull.png",
+        "codes": "Ladder,Ladder3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Scaffolding",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Scaffolding0.png",
+        "codes": "Scaffolding,Scaffolding0"
+      },
+      {
+        "img": "images/items/Scaffolding1.png",
+        "codes": "Scaffolding,Scaffolding1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Scaffolding2.png",
+        "codes": "Scaffolding,Scaffolding2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Scaffolding3.png",
+        "codes": "Scaffolding,Scaffolding3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Scaffolding4.png",
+        "codes": "Scaffolding,Scaffolding4",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Scaffolding5.png",
+        "codes": "Scaffolding,Scaffolding5",
+        "inherit_codes": true
+      }
+    ]
+  },
+	{
+		"name": "Completion Mode",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/items/Percentage.png",
+				"name": "Percentage Mode",
+				"codes": "mode,PercentageMode",
+				"inherit_codes": false
+			},
+      {
+				"img": "images/items/Parts.png",
+				"name": "Parts Mode",
+				"codes": "mode,PartsMode",
+				"inherit_codes": false
+			}
+		]
+	},
+  {
+    "name": "Completion Star Parts Mode",
+    "type": "consumable",
+    "img": "images/items/starParts.png",
+    "max_quantity": 70,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 16,
+    "overlay_align": "center",
+    "codes": "consumable,Parts,StarParts"
+  },
+  {
+    "name": "Completion Star Percentage Mode",
+    "type": "consumable",
+    "img": "images/items/starPercentage.png",
+    "max_quantity": 30,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 16,
+    "overlay_align": "center",
+    "codes": "consumable,Percentage,StarPercentage"
+  },
+  {
+    "name": "VanTyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVan,VanTyres"
+  },
+  {
+    "name": "VanWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVan,VanWindows"
+  },
+  {
+    "name": "VanBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVan,VanBody"
+  },
+  {
+    "name": "VanLights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVan,VanLights"
+  },
+  {
+    "name": "Van",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Van"
+  },
+  {
+    "name": "VintageCarTyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVintageCar,VintageCarTyres"
+  },
+  {
+    "name": "VintageCarBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVintageCar,VintageCarBody"
+  },
+  {
+    "name": "VintageCarDoors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVintageCar,VintageCarDoors"
+  },
+  {
+    "name": "VintageCarAccesories",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVintageCar,VintageCarAccesories"
+  },
+  {
+    "name": "VintageCarRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVintageCar,VintageCarRoof"
+  },
+  {
+    "name": "VintageCarFront",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartVintageCar,VintageCarFront"
+  },
+  {
+    "name": "VintageCar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,VintageCar"
+  },
+  {
+    "name": "GolfCartRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGolfCart,GolfCartRoof"
+  },
+  {
+    "name": "GolfCartTyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGolfCart,GolfCartTyres"
+  },
+  {
+    "name": "GolfCartBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGolfCart,GolfCartBody"
+  },
+  {
+    "name": "GolfCartMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGolfCart,GolfCartMiscellaneous"
+  },
+  {
+    "name": "GolfCart",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,GolfCart"
+  },
+  {
+    "name": "RecreationVehicleTyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRV,RecreationVehicleTyres"
+  },
+  {
+    "name": "RecreationVehicleLights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRV,RecreationVehicleLights"
+  },
+  {
+    "name": "RecreationVehicleLowerBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRV,RecreationVehicleLowerBody"
+  },
+  {
+    "name": "RecreationVehicleWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRV,RecreationVehicleWindows"
+  },
+  {
+    "name": "RecreationVehicleUpperBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRV,RecreationVehicleUpperBody"
+  },
+  {
+    "name": "RecreationVehicleAccesories",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRV,RecreationVehicleAccesories"
+  },
+  {
+    "name": "RecreationVehicle",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,RV"
+  },
+  {
+    "name": "DrillFront",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDrill,DrillFront"
+  },
+  {
+    "name": "DrillTracks",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDrill,DrillTracks"
+  },
+  {
+    "name": "DrillShielding",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDrill,DrillShielding"
+  },
+  {
+    "name": "DrillDoor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDrill,DrillDoor"
+  },
+  {
+    "name": "Drill",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Drill"
+  },
+  {
+    "name": "FrolicBoatUnderside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFrolicBoat,FrolicBoatUnderside"
+  },
+  {
+    "name": "FrolicBoatFloor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFrolicBoat,FrolicBoatFloor"
+  },
+  {
+    "name": "FrolicBoatControls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFrolicBoat,FrolicBoatControls"
+  },
+  {
+    "name": "FrolicBoatDoors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFrolicBoat,FrolicBoatDoors"
+  },
+  {
+    "name": "FrolicBoatCabinWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFrolicBoat,FrolicBoatCabinWalls"
+  },
+  {
+    "name": "FrolicBoatCanopy",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFrolicBoat,FrolicBoatCanopy"
+  },
+  {
+    "name": "FrolicBoatAccesories",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFrolicBoat,FrolicBoatAccesories"
+  },
+  {
+    "name": "FrolicBoat",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FrolicBoat"
+  },
+  {
+    "name": "StuntPlaneWheels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartStuntPlane,StuntPlaneWheels"
+  },
+  {
+    "name": "StuntPlaneEngine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartStuntPlane,StuntPlaneEngine"
+  },
+  {
+    "name": "StuntPlaneRearWings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartStuntPlane,StuntPlaneRearWings"
+  },
+  {
+    "name": "StuntPlaneLowerWings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartStuntPlane,StuntPlaneLowerWings"
+  },
+  {
+    "name": "StuntPlaneUpperWing",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartStuntPlane,StuntPlaneUpperWing"
+  },
+  {
+    "name": "StuntPlaneCockpit",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartStuntPlane,StuntPlaneCockpit"
+  },
+  {
+    "name": "StuntPlane",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,StuntPlane"
+  },
+  {
+    "name": "BackGardenPond",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenPond"
+  },
+  {
+    "name": "BackGardenSteps",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenSteps"
+  },
+  {
+    "name": "BackGardenPatio",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenPatio"
+  },
+  {
+    "name": "BackGardenTable",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenTable"
+  },
+  {
+    "name": "BackGardenFence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenFence"
+  },
+  {
+    "name": "BackGardenDogHouse",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenDogHouse"
+  },
+  {
+    "name": "BackGardenSwingSofa",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenSwingSofa"
+  },
+  {
+    "name": "BackGardenShed",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenShed"
+  },
+  {
+    "name": "BackGardenBarbeque",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenBarbeque"
+  },
+  {
+    "name": "BackGardenMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBackGarden,BackGardenMiscellaneous"
+  },
+  {
+    "name": "BackGarden",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,BackGarden"
+  },
+  {
+    "name": "Mayor'sMansionFence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMayorsMansion,MayorsMansionFence"
+  },
+  {
+    "name": "Mayor'sMansionGarage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMayorsMansion,MayorsMansionGarage"
+  },
+  {
+    "name": "Mayor'sMansionMainGate",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMayorsMansion,MayorsMansionMainGate"
+  },
+  {
+    "name": "Mayor'sMansionRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMayorsMansion,MayorsMansionRoof"
+  },
+  {
+    "name": "Mayor'sMansionDoor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMayorsMansion,MayorsMansionDoor"
+  },
+  {
+    "name": "Mayor'sMansionWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMayorsMansion,MayorsMansionWalls"
+  },
+  {
+    "name": "Mayor'sMansion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,MayorsMansion"
+  },
+  {
+    "name": "DetachedHouseGarage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDetachedHouse,DetachedHouseGarage"
+  },
+  {
+    "name": "DetachedHousePorch",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDetachedHouse,DetachedHousePorch"
+  },
+  {
+    "name": "DetachedHouseVeranda",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDetachedHouse,DetachedHouseVeranda"
+  },
+  {
+    "name": "DetachedHouseWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDetachedHouse,DetachedHouseWalls"
+  },
+  {
+    "name": "DetachedHouseRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDetachedHouse,DetachedHouseRoof"
+  },
+  {
+    "name": "DetachedHouseMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDetachedHouse,DetachedHouseMiscellaneous"
+  },
+  {
+    "name": "DetachedHouse",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,DetachedHouse"
+  },
+  {
+    "name": "FireHelicopterTail",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireHelicopter,FireHelicopterTail"
+  },
+  {
+    "name": "FireHelicopterWaterTank",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireHelicopter,FireHelicopterWaterTank"
+  },
+  {
+    "name": "FireHelicopterLandingGear",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireHelicopter,FireHelicopterLandingGear"
+  },
+  {
+    "name": "FireHelicopterEngine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireHelicopter,FireHelicopterEngine"
+  },
+  {
+    "name": "FireHelicopterHydraulics",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireHelicopter,FireHelicopterHydraulics"
+  },
+  {
+    "name": "FireHelicopterBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireHelicopter,FireHelicopterBody"
+  },
+  {
+    "name": "FireHelicopter",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FireHelicopter"
+  },
+  {
+    "name": "DirtBikeWheels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDirtBike,DirtBikeWheels"
+  },
+  {
+    "name": "DirtBikeFront",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDirtBike,DirtBikeFront"
+  },
+  {
+    "name": "DirtBikeFrame",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDirtBike,DirtBikeFrame"
+  },
+  {
+    "name": "DirtBikeEngine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDirtBike,DirtBikeEngine"
+  },
+  {
+    "name": "DirtBikeMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartDirtBike,DirtBikeMiscellaneous"
+  },
+  {
+    "name": "DirtBike",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,DirtBike"
+  },
+  {
+    "name": "PlaygroundOuterFloor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundOuterFloor"
+  },
+  {
+    "name": "PlaygroundInnerFloor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundInnerFloor"
+  },
+  {
+    "name": "PlaygroundRoundabout",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundRoundabout"
+  },
+  {
+    "name": "PlaygroundBridges",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundBridges"
+  },
+  {
+    "name": "PlaygroundLowerTower",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundLowerTower"
+  },
+  {
+    "name": "PlaygroundUpperTower",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundUpperTower"
+  },
+  {
+    "name": "PlaygroundShortTowerPlaythings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundShortTowerPlaythings"
+  },
+  {
+    "name": "PlaygroundTallTowerPlaythings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundTallTowerPlaythings"
+  },
+  {
+    "name": "PlaygroundMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPlayground,PlaygroundMiscellaneous"
+  },
+  {
+    "name": "Playground",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Playground"
+  },
+  {
+    "name": "TreeHouseLowerDeck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseLowerDeck"
+  },
+  {
+    "name": "TreeHouseMiddleDeck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseMiddleDeck"
+  },
+  {
+    "name": "TreeHouseUpperDeck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseUpperDeck"
+  },
+  {
+    "name": "TreeHouseBarbeque",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseBarbeque"
+  },
+  {
+    "name": "TreeHousePlayground",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHousePlayground"
+  },
+  {
+    "name": "TreeHouseStairs",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseStairs"
+  },
+  {
+    "name": "TreeHouseTables",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseTables"
+  },
+  {
+    "name": "TreeHouseRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseRoof"
+  },
+  {
+    "name": "TreeHouseDoor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseDoor"
+  },
+  {
+    "name": "TreeHouseWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseWalls"
+  },
+  {
+    "name": "TreeHouseMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTreeHouse,TreeHouseMiscellaneous"
+  },
+  {
+    "name": "TreeHouse",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,TreeHouse"
+  },
+  {
+    "name": "WashroomUrinals",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartWashroom,WashroomUrinals"
+  },
+  {
+    "name": "WashroomToilets",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartWashroom,WashroomToilets"
+  },
+  {
+    "name": "WashroomFloor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartWashroom,WashroomFloor"
+  },
+  {
+    "name": "WashroomDoors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartWashroom,WashroomDoors"
+  },
+  {
+    "name": "WashroomWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartWashroom,WashroomWalls"
+  },
+  {
+    "name": "WashroomCeiling",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartWashroom,WashroomCeiling"
+  },
+  {
+    "name": "WashroomWater",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartWashroom,WashroomWater"
+  },
+  {
+    "name": "WashroomMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartWashroom,WashroomMiscellaneous"
+  },
+  {
+    "name": "Washroom",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Washroom"
+  },
+  {
+    "name": "MonsterTruckTyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckTyres"
+  },
+  {
+    "name": "MonsterTruckCatHead",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckCatHead"
+  },
+  {
+    "name": "MonsterTruckCatBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckCatBody"
+  },
+  {
+    "name": "MonsterTruckHatches",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckHatches"
+  },
+  {
+    "name": "MonsterTruckWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckWindows"
+  },
+  {
+    "name": "MonsterTruckSides",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckSides"
+  },
+  {
+    "name": "MonsterTruckRear",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckRear"
+  },
+  {
+    "name": "MonsterTruckMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckMiscellaneous"
+  },
+  {
+    "name": "MonsterTruckUnderside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMonsterTruck,MonsterTruckUnderside"
+  },
+  {
+    "name": "MonsterTruck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,MonsterTruck"
+  },
+  {
+    "name": "FerrisWheelWiring",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFerrisWheel,FerrisWheelWiring"
+  },
+  {
+    "name": "FerrisWheelPlatform",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFerrisWheel,FerrisWheelPlatform"
+  },
+  {
+    "name": "FerrisWheelFences",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFerrisWheel,FerrisWheelFences"
+  },
+  {
+    "name": "FerrisWheelSpokes",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFerrisWheel,FerrisWheelSpokes"
+  },
+  {
+    "name": "FerrisWheelStar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFerrisWheel,FerrisWheelStar"
+  },
+  {
+    "name": "FerrisWheelSupports",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFerrisWheel,FerrisWheelSupports"
+  },
+  {
+    "name": "FerrisWheelMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFerrisWheel,FerrisWheelMiscellaneous"
+  },
+  {
+    "name": "FerrisWheel",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FerrisWheel"
+  },
+  {
+    "name": "BungalowPorch",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBungalow,BungalowPorch"
+  },
+  {
+    "name": "BungalowRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBungalow,BungalowRoof"
+  },
+  {
+    "name": "BungalowWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBungalow,BungalowWalls"
+  },
+  {
+    "name": "BungalowEntry",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartBungalow,BungalowEntry"
+  },
+  {
+    "name": "Bungalow",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Bungalow"
+  },
+  {
+    "name": "PennyFarthingFrame",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPennyFarthing,PennyFarthingFrame"
+  },
+  {
+    "name": "PennyFarthingSteering",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPennyFarthing,PennyFarthingSteering"
+  },
+  {
+    "name": "PennyFarthing",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,PennyFarthing"
+  },
+  {
+    "name": "GrandpaMiller'sCarLights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGMCar,GrandpaMillersCarLights"
+  },
+  {
+    "name": "GrandpaMiller'sCarBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGMCar,GrandpaMillersCarBody"
+  },
+  {
+    "name": "GrandpaMiller'sCarWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGMCar,GrandpaMillersCarWindows"
+  },
+  {
+    "name": "GrandpaMiller'sCarWheels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGMCar,GrandpaMillersCarWheels"
+  },
+  {
+    "name": "GrandpaMiller'sCarMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartGMCar,GrandpaMillersCarMiscellaneous"
+  },
+  {
+    "name": "GrandpaMiller'sCar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,GMCar"
+  },
+  {
+    "name": "SubwayPlatformFloors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSubway,SubwayPlatformFloors"
+  },
+  {
+    "name": "SubwayPlatformCeilings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSubway,SubwayPlatformCeilings"
+  },
+  {
+    "name": "SubwayPlatformLights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSubway,SubwayPlatformLights"
+  },
+  {
+    "name": "SubwayPlatformWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSubway,SubwayPlatformWalls"
+  },
+  {
+    "name": "SubwayPlatformDoors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSubway,SubwayPlatformDoors"
+  },
+  {
+    "name": "SubwayPlatformScreens",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSubway,SubwayPlatformScreens"
+  },
+  {
+    "name": "SubwayPlatformBenches",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSubway,SubwayPlatformBenches"
+  },
+  {
+    "name": "SubwayPlatformMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSubway,SubwayPlatformMiscellaneous"
+  },
+  {
+    "name": "SubwayPlatform",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Subway"
+  },
+  {
+    "name": "MotorbikeandSidecarTyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMotorbikeSidecar,MotorbikeandSidecarTyres"
+  },
+  {
+    "name": "MotorbikeandSidecarSidecar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMotorbikeSidecar,MotorbikeandSidecarSidecar"
+  },
+  {
+    "name": "MotorbikeandSidecarLights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMotorbikeSidecar,MotorbikeandSidecarLights"
+  },
+  {
+    "name": "MotorbikeandSidecarEngine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMotorbikeSidecar,MotorbikeandSidecarEngine"
+  },
+  {
+    "name": "MotorbikeandSidecarFrame",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMotorbikeSidecar,MotorbikeandSidecarFrame"
+  },
+  {
+    "name": "MotorbikeandSidecarMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartMotorbikeSidecar,MotorbikeandSidecarMiscellaneous"
+  },
+  {
+    "name": "MotorbikeandSidecar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,MotorbikeSidecar"
+  },
+  {
+    "name": "SkateparkWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSkatepark,SkateparkWalls"
+  },
+  {
+    "name": "SkateparkFloors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSkatepark,SkateparkFloors"
+  },
+  {
+    "name": "SkateparkFloorTransitions",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSkatepark,SkateparkFloorTransitions"
+  },
+  {
+    "name": "SkateparkStuntParts",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSkatepark,SkateparkStuntParts"
+  },
+  {
+    "name": "Skatepark",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Skatepark"
+  },
+  {
+    "name": "FireTruckMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireTruck,FireTruckMiscellaneous"
+  },
+  {
+    "name": "FireTruckLights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireTruck,FireTruckLights"
+  },
+  {
+    "name": "FireTruckWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireTruck,FireTruckWindows"
+  },
+  {
+    "name": "FireTruckBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireTruck,FireTruckBody"
+  },
+  {
+    "name": "FireTruckTyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireTruck,FireTruckTyres"
+  },
+  {
+    "name": "FireTruck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FireTruck"
+  },
+  {
+    "name": "ShoeHouseRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartShoeHouse,ShoeHouseRoof"
+  },
+  {
+    "name": "ShoeHouseWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartShoeHouse,ShoeHouseWindows"
+  },
+  {
+    "name": "ShoeHouseDoor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartShoeHouse,ShoeHouseDoor"
+  },
+  {
+    "name": "ShoeHouseShoe",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartShoeHouse,ShoeHouseShoe"
+  },
+  {
+    "name": "ShoeHouse",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,ShoeHouse"
+  },
+  {
+    "name": "SUVLights",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSUV,SUVLights"
+  },
+  {
+    "name": "SUVWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSUV,SUVWindows"
+  },
+  {
+    "name": "SUVBody",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSUV,SUVBody"
+  },
+  {
+    "name": "SUVTyres",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartSUV,SUVTyres"
+  },
+  {
+    "name": "SUV",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,SUV"
+  },
+  {
+    "name": "FortuneTeller'sWagonBayWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonBayWindows"
+  },
+  {
+    "name": "FortuneTeller'sWagonSkylight",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonSkylight"
+  },
+  {
+    "name": "FortuneTeller'sWagonStorage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonStorage"
+  },
+  {
+    "name": "FortuneTeller'sWagonTable",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonTable"
+  },
+  {
+    "name": "FortuneTeller'sWagonDecorations",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonDecorations"
+  },
+  {
+    "name": "FortuneTeller'sWagonDoor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonDoor"
+  },
+  {
+    "name": "FortuneTeller'sWagonUnderside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonUnderside"
+  },
+  {
+    "name": "FortuneTeller'sWagonEntry",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonEntry"
+  },
+  {
+    "name": "FortuneTeller'sWagonWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonWalls"
+  },
+  {
+    "name": "FortuneTeller'sWagonRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFTWagon,FortuneTellersWagonRoof"
+  },
+  {
+    "name": "FortuneTeller'sWagon",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FTWagon"
+  },
+  {
+    "name": "AncientMonumentPhalanges",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientMonument,AncientMonumentPhalanges"
+  },
+  {
+    "name": "AncientMonumentArm",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientMonument,AncientMonumentArm"
+  },
+  {
+    "name": "AncientMonumentHand",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientMonument,AncientMonumentHand"
+  },
+  {
+    "name": "AncientMonument",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,AncientMonument"
+  },
+  {
+    "name": "AncientStatueHelmetSlabs",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientStatue,AncientStatueHelmetSlabs"
+  },
+  {
+    "name": "AncientStatueHelmetDecoration",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientStatue,AncientStatueHelmetDecoration"
+  },
+  {
+    "name": "AncientStatueHead",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientStatue,AncientStatueHead"
+  },
+  {
+    "name": "AncientStatueTorso",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientStatue,AncientStatueTorso"
+  },
+  {
+    "name": "AncientStatueNeck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientStatue,AncientStatueNeck"
+  },
+  {
+    "name": "AncientStatueArm",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartAncientStatue,AncientStatueArm"
+  },
+  {
+    "name": "AncientStatue",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,AncientStatue"
+  },
+  {
+    "name": "RecreationalVehicleAgainLandingGear",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRVAgain,RecreationalVehicleAgainLandingGear"
+  },
+  {
+    "name": "RecreationalVehicleAgainSaucers",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRVAgain,RecreationalVehicleAgainSaucers"
+  },
+  {
+    "name": "RecreationalVehicleAgainTractorBeam",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRVAgain,RecreationalVehicleAgainTractorBeam"
+  },
+  {
+    "name": "RecreationalVehicleAgainGyromagneticDiscs",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRVAgain,RecreationalVehicleAgainGyromagneticDiscs"
+  },
+  {
+    "name": "RecreationalVehicleAgainGravityPlating",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRVAgain,RecreationalVehicleAgainGravityPlating"
+  },
+  {
+    "name": "RecreationalVehicleAgainEngine",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRVAgain,RecreationalVehicleAgainEngine"
+  },
+  {
+    "name": "RecreationalVehicleAgainMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartRVAgain,RecreationalVehicleAgainMiscellaneous"
+  },
+  {
+    "name": "RecreationalVehicleAgain",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,RVAgain"
+  },
+  {
+    "name": "FishingBoatAnchor",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatAnchor"
+  },
+  {
+    "name": "FishingBoatHull",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatHull"
+  },
+  {
+    "name": "FishingBoatMainDeck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatMainDeck"
+  },
+  {
+    "name": "FishingBoatCabin",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatCabin"
+  },
+  {
+    "name": "FishingBoatBridge",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatBridge"
+  },
+  {
+    "name": "FishingBoatRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatRoof"
+  },
+  {
+    "name": "FishingBoatMast",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatMast"
+  },
+  {
+    "name": "FishingBoatStorage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatStorage"
+  },
+  {
+    "name": "FishingBoatMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFishingBoat,FishingBoatMiscellaneous"
+  },
+  {
+    "name": "FishingBoat",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FishingBoat"
+  },
+  {
+    "name": "ForestCottageBackDormer",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageBackDormer"
+  },
+  {
+    "name": "ForestCottageBackGable",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageBackGable"
+  },
+  {
+    "name": "ForestCottageFrontDormer",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageFrontDormer"
+  },
+  {
+    "name": "ForestCottageFrontGable",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageFrontGable"
+  },
+  {
+    "name": "ForestCottageFrontWall",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageFrontWall"
+  },
+  {
+    "name": "ForestCottageFence",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageFence"
+  },
+  {
+    "name": "ForestCottageSideGable",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageSideGable"
+  },
+  {
+    "name": "ForestCottageMainRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageMainRoof"
+  },
+  {
+    "name": "ForestCottageWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageWalls"
+  },
+  {
+    "name": "ForestCottageFoundation",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartForestCottage,ForestCottageFoundation"
+  },
+  {
+    "name": "ForestCottage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,ForestCottage"
+  },
+  {
+    "name": "PrivateJetLandingGear",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPrivateJet,PrivateJetLandingGear"
+  },
+  {
+    "name": "PrivateJetTail",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPrivateJet,PrivateJetTail"
+  },
+  {
+    "name": "PrivateJetWings",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPrivateJet,PrivateJetWings"
+  },
+  {
+    "name": "PrivateJetCockpit",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPrivateJet,PrivateJetCockpit"
+  },
+  {
+    "name": "PrivateJetPropulsion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPrivateJet,PrivateJetPropulsion"
+  },
+  {
+    "name": "PrivateJetFuselage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPrivateJet,PrivateJetFuselage"
+  },
+  {
+    "name": "PrivateJetLaser",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPrivateJet,PrivateJetLaser"
+  },
+  {
+    "name": "PrivateJetMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPrivateJet,PrivateJetMiscellaneous"
+  },
+  {
+    "name": "PrivateJet",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,PrivateJet"
+  },
+  {
+    "name": "TempleRoof",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTemple,TempleRoof"
+  },
+  {
+    "name": "TempleEntrance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTemple,TempleEntrance"
+  },
+  {
+    "name": "TempleWindows",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTemple,TempleWindows"
+  },
+  {
+    "name": "TempleWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTemple,TempleWalls"
+  },
+  {
+    "name": "TempleMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartTemple,TempleMiscellaneous"
+  },
+  {
+    "name": "Temple",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Temple"
+  },
+  {
+    "name": "LostCityPalaceAtriumAlcove",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceAtriumAlcove"
+  },
+  {
+    "name": "LostCityPalaceAtrium",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceAtrium"
+  },
+  {
+    "name": "LostCityPalaceCentralOpening",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceCentralOpening"
+  },
+  {
+    "name": "LostCityPalaceEntrancePediment",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceEntrancePediment"
+  },
+  {
+    "name": "LostCityPalaceEntrance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceEntrance"
+  },
+  {
+    "name": "LostCityPalaceGalleryCeiling",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceGalleryCeiling"
+  },
+  {
+    "name": "LostCityPalaceGallery",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceGallery"
+  },
+  {
+    "name": "LostCityPalacePalace",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalacePalace"
+  },
+  {
+    "name": "LostCityPalacePyramidion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalacePyramidion"
+  },
+  {
+    "name": "LostCityPalaceRearEntrance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceRearEntrance"
+  },
+  {
+    "name": "LostCityPalaceOctopus",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceOctopus"
+  },
+  {
+    "name": "LostCityPalaceStatue",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartPalace,LostCityPalaceStatue"
+  },
+  {
+    "name": "LostCityPalace",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,Palace"
+  },
+  {
+    "name": "Dirt",
+    "type": "consumable",
+    "max_quantity": 999999,
+    "increment": 1,
+    "codes":"consumable,Junk,Dirt"
+  },
+  {
+    "name": "EnableTemple",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesTemple"
+  },
+  {
+    "name": "EnableForestCottage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesForestCottage"
+  },
+  {
+    "name": "EnableFortuneTellersWagon",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFortuneTellersWagon"
+  },
+  {
+    "name": "EnableFireTruck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFireTruck"
+  },
+  {
+    "name": "EnableShoeHouse",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesShoeHouse"
+  },
+  {
+    "name": "EnableGrandpaMillersCar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesGrandpaMillersCar"
+  },
+  {
+    "name": "EnablePrivateJet",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesPrivateJet"
+  },
+  {
+    "name": "EnableAncientStatue",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesAncientStatue"
+  },
+  {
+    "name": "EnableSkatepark",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesSkatepark"
+  },
+  {
+    "name": "EnableBackGarden",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesBackGarden"
+  },
+  {
+    "name": "EnableFerrisWheel",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFerrisWheel"
+  },
+  {
+    "name": "EnableTreeHouse",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesTreeHouse"
+  },
+  {
+    "name": "EnableBungalow",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesBungalow"
+  },
+  {
+    "name": "EnableDrill",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesDrill"
+  },
+  {
+    "name": "EnableVintageCar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesVintageCar"
+  },
+  {
+    "name": "EnableFireHelicopter",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFireHelicopter"
+  },
+  {
+    "name": "EnableWashroom",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesWashroom"
+  },
+  {
+    "name": "EnableSubwayPlatform",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesSubwayPlatform"
+  },
+  {
+    "name": "EnableVan",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesVan"
+  },
+  {
+    "name": "EnableGolfCart",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesGolfCart"
+  },
+  {
+    "name": "EnableFishingBoat",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFishingBoat"
+  },
+  {
+    "name": "EnableSUV",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesSUV"
+  },
+  {
+    "name": "EnableRecreationVehicle",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesRecreationVehicle"
+  },
+  {
+    "name": "EnableFrolicBoat",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFrolicBoat"
+  },
+  {
+    "name": "EnableMayorsMansion",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesMayorsMansion"
+  },
+  {
+    "name": "EnableStuntPlane",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesStuntPlane"
+  },
+  {
+    "name": "EnablePennyFarthing",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesPennyFarthing"
+  },
+  {
+    "name": "EnablePlayground",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesPlayground"
+  },
+  {
+    "name": "EnableMonsterTruck",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesMonsterTruck"
+  },
+  {
+    "name": "EnableLostCityPalace",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesLostCityPalace"
+  },
+  {
+    "name": "EnableDetachedHouse",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesDetachedHouse"
+  },
+  {
+    "name": "EnableAncientMonument",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesAncientMonument"
+  },
+  {
+    "name": "EnableRecreationVehicleAgain",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesRecreationVehicleAgain"
+  },
+  {
+    "name": "EnableMotorbikeandSidecar",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesMotorbikeandSidecar"
+  },
+  {
+    "name": "EnableDirtBike",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesDirtbike"
+  },
+  {
+    "name": "HardParkour",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,HardParkour"
+  },
+  {
+    "name": "Surface",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,regions,Surface"
+  },
+  {
+    "name": "Encrusted",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,regions,Encrusted"
+  },
+  {
+    "name": "Embedded",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,regions,Embedded"
+  },
+  {
+    "name": "Tough",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,regions,Tough"
+  },
+  {
+    "name": "Stubborn",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,regions,Stubborn"
+  },
+  {
+    "name": "Ingrained",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,regions,Ingrained"
+  },
+  {
+    "name": "Oily",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,regions,Oily"
+  },
+  {
+    "name": "FireStationWalls",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationWalls"
+  },
+  {
+    "name": "FireStationGarage",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationGarage"
+  },
+  {
+    "name": "FireStationDoors",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationDoors"
+  },
+  {
+    "name": "FireStationDrillTowerOutside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationDrillTowerOutside"
+  },
+  {
+    "name": "FireStationDrillTowerInside",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationDrillTowerInside"
+  },
+  {
+    "name": "FireStationOffice",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationOffice"
+  },
+  {
+    "name": "FireStationMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationMiscellaneous"
+  },
+  {
+    "name": "FireStationFireExit",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartFireStation,FireStationFireExit"
+  },
+  {
+    "name": "FireStation",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,FireStation"
+  },
+  {
+    "name": "EnableFireStation",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFireStation"
+  }
+]

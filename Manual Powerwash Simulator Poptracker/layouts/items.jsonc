@@ -1,0 +1,113 @@
+{
+  "washers": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "5, 5",
+        "item_size": "64,64",
+        "h_alignment": "left",
+        "rows": [
+        [
+          "PV1500",
+          "PV1500Nozzles",
+          "PV1500Extensions"
+        ],
+        [
+          "UrbanXU2",
+          "UrbanXU2Nozzles",
+          "UrbanXU2Extensions"
+        ],
+        [
+          "PV3000",
+          "PV3000Nozzles",
+          "PV3000Extensions"
+        ],
+        [
+          "PVPro",
+          "PVProNozzles",
+          "PVProExtensions"
+        ]
+        ]
+      }
+    ]
+  },
+  "equipment": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "canvas",
+        "height": 408,
+        "width": 240,
+        "margin": "5, 5",
+        "content": [
+          {
+            "type": "item",
+            "item": "StepStool",
+            "canvas_depth": 1,
+            "width": 80,
+            "height": 80
+          },
+          {
+            "type": "item",
+            "item": "Ladder",
+            "canvas_depth": 1,
+            "canvas_top": 64,
+            "height": 675,
+            "width": 80
+          },
+          {
+            "type": "item",
+            "item": "Scaffolding",
+            "canvas_depth": 1,
+            "canvas_left": 84,
+            "width": 180,
+            "height": 408
+          }
+        ]
+      }
+    ]
+  },
+  "MacGuffins/Settings": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "canvas",
+        "height": 100,
+        "width": 240,
+        "margin": "5, 5",
+        "content": [
+          {
+            "type": "item",
+            "item": "StarParts",
+            "canvas_depth": 1,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "type": "item",
+            "item": "StarPercentage",
+            "canvas_depth": 1,
+            "canvas_left": 64,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "type": "item",
+            "item": "mode",
+            "canvas_depth": 1,
+            "canvas_left": 128,
+            "width": 64,
+            "height": 64
+          }
+        ]
+      }
+    ]
+  }
+}
