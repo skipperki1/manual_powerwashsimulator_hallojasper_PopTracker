@@ -2,7 +2,7 @@
     "versions": [
         {
             "package_version": "1.1.1",
-            "download_url": "https://github.com/skipperki1/manual_powerwashsimulator_hallojasper_PopTracker/releases/download/Update/manual_PowerwashSimulator_hallojasper_TrackerAndClient.zip",
+            "download_url": "https://github.com/skipperki1/manual_powerwashsimulator_hallojasper_PopTracker/releases/download/Autoupdate/Manual.Powerwash.Simulator.Poptracker.zip",
             "sha256": "62dba6b8651b7c75afc31d586151675eac7e2d9f171b8a07452acb9a82ace7be",
             "changelog": [
                 "Changed version to 1.1.1",
