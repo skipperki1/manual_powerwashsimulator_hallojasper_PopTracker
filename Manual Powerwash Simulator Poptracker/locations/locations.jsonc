@@ -10952,5 +10952,107 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Helter Skelter",
+    "children":[
+      {
+        "name": "Percentage",
+        "access_rules": ["HelterSkelter,Surface"],
+        "visibility_rules": ["$NoPartsMode,$YesHelterSkelter"],
+        "sections": [
+          {
+            "name": "10%"
+          },
+          {
+            "name": "20%"
+          },
+          {
+            "name": "30%"
+          },
+          {
+            "name": "40%"
+          },
+          {
+            "name": "50%"
+          },
+          {
+            "name": "60%"
+          },
+          {
+            "name": "70%"
+          },
+          {
+            "name": "80%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "90%",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "100%",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 160,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Slide",
+        "access_rules": ["HelterSkelterSlide"],
+        "visibility_rules": ["$YesPartsMode,$YesHelterSkelter"],
+        "sections": [
+          {
+            "name": "Slide",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Slide Bases",
+            "access_rules": [
+              "Tough,$YesHardParkour",
+              "Tough,Scaffolding3",
+              "Tough,Scaffolding2,PV1500Nozzles4,PV1500Extensions1",
+              "Tough,Scaffolding2,PV3000Nozzles2,PV3000Extensions1",
+              "Tough,Scaffolding2,PV3000Nozzle3",
+              "Tough,Scaffolding2,UrbanXU2Nozzles3,UrbanXU2Extensions1",
+              "Tough,Scaffolding2,UrbanXU2Nozzles4",
+              "Tough,Scaffolding2,PVProNozzles1,PVProExtensions1",
+              "Tough,Scaffolding2,PVProNozzles1"
+            ]
+          },
+          {
+            "name": "Doors",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Doors",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Grille",
+            "access_rules": ["Surface"]
+          },
+          {
+            "name": "Body",
+            "access_rules": ["Tough"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 75,
+            "y": 123,
+            "size": 16
+          }
+        ]
+      }
+    ]
   }
 ]

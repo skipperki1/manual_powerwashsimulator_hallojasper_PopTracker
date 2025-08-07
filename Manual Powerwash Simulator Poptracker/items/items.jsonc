@@ -2254,5 +2254,59 @@
     "type": "toggle",
     "allow_disabled": true,
     "codes":"toggle,stages,YesFireStation"
+  },
+  {
+    "name": "HelterSkelterSlide",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartHelterSkelter,HelterSkelterSlide"
+  },
+  {
+    "name": "HelterSkelterEntrance",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartHelterSkelter,HelterSkelterEntrance"
+  },
+  {
+    "name": "HelterSkelterPlatform",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartHelterSkelter,HelterSkelterPlatform"
+  },
+  {
+    "name": "HelterSkelterTopPanels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartHelterSkelter,HelterSkelterTopPanels"
+  },
+  {
+    "name": "HelterSkelterLowerPanels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartHelterSkelter,HelterSkelterLowerPanels"
+  },
+  {
+    "name": "HelterSkelterMiddlePanels",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartHelterSkelter,HelterSkelterMiddlePanels"
+  },
+  {
+    "name": "HelterSkelterMiscellaneous",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Parts,PartHelterSkelter,HelterSkelterMiscellaneous"
+  },
+  {
+    "name": "HelterSkelter",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,Percentage,HelterSkelter"
+  },
+  {
+    "name": "EnableHelterSkelter",
+    "type": "toggle",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesHelterSkelter"
   }
 ]

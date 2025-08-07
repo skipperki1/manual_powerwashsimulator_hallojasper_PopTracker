@@ -40,6 +40,7 @@ SETTINGS_MAPPING = {
  ["Include_Motorbike_and_Sidecar"] = "YesMotorbikeandSidecar",
  ["Include_Dirt_Bike"] = "YesDirtBike",
  ["Include_Fire_Station"] = "YesFireStation",
+ ["Include_Helter_Skelter"] = "YesHelterSkelter",
 }
 
 ITEM_MAPPING = {
@@ -326,5 +327,13 @@ ITEM_MAPPING = {
  [281] = {{"FireStationWalls"}},
  [282] = {{"FireStationMiscellaneous"}},
  [283] = {{"FireStation"}},
- [284] = {{"Dirt"}},
+ [284] = {{"HelterSkelterSlide"}},
+ [285] = {{"HelterSkelterEntrance"}},
+ [286] = {{"HelterSkelterPlatform"}},
+ [287] = {{"HelterSkelterTopPanels"}},
+ [288] = {{"HelterSkelterLowerPanels"}},
+ [289] = {{"HelterSkelterMiddlePanels"}},
+ [290] = {{"HelterSkelterMiscellaneous"}},
+ [291] = {{"HelterSkelter"}},
+ [292] = {{"Dirt"}},
 }
