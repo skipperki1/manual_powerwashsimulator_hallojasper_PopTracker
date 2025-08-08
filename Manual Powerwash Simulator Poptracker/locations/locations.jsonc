@@ -2880,7 +2880,7 @@
           {
             "name": "Rotor Blades",
             "access_rules": ["Surface,Scaffolding1",
-            "Surface,StepStool,PV1500Nozzle2",
+            "Surface,StepStool,PV1500Nozzles2",
             "Surface,PV1500Extensions2,PV1500Nozzles1",
             "Surface,PV1500Extensions1,PV1500Nozzles2",
             "Surface,PV1500Nozzles3",
@@ -11020,35 +11020,181 @@
               "Tough,Scaffolding3",
               "Tough,Scaffolding2,PV1500Nozzles4,PV1500Extensions1",
               "Tough,Scaffolding2,PV3000Nozzles2,PV3000Extensions1",
-              "Tough,Scaffolding2,PV3000Nozzle3",
+              "Tough,Scaffolding2,PV3000Nozzles3",
               "Tough,Scaffolding2,UrbanXU2Nozzles3,UrbanXU2Extensions1",
               "Tough,Scaffolding2,UrbanXU2Nozzles4",
-              "Tough,Scaffolding2,PVProNozzles1,PVProExtensions1",
-              "Tough,Scaffolding2,PVProNozzles1"
+              "Tough,Scaffolding2,PVProNozzles1,PVProExtensions2",
+              "Tough,Scaffolding2,PVProNozzles2",
+              "Tough,PV1500Extensions2,PV1500Nozzles4",
+              "Tough,PV3000Extensions2,PV3000Nozzles2",
+              "Tough,PV3000Extensions1,PV3000Nozzles3",
+              "Tough,PV3000Nozzles4",
+              "Tough,UrbanXU2Extensions2,UrbanXU2Nozzles3",
+              "Tough,UrbanXU2Extensions1,UrbanXU2Nozzles4",
+              "Tough,PVProExtensions2,PVProNozzles1",
+              "Tough,PVProExtensions1,PVProNozzles2",
+              "Tough,PVProNozzles3"
             ]
           },
           {
-            "name": "Doors",
-            "access_rules": ["Tough"]
+            "name": "Slide Frames",
+            "access_rules": [
+              "Tough,$YesHardParkour",
+              "Tough,Scaffolding3",
+              "Tough,Scaffolding2,PV1500Nozzles4,PV1500Extensions1",
+              "Tough,Scaffolding2,PV3000Nozzles2,PV3000Extensions1",
+              "Tough,Scaffolding2,PV3000Nozzles3",
+              "Tough,Scaffolding2,UrbanXU2Nozzles3,UrbanXU2Extensions1",
+              "Tough,Scaffolding2,UrbanXU2Nozzles4",
+              "Tough,Scaffolding2,PVProNozzles1,PVProExtensions1",
+              "Tough,Scaffolding2,PVProNozzles2",
+              "Tough,PV1500Extensions2,PV1500Nozzles4",
+              "Tough,PV3000Extensions2,PV3000Nozzles2",
+              "Tough,PV3000Extensions1,PV3000Nozzles3",
+              "Tough,PV3000Nozzles4",
+              "Tough,UrbanXU2Extensions2,UrbanXU2Nozzles3",
+              "Tough,UrbanXU2Extensions1,UrbanXU2Nozzles4",
+              "Tough,PVProExtensions2,PVProNozzles1",
+              "Tough,PVProExtensions1,PVProNozzles2",
+              "Tough,PVProNozzles3"
+            ]
           },
           {
-            "name": "Doors",
-            "access_rules": ["Tough"]
+            "name": "Slide Rails",
+            "access_rules": [
+              "Tough,Scaffolding3",
+              "Tough,Scaffolding2,PV1500Nozzles4,PV1500Extensions1",
+              "Tough,Scaffolding2,PV3000Nozzles2,PV3000Extensions1",
+              "Tough,Scaffolding2,PV3000Nozzles3",
+              "Tough,Scaffolding2,UrbanXU2Nozzles3,UrbanXU2Extensions1",
+              "Tough,Scaffolding2,UrbanXU2Nozzles4",
+              "Tough,Scaffolding2,PVProNozzles1,PVProExtensions1",
+              "Tough,Scaffolding2,PVProNozzles2",
+              "Tough,PV1500Extensions2,PV1500Nozzles4",
+              "Tough,PV3000Extensions2,PV3000Nozzles2",
+              "Tough,PV3000Extensions1,PV3000Nozzles3",
+              "Tough,PV3000Nozzles4",
+              "Tough,UrbanXU2Extensions2,UrbanXU2Nozzles3",
+              "Tough,UrbanXU2Extensions1,UrbanXU2Nozzles4",
+              "Tough,PVProExtensions2,PVProNozzles1",
+              "Tough,PVProExtensions1,PVProNozzles2",
+              "Tough,PVProNozzles3"
+            ]
           },
           {
-            "name": "Grille",
-            "access_rules": ["Surface"]
+            "name": "Slide Supports",
+            "access_rules": [
+              "Ingrained,$YesHardParkour",
+              "Ingrained,Scaffolding3",
+              "Ingrained,PV3000Extensions1,PV3000Nozzles4",
+              "Ingrained,PVProExtensions1,PVProNozzles2",
+              "Ingrained,PVProNozzles23"
+            ]
           },
           {
-            "name": "Body",
-            "access_rules": ["Tough"]
+            "name": "Slide Walls",
+            "access_rules": ["Encrusted"]
           }
         ],
         "map_locations": [
           {
             "map": "Vehicles1",
             "x": 75,
-            "y": 123,
+            "y": 381,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Entrance",
+        "access_rules": ["HelterSkelterEntrance"],
+        "visibility_rules": ["$YesPartsMode,$YesHelterSkelter"],
+        "sections": [
+          {
+            "name": "Door Decoration",
+            "access_rules": [
+              "Surface,$YesHardParkour",
+              "Surface,PV1500Extensions1,PV1500Nozzles1",
+              "Surface,PV1500Nozzles2",
+              "Surface,PV3000Nozzles1",
+              "Surface,UrbanXU2Nozzles1",
+              "Surface,PVProNozzles1"
+          ]
+          },
+          {
+            "name": "Entry Door",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Entry Door Frame",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Sign",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Signposts",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Stairs",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 150,
+            "y": 381,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "access_rules": ["HelterSkelterPlatform"],
+        "visibility_rules": ["$YesPartsMode,$YesHelterSkelter"],
+        "sections": [
+          {
+            "name": "Platform",
+            "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Platform Support",
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,PV1500Extensions1,PV1500Nozzles3",
+              "Embedded,PV1500Nozzles4",
+              "Embedded,PV3000Extensions1,PV3000Nozzles1",
+              "Embedded,PV3000Nozzles2",
+              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Embedded,UrbanXU2Nozzles3",
+              "Embedded,PVProNozzles1"
+            ]
+          },
+          {
+            "name": "Entry Door Frame",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Sign",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Signposts",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Stairs",
+            "access_rules": ["Ingrained"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vehicles1",
+            "x": 150,
+            "y": 381,
             "size": 16
           }
         ]
