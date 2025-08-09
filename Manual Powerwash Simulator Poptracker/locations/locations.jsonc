@@ -10997,7 +10997,7 @@
         ],
         "map_locations": [
           {
-            "map": "Vehicles1",
+            "map": "Locations2",
             "x": 160,
             "y": 123,
             "size": 16
@@ -11098,7 +11098,7 @@
         ],
         "map_locations": [
           {
-            "map": "Vehicles1",
+            "map": "Locations2",
             "x": 75,
             "y": 381,
             "size": 16
@@ -11144,7 +11144,7 @@
         ],
         "map_locations": [
           {
-            "map": "Vehicles1",
+            "map": "Locations2",
             "x": 150,
             "y": 381,
             "size": 16
@@ -11174,27 +11174,314 @@
             ]
           },
           {
-            "name": "Entry Door Frame",
-            "access_rules": ["Tough"]
+            "name": "Platform Underside ",
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Scaffolding3,PV1500Extensions1,PV1500Nozzles3",
+              "Embedded,Scaffolding3,PV1500Nozzles4",
+              "Embedded,Scaffolding3,PV3000Nozzles2",
+              "Embedded,Scaffolding3,PV3000Extensions1,PV3000Nozzles1",
+              "Embedded,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Embedded,Scaffolding3,UrbanXU2Nozzles3",
+              "Embedded,Scaffolding3,PVProNozzles1",
+              "Embedded,PV1500Extensions2,PV1500Nozzles3",
+              "Embedded,PV1500Extensions1,PV1500Nozzles4",
+              "Embedded,PV3000Nozzles3",
+              "Embedded,PV3000Extensions2,PV3000Nozzles1",
+              "Embedded,PV3000Extensions1,PV3000Nozzles2",
+              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
+              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Embedded,UrbanXU2Nozzles4",
+              "Embedded,PVProExtensions1,PVProNozzles1",
+              "Embedded,PVProNozzles2"
+            ]
           },
           {
-            "name": "Sign",
-            "access_rules": ["Tough"]
+            "name": "Railings",
+            "access_rules": ["Stubborn"]
           },
           {
-            "name": "Signposts",
-            "access_rules": ["Tough"]
-          },
-          {
-            "name": "Stairs",
+            "name": "Railing Posts",
             "access_rules": ["Ingrained"]
+          },
+          {
+            "name": "Top Ring Frame",
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Scaffolding3,PV1500Extensions1,PV1500Nozzles3",
+              "Embedded,Scaffolding3,PV1500Nozzles4",
+              "Embedded,Scaffolding3,PV3000Nozzles2",
+              "Embedded,Scaffolding3,PV3000Extensions1,PV3000Nozzles1",
+              "Embedded,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Embedded,Scaffolding3,UrbanXU2Nozzles3",
+              "Embedded,Scaffolding3,PVProNozzles1",
+              "Embedded,PV1500Extensions2,PV1500Nozzles3",
+              "Embedded,PV1500Extensions1,PV1500Nozzles4",
+              "Embedded,PV3000Nozzles3",
+              "Embedded,PV3000Extensions2,PV3000Nozzles1",
+              "Embedded,PV3000Extensions1,PV3000Nozzles2",
+              "Embedded,UrbanXU2Extensions2,UrbanXU2Nozzles2",
+              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Embedded,UrbanXU2Nozzles4",
+              "Embedded,PVProExtensions1,PVProNozzles1",
+              "Embedded,PVProNozzles2"
+            ]
           }
         ],
         "map_locations": [
           {
-            "map": "Vehicles1",
-            "x": 150,
+            "map": "Locations2",
+            "x": 225,
             "y": 381,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Top Panels",
+        "access_rules": ["HelterSkelterTopPanels"],
+        "visibility_rules": ["$YesPartsMode,$YesHelterSkelter"],
+        "sections": [
+          {
+            "name": "Top Door",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Top Door Frame",
+            "access_rules": ["Tough"]
+          },
+          {
+            "name": "Top Frames",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Top Panels",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Windows",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Window Frames",
+            "access_rules": ["Encrusted"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations2",
+            "x": 300,
+            "y": 381,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Lower Panels",
+        "access_rules": ["HelterSkelterLowerPanels"],
+        "visibility_rules": ["$YesPartsMode,$YesHelterSkelter"],
+        "sections": [
+          {
+            "name": "First Tier Panels",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "First Tier Ring Frame",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Second Tier Panels",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding1"
+            ]
+          },
+          {
+            "name": "Second Tier Ring Frame",
+            "access_rules": ["Encrusted"]
+          },
+          {
+            "name": "Third Tier Ring Frame",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding2,PV1500Extensions1,PV1500Nozzles2",
+              "Encrusted,Scaffolding2,PV1500Nozzles3",
+              "Encrusted,Scaffolding2,PV3000Nozzles1",
+              "Encrusted,Scaffolding2,UrbanXU2Extensions1,UrbanXU2Nozzles1",
+              "Encrusted,Scaffolding2,UrbanXU2Nozzles2",
+              "Encrusted,Scaffolding2,PVProNozzles1",
+              "Encrusted,PV1500Extensions3,PV1500Nozzles2",
+              "Encrusted,PV1500Extensions2,PV1500Nozzles3",
+              "Encrusted,PV1500Extensions1,PV1500Nozzles4",
+              "Encrusted,PV3000Extensions2,PV3000Nozzles1",
+              "Encrusted,PV3000Extensions1,PV3000Nozzles2",
+              "Encrusted,PV3000Nozzles4",
+              "Encrusted,UrbanXU2Extensions3,UrbanXU2Nozzles1",
+              "Encrusted,UrbanXU2Extensions2,UrbanXU2Nozzles2",
+              "Encrusted,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Encrusted,PVProExtensions1,PVProNozzles1",
+              "Encrusted,PVProNozzles3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations2",
+            "x": 112,
+            "y": 421,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Middle Panels",
+        "access_rules": ["HelterSkelterMiddlePanels"],
+        "visibility_rules": ["$YesPartsMode,$YesHelterSkelter"],
+        "sections": [
+          {
+            "name": "Third Tier Panels",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding2,PV1500Extensions1,PV1500Nozzles2",
+              "Encrusted,Scaffolding2,PV1500Nozzles3",
+              "Encrusted,Scaffolding2,PV3000Nozzles1",
+              "Encrusted,Scaffolding2,UrbanXU2Extensions1,UrbanXU2Nozzles1",
+              "Encrusted,Scaffolding2,UrbanXU2Nozzles2",
+              "Encrusted,Scaffolding2,PVProNozzles1",
+              "Encrusted,PV1500Extensions3,PV1500Nozzles2",
+              "Encrusted,PV1500Extensions2,PV1500Nozzles3",
+              "Encrusted,PV1500Extensions1,PV1500Nozzles4",
+              "Encrusted,PV3000Extensions2,PV3000Nozzles1",
+              "Encrusted,PV3000Extensions1,PV3000Nozzles2",
+              "Encrusted,PV3000Nozzles4",
+              "Encrusted,UrbanXU2Extensions3,UrbanXU2Nozzles1",
+              "Encrusted,UrbanXU2Extensions2,UrbanXU2Nozzles2",
+              "Encrusted,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Encrusted,PVProExtensions1,PVProNozzles1",
+              "Encrusted,PVProNozzles3"
+            ]
+          },
+          {
+            "name": "Fourth Tier Panels",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding3,PV1500Extensions1,PV1500Nozzles2",
+              "Encrusted,Scaffolding3,PV1500Nozzles3",
+              "Encrusted,Scaffolding3,PV3000Nozzles1",
+              "Encrusted,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles1",
+              "Encrusted,Scaffolding3,UrbanXU2Nozzles2",
+              "Encrusted,Scaffolding3,PVProNozzles1",
+              "Encrusted,PV1500Extensions3,PV1500Nozzles2",
+              "Encrusted,PV1500Extensions2,PV1500Nozzles3",
+              "Encrusted,PV1500Extensions1,PV1500Nozzles4",
+              "Encrusted,PV3000Extensions2,PV3000Nozzles1",
+              "Encrusted,PV3000Extensions1,PV3000Nozzles2",
+              "Encrusted,PV3000Nozzles4",
+              "Encrusted,UrbanXU2Extensions3,UrbanXU2Nozzles1",
+              "Encrusted,UrbanXU2Extensions2,UrbanXU2Nozzles2",
+              "Encrusted,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Encrusted,PVProExtensions1,PVProNozzles1",
+              "Encrusted,PVProNozzles3"
+            ]
+          },
+          {
+            "name": "Fourth Tier Ring Frame",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding3,PV1500Extensions1,PV1500Nozzles2",
+              "Encrusted,Scaffolding3,PV1500Nozzles3",
+              "Encrusted,Scaffolding3,PV3000Nozzles1",
+              "Encrusted,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles1",
+              "Encrusted,Scaffolding3,UrbanXU2Nozzles2",
+              "Encrusted,Scaffolding3,PVProNozzles1",
+              "Encrusted,PV1500Extensions3,PV1500Nozzles2",
+              "Encrusted,PV1500Extensions2,PV1500Nozzles3",
+              "Encrusted,PV1500Extensions1,PV1500Nozzles4",
+              "Encrusted,PV3000Extensions2,PV3000Nozzles1",
+              "Encrusted,PV3000Extensions1,PV3000Nozzles2",
+              "Encrusted,PV3000Nozzles4",
+              "Encrusted,UrbanXU2Extensions3,UrbanXU2Nozzles1",
+              "Encrusted,UrbanXU2Extensions2,UrbanXU2Nozzles2",
+              "Encrusted,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Encrusted,PVProExtensions1,PVProNozzles1",
+              "Encrusted,PVProNozzles3"
+            ]
+          },
+          {
+            "name": "Fifth Tier Panels",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding3,PV1500Extensions2,PV1500Nozzles2",
+              "Encrusted,Scaffolding3,PV1500Extensions1,PV1500Nozzles3",
+              "Encrusted,Scaffolding3,PV3000Extensions1,PV3000Nozzles1",
+              "Encrusted,Scaffolding3,PV3000Nozzles3",
+              "Encrusted,Scaffolding3,UrbanXU2Extensions2,UrbanXU2Nozzles1",
+              "Encrusted,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Encrusted,Scaffolding3,UrbanXU2Nozzles4",
+              "Encrusted,Scaffolding3,PVProExtensions1,PVProNozzles1",
+              "Encrusted,Scaffolding3,PVProNozzles2"
+            ]
+          },
+          {
+            "name": "Fifth Tier Ring Frame",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding3,PV1500Extensions1,PV1500Nozzles2",
+              "Encrusted,Scaffolding3,PV1500Nozzles4",
+              "Encrusted,Scaffolding3,PV3000Extensions1,PV3000Nozzles1",
+              "Encrusted,Scaffolding3,PV3000Nozzles2",
+              "Encrusted,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles1",
+              "Encrusted,Scaffolding3,UrbanXU2Nozzles3",
+              "Encrusted,Scaffolding3,PVProNozzles1",
+              "Encrusted,PV1500Extensions3,PV1500Nozzles2",
+              "Encrusted,PV1500Extensions2,PV1500Nozzles3",
+              "Encrusted,PV1500Extensions1,PV1500Nozzles4",
+              "Encrusted,PV3000Extensions2,PV3000Nozzles1",
+              "Encrusted,PV3000Extensions1,PV3000Nozzles2",
+              "Encrusted,PV3000Nozzles4",
+              "Encrusted,UrbanXU2Extensions3,UrbanXU2Nozzles1",
+              "Encrusted,UrbanXU2Extensions2,UrbanXU2Nozzles2",
+              "Encrusted,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Encrusted,PVProExtensions1,PVProNozzles1",
+              "Encrusted,PVProNozzles3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations2",
+            "x": 187,
+            "y": 421,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Miscellaneous",
+        "access_rules": ["HelterSkelterMiscellaneous"],
+        "visibility_rules": ["$YesPartsMode,$YesHelterSkelter"],
+        "sections": [
+          {
+            "name": "Third Tier Panels",
+            "access_rules": [
+              "Surface,$YesHardParkour",
+              "Surface,Scaffolding3,PV1500Extensions2,PV1500Nozzles1",
+              "Surface,Scaffolding3,PV1500Extensions1,PV1500Nozzles2",
+              "Surface,Scaffolding3,PV1500Nozzles3",
+              "Surface,Scaffolding3,PV3000Nozzles1",
+              "Surface,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles1",
+              "Surface,Scaffolding3,UrbanXU2Nozzles2",
+              "Surface,PV1500Extensions3,PV1500Nozzles1",
+              "Surface,PV1500Extensions2,PV1500Nozzles2",
+              "Surface,PV1500Extensions1,PV1500Nozzles3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Locations2",
+            "x": 187,
+            "y": 421,
             "size": 16
           }
         ]
