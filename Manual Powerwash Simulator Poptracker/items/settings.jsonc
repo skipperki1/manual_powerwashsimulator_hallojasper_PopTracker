@@ -1,0 +1,288 @@
+[
+  {
+    "name": "EnableTemple",
+    "type": "toggle",
+	"img": "images/settings/Temple.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesTemple"
+  },
+  {
+    "name": "EnableForestCottage",
+    "type": "toggle",
+	"img": "images/settings/ForestCottage.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesForestCottage"
+  },
+  {
+    "name": "EnableFortuneTellersWagon",
+    "type": "toggle",
+	"img": "images/settings/FortuneTellersWagon.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFortuneTellersWagon"
+  },
+  {
+    "name": "EnableFireTruck",
+    "type": "toggle",
+	"img": "images/settings/FireTruck.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFireTruck"
+  },
+  {
+    "name": "EnableShoeHouse",
+    "type": "toggle",
+	"img": "images/settings/ShoeHouse.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesShoeHouse"
+  },
+  {
+    "name": "EnableGrandpaMillersCar",
+    "type": "toggle",
+	"img": "images/settings/GrandpaMillersCar.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesGrandpaMillersCar"
+  },
+  {
+    "name": "EnablePrivateJet",
+    "type": "toggle",
+	"img": "images/settings/PrivateJet.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesPrivateJet"
+  },
+  {
+    "name": "EnableAncientStatue",
+    "type": "toggle",
+	"img": "images/settings/AncientStatue.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesAncientStatue"
+  },
+  {
+    "name": "EnableSkatepark",
+    "type": "toggle",
+	"img": "images/settings/Skatepark.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesSkatepark"
+  },
+  {
+    "name": "EnableBackGarden",
+    "type": "toggle",
+	"img": "images/settings/BackGarden.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesBackGarden"
+  },
+  {
+    "name": "EnableFerrisWheel",
+    "type": "toggle",
+	"img": "images/settings/FerrisWheel.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFerrisWheel"
+  },
+  {
+    "name": "EnableTreeHouse",
+    "type": "toggle",
+	"img": "images/settings/TreeHouse.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesTreeHouse"
+  },
+  {
+    "name": "EnableBungalow",
+    "type": "toggle",
+	"img": "images/settings/Bungalow.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesBungalow"
+  },
+  {
+    "name": "EnableDrill",
+    "type": "toggle",
+	"img": "images/settings/Drill.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesDrill"
+  },
+  {
+    "name": "EnableVintageCar",
+    "type": "toggle",
+	"img": "images/settings/VintageCar.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesVintageCar"
+  },
+  {
+    "name": "EnableFireHelicopter",
+    "type": "toggle",
+	"img": "images/settings/FireHelicopter.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFireHelicopter"
+  },
+  {
+    "name": "EnableWashroom",
+    "type": "toggle",
+	"img": "images/settings/Washroom.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesWashroom"
+  },
+  {
+    "name": "EnableSubwayPlatform",
+    "type": "toggle",
+	"img": "images/settings/SubwayPlatform.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesSubwayPlatform"
+  },
+  {
+    "name": "EnableVan",
+    "type": "toggle",
+	"img": "images/settings/Van.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesVan"
+  },
+  {
+    "name": "EnableGolfCart",
+    "type": "toggle",
+	"img": "images/settings/GolfCart.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesGolfCart"
+  },
+  {
+    "name": "EnableFishingBoat",
+    "type": "toggle",
+	"img": "images/settings/FishingBoat.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFishingBoat"
+  },
+  {
+    "name": "EnableSUV",
+    "type": "toggle",
+	"img": "images/settings/SUV.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesSUV"
+  },
+  {
+    "name": "EnableRecreationVehicle",
+    "type": "toggle",
+	"img": "images/settings/RecreationVehicle.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesRecreationVehicle"
+  },
+  {
+    "name": "EnableFrolicBoat",
+    "type": "toggle",
+	"img": "images/settings/FrolicBoat.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFrolicBoat"
+  },
+  {
+    "name": "EnableMayorsMansion",
+    "type": "toggle",
+	"img": "images/settings/MayorsMansion.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesMayorsMansion"
+  },
+  {
+    "name": "EnableStuntPlane",
+    "type": "toggle",
+	"img": "images/settings/StuntPlane.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesStuntPlane"
+  },
+  {
+    "name": "EnablePennyFarthing",
+    "type": "toggle",
+	"img": "images/settings/PennyFarthing.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesPennyFarthing"
+  },
+  {
+    "name": "EnablePlayground",
+    "type": "toggle",
+	"img": "images/settings/Playground.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesPlayground"
+  },
+  {
+    "name": "EnableMonsterTruck",
+    "type": "toggle",
+	"img": "images/settings/MonsterTruck.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesMonsterTruck"
+  },
+  {
+    "name": "EnableLostCityPalace",
+    "type": "toggle",
+	"img": "images/settings/LostCityPalace.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesLostCityPalace"
+  },
+  {
+    "name": "EnableDetachedHouse",
+    "type": "toggle",
+	"img": "images/settings/DetachedHouse.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesDetachedHouse"
+  },
+  {
+    "name": "EnableAncientMonument",
+    "type": "toggle",
+	"img": "images/settings/AncientMonument.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesAncientMonument"
+  },
+  {
+    "name": "EnableRecreationVehicleAgain",
+    "type": "toggle",
+	"img": "images/settings/RVAgain.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesRecreationVehicleAgain"
+  },
+  {
+    "name": "EnableMotorbikeandSidecar",
+    "type": "toggle",
+	"img": "images/settings/MotorbikeandSidecar.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesMotorbikeandSidecar"
+  },
+  {
+    "name": "EnableDirtBike",
+    "type": "toggle",
+	"img": "images/settings/DirtBike.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesDirtbike"
+  },
+  {
+    "name": "EnableFireStation",
+    "type": "toggle",
+	"img": "images/settings/FireStation.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesFireStation"
+  },
+  {
+    "name": "EnableHelterSkelter",
+    "type": "toggle",
+	"img": "images/settings/HelterSkelter.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesHelterSkelter"
+  },
+  {
+    "name": "EnableCarousel",
+    "type": "toggle",
+	"img": "images/settings/Carousel.png",
+    "allow_disabled": true,
+    "codes":"toggle,stages,YesCarousel"
+  },
+  {
+	"name": "Completion Mode",
+	"type": "progressive",
+	"loop": true,
+	"allow_disabled": false,
+	"stages": [
+		{
+			"img": "images/items/Percentage.png",
+			"name": "Percentage Mode",
+			"codes": "mode,PercentageMode",
+			"inherit_codes": false
+		},
+        {
+			"img": "images/items/Parts.png",
+			"name": "Parts Mode",
+			"codes": "mode,PartsMode",
+			"inherit_codes": false
+		}
+	]
+  }
+]

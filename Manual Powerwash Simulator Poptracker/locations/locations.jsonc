@@ -10968,38 +10968,74 @@
             "name": "20%"
           },
           {
-            "name": "30%"
+            "name": "30%",
+            "access_rules": [
+              "Surface,$YesHardParkour",
+              "Surface,Scaffolding3,PV1500Extensions1",
+              "Surface,PV1500Nozzles2",
+              "Surface,PV3000Nozzles1",
+              "Surface,UrbanXU2Nozzles1",
+              "Surface,PVProNozzles1"
+            ]
           },
           {
-            "name": "40%"
+            "name": "40%",
+            "access_rules": ["Encrusted"]
           },
           {
-            "name": "50%"
+            "name": "50%",
+            "access_rules": ["Encrusted"]
           },
           {
-            "name": "60%"
+            "name": "60%",
+            "access_rules": ["Encrusted"]
           },
           {
-            "name": "70%"
+            "name": "70%",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding3,PV1500Extensions1,PV1500Nozzles2",
+              "Encrusted,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles1",
+              "Encrusted,UrbanXU2Extensions2,UrbanXU2Nozzles1",
+              "Encrusted,PV1500Nozzles3",
+              "Encrusted,PV3000Nozzles1",
+              "Encrusted,UrbanXU2Nozzles2",
+              "Encrusted,PVProNozzles1"
+            ]
           },
           {
             "name": "80%",
-            "access_rules": ["Encrusted"]
+            "access_rules": [
+              "Embedded,$YesHardParkour",
+              "Embedded,Scaffolding2",
+              "Embedded,PV1500Extensions1,PV1500Nozzles3",
+              "Embedded,PV3000Extensions1,PV3000Nozzles1",
+              "Embedded,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Embedded,PV1500Nozzles4",
+              "Embedded,PV3000Nozzles2",
+              "Embedded,UrbanXU2Nozzles3",
+              "Embedded,PVProNozzles1"
+            ]
           },
           {
             "name": "90%",
-            "access_rules": ["Encrusted"]
+            "access_rules": ["Tough"]
           },
           {
             "name": "100%",
-            "access_rules": ["Tough"]
+            "access_rules": [
+              "Ingrained,$YesHardParkour,PV3000Extensions1,PV3000Nozzles4",
+              "Ingrained,$YesHardParkour,PVProExtensions1,PVProNozzles2",
+              "Ingrained,$YesHardParkour,PVProNozzles3",
+              "Ingrained,Scaffolding3"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "Locations2",
             "x": 160,
-            "y": 123,
+            "y": 381,
             "size": 16
           }
         ]
@@ -11174,7 +11210,7 @@
             ]
           },
           {
-            "name": "Platform Underside ",
+            "name": "Platform Underside",
             "access_rules": [
               "Embedded,$YesHardParkour",
               "Embedded,Scaffolding3,PV1500Extensions1,PV1500Nozzles3",
@@ -11462,7 +11498,7 @@
         "visibility_rules": ["$YesPartsMode,$YesHelterSkelter"],
         "sections": [
           {
-            "name": "Third Tier Panels",
+            "name": "Channel Lights",
             "access_rules": [
               "Surface,$YesHardParkour",
               "Surface,Scaffolding3,PV1500Extensions2,PV1500Nozzles1",
@@ -11473,14 +11509,59 @@
               "Surface,Scaffolding3,UrbanXU2Nozzles2",
               "Surface,PV1500Extensions3,PV1500Nozzles1",
               "Surface,PV1500Extensions2,PV1500Nozzles2",
-              "Surface,PV1500Extensions1,PV1500Nozzles3"
+              "Surface,PV1500Extensions1,PV1500Nozzles3",
+              "Surface,PV1500Nozzles4",
+              "Surface,PV3000Extensions1,PV3000Nozzles1",
+              "Surface,PV3000Nozzles2",
+              "Surface,UrbanXU2Extensions2,UrbanXU2Nozzles1",
+              "Surface,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Surface,UrbanXU2Nozzles3",
+              "Surface,PVProNozzles1"
+            ]
+          },
+          {
+            "name": "Flag Pole",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Roof",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Roofcap",
+            "access_rules": ["Embedded"]
+          },
+          {
+            "name": "Vertical Frames",
+            "access_rules": [
+              "Encrusted,$YesHardParkour",
+              "Encrusted,Scaffolding3,PV1500Extensions2,PV1500Nozzles2",
+              "Encrusted,Scaffolding3,PV1500Extensions1,PV1500Nozzles3",
+              "Encrusted,Scaffolding3,PV3000Extensions1,PV3000Nozzles1",
+              "Encrusted,Scaffolding3,PV3000Nozzles3",
+              "Encrusted,Scaffolding3,UrbanXU2Extensions2,UrbanXU2Nozzles1",
+              "Encrusted,Scaffolding3,UrbanXU2Extensions1,UrbanXU2Nozzles2",
+              "Encrusted,Scaffolding3,UrbanXU2Nozzles4",
+              "Encrusted,Scaffolding3,PVProExtensions1,PVProNozzles1",
+              "Encrusted,Scaffolding3,PVProNozzles2",
+              "Encrusted,PV1500Extensions3,PV1500Nozzles2",
+              "Encrusted,PV1500Extensions2,PV1500Nozzles3",
+              "Encrusted,PV1500Extensions1,PV1500Nozzles4",
+              "Encrusted,PV3000Extensions2,PV3000Nozzles1",
+              "Encrusted,PV3000Extensions1,PV3000Nozzles2",
+              "Encrusted,PV3000Nozzles4",
+              "Encrusted,UrbanXU2Extensions3,UrbanXU2Nozzles1",
+              "Encrusted,UrbanXU2Extensions2,UrbanXU2Nozzles2",
+              "Encrusted,UrbanXU2Extensions1,UrbanXU2Nozzles3",
+              "Encrusted,PVProExtensions1,PVProNozzles1",
+              "Encrusted,PVProNozzles3"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "Locations2",
-            "x": 187,
+            "x": 262,
             "y": 421,
             "size": 16
           }

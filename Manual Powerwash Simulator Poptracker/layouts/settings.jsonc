@@ -1,0 +1,68 @@
+{
+  "settings_popup": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "group",
+          "header": "Levels",
+          "dock": "left",
+          "content": {
+            "type": "dock",
+            "dock": "left",
+            "content": [
+              {
+                "type": "group",
+                "header": "Locations 1",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "locations1"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Locations 2",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "locations2"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Vehicles 1",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "vehicles1"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Vehicles 2",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "vehicles2"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Completion Mode",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "mode"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

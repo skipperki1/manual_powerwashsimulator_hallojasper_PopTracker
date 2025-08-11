@@ -72,7 +72,101 @@
       }
     ]
   },
-  "MacGuffins/Settings": {
+  "locations1": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "top",
+        "item_size": "196,32",
+        "rows": [
+          ["YesBackGarden"],
+          ["YesBungalow"],
+          ["YesPlayground"],
+          ["YesDetachedHouse"],
+          ["YesShoeHouse"],
+          ["YesFireStation"],
+          ["YesSkatepark"],
+          ["YesForestCottage"],
+          ["YesMayorsMansion"],
+          ["YesCarousel"]
+        ]
+      }
+    ]
+  },
+  "locations2": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "top",
+        "item_size": "196,32",
+        "rows": [
+          ["YesTreeHouse"],
+          ["YesTemple"],
+          ["YesWashroom"],
+          ["YesHelterSkelter"],
+          ["YesFerrisWheel"],
+          ["YesSubwayPlatform"],
+          ["YesFortuneTellersWagon"],
+          ["YesAncientStatue"],
+          ["YesAncientMonument"],
+          ["YesLostCityPalace"]
+        ]
+      }
+    ]
+  },
+  "vehicles1": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "top",
+        "item_size": "196,32",
+        "rows": [
+          ["YesVan"],
+          ["YesVintageCar"],
+          ["YesGrandpaMillersCar"],
+          ["YesFireTruck"],
+          ["YesDirtBike"],
+          ["YesGolfCart"],
+          ["YesMotorbikeandSidecar"],
+          ["YesSUV"],
+          ["YesPennyFarthing"]
+        ]
+      }
+    ]
+  },
+  "vehicles2": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "top",
+        "item_size": "196,32",
+        "rows": [
+          ["YesRecreationVehicle"],
+          ["YesDrill"],
+          ["YesMonsterTruck"],
+          ["YesFrolicBoat"],
+          ["YesFishingBoat"],
+          ["YesFireHelicopter"],
+          ["YesPrivateJet"],
+          ["YesStuntPlane"],
+          ["YesRecreationVehicleAgain"]
+        ]
+      }
+    ]
+  },
+  "McGuffins": {
     "type": "array",
     "orientation": "horizontal",
     "margin": "0,0",
@@ -97,12 +191,26 @@
             "canvas_left": 64,
             "width": 64,
             "height": 64
-          },
+          }
+        ]
+      }
+    ]
+  },
+  "mode": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "canvas",
+        "height": 100,
+        "width": 64,
+        "margin": "5, 5",
+        "content": [
           {
             "type": "item",
             "item": "mode",
             "canvas_depth": 1,
-            "canvas_left": 128,
             "width": 64,
             "height": 64
           }

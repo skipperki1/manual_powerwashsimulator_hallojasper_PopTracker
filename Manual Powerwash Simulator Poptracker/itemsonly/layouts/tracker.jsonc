@@ -30,11 +30,11 @@
             },
             {
               "type": "group",
-              "header": "MacGuffins/Settings",
+              "header": "McGuffins",
               "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "MacGuffins/Settings"
+                "key": "McGuffins"
               }
             }
         ]

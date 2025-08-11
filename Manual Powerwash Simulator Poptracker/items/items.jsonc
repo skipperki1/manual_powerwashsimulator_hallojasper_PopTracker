@@ -318,26 +318,6 @@
       }
     ]
   },
-	{
-		"name": "Completion Mode",
-		"type": "progressive",
-		"loop": true,
-		"allow_disabled": false,
-		"stages": [
-			{
-				"img": "images/items/Percentage.png",
-				"name": "Percentage Mode",
-				"codes": "mode,PercentageMode",
-				"inherit_codes": false
-			},
-      {
-				"img": "images/items/Parts.png",
-				"name": "Parts Mode",
-				"codes": "mode,PartsMode",
-				"inherit_codes": false
-			}
-		]
-	},
   {
     "name": "Completion Star Parts Mode",
     "type": "consumable",
@@ -1938,216 +1918,6 @@
     "codes":"consumable,Junk,Dirt"
   },
   {
-    "name": "EnableTemple",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesTemple"
-  },
-  {
-    "name": "EnableForestCottage",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesForestCottage"
-  },
-  {
-    "name": "EnableFortuneTellersWagon",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesFortuneTellersWagon"
-  },
-  {
-    "name": "EnableFireTruck",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesFireTruck"
-  },
-  {
-    "name": "EnableShoeHouse",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesShoeHouse"
-  },
-  {
-    "name": "EnableGrandpaMillersCar",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesGrandpaMillersCar"
-  },
-  {
-    "name": "EnablePrivateJet",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesPrivateJet"
-  },
-  {
-    "name": "EnableAncientStatue",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesAncientStatue"
-  },
-  {
-    "name": "EnableSkatepark",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesSkatepark"
-  },
-  {
-    "name": "EnableBackGarden",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesBackGarden"
-  },
-  {
-    "name": "EnableFerrisWheel",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesFerrisWheel"
-  },
-  {
-    "name": "EnableTreeHouse",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesTreeHouse"
-  },
-  {
-    "name": "EnableBungalow",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesBungalow"
-  },
-  {
-    "name": "EnableDrill",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesDrill"
-  },
-  {
-    "name": "EnableVintageCar",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesVintageCar"
-  },
-  {
-    "name": "EnableFireHelicopter",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesFireHelicopter"
-  },
-  {
-    "name": "EnableWashroom",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesWashroom"
-  },
-  {
-    "name": "EnableSubwayPlatform",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesSubwayPlatform"
-  },
-  {
-    "name": "EnableVan",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesVan"
-  },
-  {
-    "name": "EnableGolfCart",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesGolfCart"
-  },
-  {
-    "name": "EnableFishingBoat",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesFishingBoat"
-  },
-  {
-    "name": "EnableSUV",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesSUV"
-  },
-  {
-    "name": "EnableRecreationVehicle",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesRecreationVehicle"
-  },
-  {
-    "name": "EnableFrolicBoat",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesFrolicBoat"
-  },
-  {
-    "name": "EnableMayorsMansion",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesMayorsMansion"
-  },
-  {
-    "name": "EnableStuntPlane",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesStuntPlane"
-  },
-  {
-    "name": "EnablePennyFarthing",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesPennyFarthing"
-  },
-  {
-    "name": "EnablePlayground",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesPlayground"
-  },
-  {
-    "name": "EnableMonsterTruck",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesMonsterTruck"
-  },
-  {
-    "name": "EnableLostCityPalace",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesLostCityPalace"
-  },
-  {
-    "name": "EnableDetachedHouse",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesDetachedHouse"
-  },
-  {
-    "name": "EnableAncientMonument",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesAncientMonument"
-  },
-  {
-    "name": "EnableRecreationVehicleAgain",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesRecreationVehicleAgain"
-  },
-  {
-    "name": "EnableMotorbikeandSidecar",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesMotorbikeandSidecar"
-  },
-  {
-    "name": "EnableDirtBike",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesDirtbike"
-  },
-  {
     "name": "HardParkour",
     "type": "toggle",
     "allow_disabled": true,
@@ -2250,12 +2020,6 @@
     "codes":"toggle,Percentage,FireStation"
   },
   {
-    "name": "EnableFireStation",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesFireStation"
-  },
-  {
     "name": "HelterSkelterSlide",
     "type": "toggle",
     "allow_disabled": true,
@@ -2302,11 +2066,5 @@
     "type": "toggle",
     "allow_disabled": true,
     "codes":"toggle,Percentage,HelterSkelter"
-  },
-  {
-    "name": "EnableHelterSkelter",
-    "type": "toggle",
-    "allow_disabled": true,
-    "codes":"toggle,stages,YesHelterSkelter"
   }
 ]
