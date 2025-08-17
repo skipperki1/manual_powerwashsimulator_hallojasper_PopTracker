@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.2.1",
+            "download_url": "https://github.com/skipperki1/manual_powerwashsimulator_hallojasper_PopTracker/releases/download/Update121/Manual.Powerwash.Simulator.Poptracker.zip",
+            "sha256": "ecd4c9db282811aaa41f53d03f514a7f482e0b00b0d7b24919c288f3ed68ba42",
+            "changelog": [
+                "Changed version to 1.2.1",
+                "Fixed McGuffins not showing up on the vertical layout"
+            ]
+        },
+        {
             "package_version": "1.2.0",
             "download_url": "https://github.com/skipperki1/manual_powerwashsimulator_hallojasper_PopTracker/releases/download/Update120/Manual.Powerwash.Simulator.Poptracker.zip",
             "sha256": "4e95570730667cb334ed1129028d86faf6e31f0667a92af2619e5f5c540f8b35",
